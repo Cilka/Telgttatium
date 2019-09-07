@@ -1,0 +1,6 @@
+{
+   "parent": "block/cube_all",
+   "textures": {
+       "all": "tel:blocks/ceramic/black_block_floor/black_block_green"
+   }
+}

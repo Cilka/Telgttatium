@@ -1,0 +1,10 @@
+{
+"forge_marker": 1,
+    "defaults": {
+        "model": "tel:dynamic_diamond_wool"
+    },
+    "variants": {
+        "normal": [{}],
+        "inventory": [{}]
+    }  
+}

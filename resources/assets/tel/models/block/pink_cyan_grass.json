@@ -1,0 +1,11 @@
+{
+	"parent":"block/grass",
+	"textures": {
+		"particle": "tel:blocks/biome_dirt/pink_dirt",
+		"bottom" : "tel:blocks/biome_dirt/pink_dirt",
+		"top" : "tel:blocks/biome_grass/cyan_grass",
+		"side" : "tel:blocks/biome_grass/pink_cyan_side",
+		"overlay": "tel:blocks/biome_grass/pink_cyan_side"
+		
+	}
+}

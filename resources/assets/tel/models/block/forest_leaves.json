@@ -1,0 +1,6 @@
+{
+   "parent": "block/cube_all",
+   "textures": {
+       "all": "tel:blocks/biome_tree_leaves/forest_leaves"
+   }
+}

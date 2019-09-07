@@ -1,0 +1,10 @@
+{
+"forge_marker": 1,
+    "defaults": {
+        "model": "tel:arka_decorative_wall_green"
+    },
+    "variants": {
+        "normal": [{}],
+        "inventory": [{}]
+    }  
+}

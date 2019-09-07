@@ -1,0 +1,16 @@
+{
+"forge_marker" : 1,
+	"defaults":{
+	"model": "tel:dirty_grass_grass"
+	},
+	"variants":{
+	"snowy=false":[
+		{"model": "tel:dirty_grass_grass"},
+	{"model": "tel:dirty_grass_grass", "y":90},
+	{"model": "tel:dirty_grass_grass", "y":180},
+	{"model": "tel:dirty_grass_grass", "y":270}
+	],
+	"snowy=true": {"model": "tel:snowy_dirty_grass"},
+	"inventory": [{}]
+	}
+}

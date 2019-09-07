@@ -1,0 +1,6 @@
+{
+   "parent": "block/cube_all",
+   "textures": {
+       "all": "tel:blocks/ceramic/big_white_block_floor/big_white_block_orange"
+   }
+}

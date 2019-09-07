@@ -1,0 +1,11 @@
+{
+	"parent":"block/grass",
+	"textures": {
+		"particle": "tel:blocks/biome_dirt/ashed_dirt",
+		"bottom" : "tel:blocks/biome_dirt/ashed_dirt",
+		"top" : "tel:blocks/winter/snow",
+		"side" : "tel:blocks/winter/dirt/ashed_snow",
+		"overlay": "tel:blocks/winter/dirt/ashed_snow"
+		
+	}
+}

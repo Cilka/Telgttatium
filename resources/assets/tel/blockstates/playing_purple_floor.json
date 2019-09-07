@@ -1,0 +1,10 @@
+{
+"forge_marker": 1,
+    "defaults": {
+        "model": "tel:playing_purple_floor"
+    },
+    "variants": {
+        "normal": [{}],
+        "inventory": [{}]
+    }  
+}

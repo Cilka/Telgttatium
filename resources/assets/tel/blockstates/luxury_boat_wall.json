@@ -1,0 +1,10 @@
+{
+"forge_marker": 1,
+    "defaults": {
+        "model": "tel:luxury_boat_wall"
+    },
+    "variants": {
+        "normal": [{}],
+        "inventory": [{}]
+    }  
+}

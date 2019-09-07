@@ -1,0 +1,6 @@
+{
+   "parent": "block/cube_all",
+   "textures": {
+       "all": "tel:blocks/runes/alpa_decorative_wall_sunset"
+   }
+}

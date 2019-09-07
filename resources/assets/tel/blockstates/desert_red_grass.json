@@ -1,0 +1,16 @@
+{
+"forge_marker" : 1,
+	"defaults":{
+	"model": "tel:desert_red_grass"
+	},
+	"variants":{
+	"snowy=false":[
+		{"model": "tel:desert_red_grass"},
+	{"model": "tel:desert_red_grass", "y":90},
+	{"model": "tel:desert_red_grass", "y":180},
+	{"model": "tel:desert_red_grass", "y":270}
+	],
+	"snowy=true": {"model": "tel:snowy_desert_grass"},
+	"inventory": [{}]
+	}
+}

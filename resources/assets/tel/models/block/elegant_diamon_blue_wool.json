@@ -1,0 +1,6 @@
+{
+   "parent": "block/cube_all",
+   "textures": {
+       "all": "tel:blocks/carpet_wool/elegant_diamon_blue_wool"
+   }
+}

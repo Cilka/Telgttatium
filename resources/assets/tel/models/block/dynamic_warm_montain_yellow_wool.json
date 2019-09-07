@@ -1,0 +1,6 @@
+{
+   "parent": "block/cube_all",
+   "textures": {
+       "all": "tel:blocks/carpet_wool/dynamic_warm_montain_yellow_wool"
+   }
+}

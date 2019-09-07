@@ -1,0 +1,6 @@
+{
+   "parent": "block/cube_all",
+   "textures": {
+       "all": "tel:blocks/nevo_evolution/galactic_leaves_floor_cyan"
+   }
+}

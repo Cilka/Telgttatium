@@ -1,0 +1,16 @@
+{
+"forge_marker" : 1,
+	"defaults":{
+	"model": "tel:snowy_valley_grass"
+	},
+	"variants":{
+	"snowy=false":[
+		{"model": "tel:snowy_valley_grass"},
+	{"model": "tel:snowy_valley_grass", "y":90},
+	{"model": "tel:snowy_valley_grass", "y":180},
+	{"model": "tel:snowy_valley_grass", "y":270}
+	],
+	"snowy=true": {"model": "tel:snowy_snowy_grass"},
+	"inventory": [{}]
+	}
+}

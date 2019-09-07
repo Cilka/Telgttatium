@@ -1,0 +1,6 @@
+{
+   "parent": "block/cube_all",
+   "textures": {
+       "all": "tel:blocks/carpet_wool/exo_purple_wool"
+   }
+}

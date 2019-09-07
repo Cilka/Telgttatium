@@ -1,0 +1,6 @@
+{
+   "parent": "block/cube_all",
+   "textures": {
+       "all": "tel:blocks/wood/floor/dark_purple_floor_wood"
+   }
+}
