@@ -32,6 +32,7 @@ public class ModBlocks {
 	public static final BaseBlock [] CELTICGLASS = Utils.GenerateBlocksFromTextureFolder("glass.celtic", ModBlockOptions.CELTIC_GLASS);
 	public static final BaseBlock [] NVEGLASS = Utils.GenerateBlocksFromTextureFolder("glass.nve", ModBlockOptions.NVEGLASS);
 	public static final BaseBlock [] GRASS =  Utils.GenerateBlocksFromTextureFolder("biome_grass", ModBlockOptions.GRASS, BaseGrassBlock.class);
+	public static final BaseBlock [] NORMALGLASS = Utils.GenerateBlocksFromTextureFolder("glass.glass_color", ModBlockOptions.CELTIC_GLASS);
 
 
 }

@@ -1,6 +1,6 @@
 {
    "parent": "block/cube_all",
    "textures": {
-       "all": "tel:blocks/nevo_evolution/nve_green"
+       "all": "tel:blocks/glass/nve/nve_green"
    }
 }

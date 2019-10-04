@@ -70,6 +70,21 @@
     <file>snow_leaves</file>
     <file>white_leaves</file>
   </dir>
+  <dir id="textures.blocks.glass.glass_color">
+  <file>black_glass</file>
+  <file>clear_glass</file>
+  <file>cyan_glass</file>
+  <file>dark_blue_glass</file>
+  <file>dark_green_glass</file>
+  <file>dark_purple_glass</file>
+  <file>green_glass</file>
+  <file>magenta_glass</file>
+  <file>orange_glass</file>
+  <file>pink_glass</file>
+  <file>purple_glass</file>
+  <file>red_glass</file>
+  <file>yellow_glass</file>
+  </dir>
   <dir id="textures.blocks.brick">
     <file>alternative_brick</file>
     <file>black_brick</file>
@@ -251,13 +266,12 @@
     <file>Yellow_Glass</file>
   </dir>
   <dir id="textures.blocks.glass.nve">
-    <file>nve-blue glass</file>
-    <file>nve-cyan glass</file>
-    <file>nve-dark blue</file>
+    <file>nve_blue_glass</file>
+    <file>nve_cyan_glass</file>
+    <file>nve_dark_blue</file>
     <file>nve_black</file>
     <file>nve_blue</file>
     <file>nve_cyan</file>
-    <file>nve_dark_blue</file>
     <file>nve_dark_orange</file>
     <file>nve_dark_purple</file>
     <file>nve_orange</file>
@@ -265,6 +279,10 @@
     <file>nve_purple</file>
     <file>nve_red</file>
     <file>nve_yellow</file>
+	<file>nve_dark_green</file>
+	<file>nve_green</file>
+	<file>nve_white</file>
+
   </dir>
   <dir id="textures.blocks.glass.Simple Glass Full Frame Formated">
     <file>Simple_Glass_Black</file>
