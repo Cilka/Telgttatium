@@ -22,7 +22,7 @@ public class ModBlocks {
 	public static final BaseBlock [] NEVOEVO = Utils.GenerateBlocksFromTextureFolder("nevo_evolution",ModBlockOptions.NEVOEVO);
 	public static final BaseBlock [] BIONICSTAINED = Utils.GenerateBlocksFromTextureFolder("nevo_evolution.bionic_stained",ModBlockOptions.NEVOEVO);
 	public static final BaseBlock [] NVESTAINED = Utils.GenerateBlocksFromTextureFolder("nevo_evolution.nve_stained",ModBlockOptions.NEVOEVO);
-	//public static final BaseBlock [] NVETCHTILES = Utils.GenerateBlocksFromTextureFolder("nevo_evolution.nve_tch_tiles");
+	public static final BaseBlock [] NVETCHTILES = Utils.GenerateBlocksFromTextureFolder("nevo_evolution.nve_tch_tiles");
 	public static final BaseBlock [] RUNES = Utils.GenerateBlocksFromTextureFolder("runes",ModBlockOptions.RUNES);
 	public static final BaseBlock [] CELTICRUNES = Utils.GenerateBlocksFromTextureFolder("runes.celtic_tile", ModBlockOptions.CERAMIC);
 	public static final BaseBlock [] VOLCANIC = Utils.GenerateBlocksFromTextureFolder("volcanic",ModBlockOptions.STONE);
@@ -33,6 +33,10 @@ public class ModBlocks {
 	public static final BaseBlock [] NVEGLASS = Utils.GenerateBlocksFromTextureFolder("glass.nve", ModBlockOptions.NVEGLASS);
 	public static final BaseBlock [] GRASS =  Utils.GenerateBlocksFromTextureFolder("biome_grass", ModBlockOptions.GRASS, BaseGrassBlock.class);
 	public static final BaseBlock [] NORMALGLASS = Utils.GenerateBlocksFromTextureFolder("glass.glass_color", ModBlockOptions.CELTIC_GLASS);
-
+	public static final BaseBlock [] CLEURSARDI = Utils.GenerateBlocksFromTextureFolder("lujill_kanses.cleursardi", ModBlockOptions.LUJILLKANSES);
+	public static final BaseBlock [] FIVHYNA = Utils.GenerateBlocksFromTextureFolder("lujill_kanses.fivhyna", ModBlockOptions.LUJILLKANSES);
+	public static final BaseBlock [] KUHUNO = Utils.GenerateBlocksFromTextureFolder("lujill_kanses.kuhuno", ModBlockOptions.LUJILLKANSES);
+	public static final BaseBlock [] KUNKASIE = Utils.GenerateBlocksFromTextureFolder("lujill_kanses.kunkasie", ModBlockOptions.LUJILLKANSES);
+	public static final BaseBlock [] SENAANTI = Utils.GenerateBlocksFromTextureFolder("lujill_kanses.senaati", ModBlockOptions.LUJILLKANSES);
 
 }

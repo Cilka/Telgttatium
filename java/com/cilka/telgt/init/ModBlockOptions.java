@@ -22,6 +22,7 @@ public class ModBlockOptions {
 	public static final BlockOptions WINTER= new BlockOptions(Material.SNOW, SoundType.SNOW, Tabs.NATRUAL, BlockRenderLayer.SOLID);
 	public static final BlockOptions SIMPLEWOOD= new BlockOptions(Material.WOOD, SoundType.WOOD, Tabs.SIMPLELIFE, BlockRenderLayer.SOLID);
 	public static final BlockOptions NVEGLASS =  new BlockOptions(Material.GLASS, SoundType.GLASS,Tabs.NEVOEVO,BlockRenderLayer.TRANSLUCENT);
+	public static final BlockOptions LUJILLKANSES =  new BlockOptions(Material.ROCK, SoundType.STONE,Tabs.LUJILLKANSES,BlockRenderLayer.SOLID);
 
 
 }

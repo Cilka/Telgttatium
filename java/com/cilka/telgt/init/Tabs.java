@@ -75,4 +75,11 @@ public class Tabs{
 			return new ItemStack(ModBlocks.CELTICGLASS[0]);
 		}
 	};
+	public static CreativeTabs LUJILLKANSES = new TelTab("lujillkanses") {
+		@SideOnly(Side.CLIENT)
+		@Override
+		public ItemStack createIcon() {
+			return new ItemStack(ModBlocks.KUNKASIE[0]);
+		}
+	};
 }

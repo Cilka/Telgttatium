@@ -265,6 +265,78 @@
     <file>White_Glass</file>
     <file>Yellow_Glass</file>
   </dir>
+  <dir id="textures.blocks.lujill_kanses.senaati">
+  <file>senaanti_rune_1</file>
+  <file>senaanti_rune_2</file>
+  <file>senaanti_rune_3</file>
+  <file>senaanti_rune_3_blue_moon</file>
+  <file>senaanti_rune_3_green_moon</file>
+  <file>senaanti_rune_3_orange_moon</file>
+  <file>senaanti_rune_3_red_moon</file>
+  <file>senaanti_tile_koonkip_1</file>
+  <file>senaanti_tile_koonkip_2</file>
+  <file>senaanti_tile_koonkip_3</file>
+  </dir>
+  <dir id="textures.blocks.lujill_kanses.kunkasie">
+  <file>kunkasie_rune</file>
+  <file>kunkasie_rune_2</file>
+  <file>kunkasie_summon_rune_0</file>
+  <file>kunkasie_tile</file>
+  <file>kunkasie_tile_2</file>
+  <file>kunkasie_tile_crimson_moon</file>
+  <file>kunkasie_tile_green_moon</file>
+  <file>kunkasie_tile_moon</file>
+  <file>kunkasie_tile_orange_moon</file>
+  <file>kunkasie_tile_purple_moon</file>
+  <file>kunkasie_wall_simbol</file>
+  <file>kunkasie_wall_simbol_decorated</file>
+  <file>kunkasie_zuupa</file>
+  <file>kunkasie_zuupa_green_moon</file>
+  <file>kunkasie_zuupa_moon_blue</file>
+  <file>kunkasie_zuupa_orange_moon</file>
+  <file>kunkasie_zuupa_red_moon</file>
+  </dir>
+  <dir id="textures.blocks.lujill_kanses.kuhuno">
+  <file>kuhuno_blue</file>
+  <file>kuhuno_gold</file>
+  <file>kuhuno_neon_cyan</file>
+  <file>kuhuno_neon_green</file>
+  <file>kuhuno_neon_pink</file>
+  <file>kuhuno_orange</file>
+  <file>kuhuno_pink</file>
+  <file>kuhuno_purple</file>
+  <file>kuhuno_red</file>
+  </dir>
+   <dir id="textures.blocks.lujill_kanses.fivhyna">
+  <file>fivhyna__green</file>
+  <file>fivhyna__puple</file>
+  <file>fivhyna__red</file>
+  <file>fivhyna__yellow</file>
+  </dir>
+  <dir id="textures.blocks.lujill_kanses.cleursardi">
+  <file>cleursardi__fusy_kounlik_001</file>
+  <file>cleursardi__fusy_kounlik_002</file>
+  <file>cleursardi__fusy_kounlik_003</file>
+  <file>cleursardi__kojisin</file>
+  <file>cleursardi__kojisin_blue</file>
+  <file>cleursardi__kojisin_orange</file>
+  <file>cleursardi__kojisin_pink</file>
+  <file>cleursardi__kojisin_purple</file>
+  <file>cleursardi__kojisin_red</file>
+  <file>cleursardi__kojisin_white</file>
+  <file>cleursardi__kojisin_yellow</file>
+  <file>cleursardi__koloji</file>
+  <file>cleursardi__koloji_blue</file>
+  <file>cleursardi__koloji_orange</file>
+  <file>cleursardi__koloji_pink</file>
+  <file>cleursardi__koloji_purple</file>
+  <file>cleursardi__koloji_white</file>
+  <file>cleursardi__koloji_yellow</file>
+  <file>clonexysis_tile_green</file>
+  <file>clonexysis_tile_lila</file>
+  <file>clonexysis_tile_original</file>
+  <file>clonexysis_tile_yellow</file>
+  </dir>
   <dir id="textures.blocks.glass.nve">
     <file>nve_blue_glass</file>
     <file>nve_cyan_glass</file>
@@ -279,9 +351,6 @@
     <file>nve_purple</file>
     <file>nve_red</file>
     <file>nve_yellow</file>
-	<file>nve_dark_green</file>
-	<file>nve_green</file>
-	<file>nve_white</file>
 
   </dir>
   <dir id="textures.blocks.glass.Simple Glass Full Frame Formated">
