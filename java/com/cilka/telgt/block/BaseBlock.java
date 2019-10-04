@@ -42,17 +42,17 @@ public class BaseBlock extends Block {
 	@Override
 	public BlockRenderLayer getRenderLayer()
 	{	
-		return layer != null ? layer : super.getRenderLayer();
+		return layer != null ? layer : getRenderLayer();
 	}
-	
+
 	@Override 
 	public boolean isOpaqueCube(IBlockState state)
 	{
-		return !getRenderLayer().equals(BlockRenderLayer.TRANSLUCENT);
+
+		return layer != null ? !layer.equals(BlockRenderLayer.TRANSLUCENT) : super.isOpaqueCube(state);
 	}
 	private void SetRegistrationFromFile()
 	{
-		
 		setRegistryName(Main.MODID, blockName);
 		setTranslationKey(blockName);
 	}

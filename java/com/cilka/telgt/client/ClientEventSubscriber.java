@@ -19,6 +19,7 @@ import net.minecraftforge.fml.relauncher.Side;
 public final class ClientEventSubscriber {
 	  @SubscribeEvent
 	    public static void registerModels(ModelRegistryEvent event) {
+
 			for(Field f : ModBlocks.class.getFields()) 
 			{
 				try {

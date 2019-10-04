@@ -13,6 +13,8 @@ import com.cilka.telgt.block.BaseBlock;
 
 import com.cilka.telgt.init.ModBlocks;
 import com.cilka.telgt.item.*;
+import net.minecraftforge.fml.relauncher.Side;
+
 @EventBusSubscriber(modid = Main.MODID)
 public final class EventSubscriber {
 	

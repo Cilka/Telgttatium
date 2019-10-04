@@ -732,7 +732,8 @@
     <file>nve_stained_white</file>
     <file>nve_stained_yellow</file>
   </dir>
-  <dir id="textures.blocks.nevo_evolution.nve_tch_tiles">    
+
+  <dir id="textures.blocks.nevo_evolution.nve_tch_tiles">
     <file>nve_tch_tile_blue</file>
     <file>nve_tch_tile_cyan</file>
     <file>nve_tch_tile_green</file>

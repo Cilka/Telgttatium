@@ -1,6 +1,0 @@
-{
-   "parent": "block/cube_all",
-   "textures": {
-       "all": "tel:blocks/nevo_evolution/nve_tch_tiles/nve_tch_tile_top_purple"
-   }
-}

@@ -3,6 +3,7 @@ package com.cilka.telgt;
 import com.cilka.telgt.block.BaseBlock;
 import com.cilka.telgt.block.BlockOptions;
 import net.minecraft.block.Block;
+import net.minecraft.client.Minecraft;
 import net.minecraft.creativetab.CreativeTabs;
 import org.w3c.dom.Document;
 import org.w3c.dom.NodeList;
@@ -30,6 +31,7 @@ public class Utils {
 		DocumentBuilder dBuilder = null;
 		try {
 			dBuilder = dbFactory.newDocumentBuilder();
+			System.out.println("Resource config doc for TEL: " + com.cilka.telgt.Utils.class.getResource("/assets/tel/config/alltextures.xml"));
 			Document doc = dBuilder.parse(com.cilka.telgt.Utils.class.getResourceAsStream("/assets/tel/config/alltextures.xml"));
 			NodeList list  = doc.getElementsByTagName("dir");
 			for(int i =0; i < list.getLength(); i++)
@@ -83,10 +85,12 @@ public class Utils {
 	}
 	public static BaseBlock[] AddBlocksToTab(BaseBlock[] blocks, CreativeTabs tab)
 	{
+
 		for(Block block : blocks)
 		{
 			block.setCreativeTab(tab);
 		}
+
 		return blocks;
 	}
 	
