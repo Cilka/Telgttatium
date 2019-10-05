@@ -16,7 +16,7 @@ import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
 public class Main {
 	public static final String MODID = "tel";
 	public static final String NAME = "Telgttatium";
-	public static final String VERSION = "0.1.0";
+	public static final String VERSION = "0.2.0";
 	public static final String MC_VERSION = "[1.12.2]";
 
 	public static final Logger LOGGER = LogManager.getLogger(Main.MODID);
@@ -33,7 +33,7 @@ public class Main {
 
 	@EventHandler
 	public void init(FMLInitializationEvent event) {
-		LOGGER.info(Main.NAME + " says hi!");
+		LOGGER.info(Main.NAME + " steps into the ring!");
 		proxy.init(event);
 	}
 

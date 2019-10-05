@@ -50,7 +50,7 @@ public class BaseBlock extends Block {
 	public boolean isOpaqueCube(IBlockState state)
 	{
 
-		return layer != null ? !layer.equals(BlockRenderLayer.TRANSLUCENT) : super.isOpaqueCube(state);
+		return layer != null ? layer.equals(BlockRenderLayer.SOLID) : super.isOpaqueCube(state);
 	}
 	private void SetRegistrationFromFile()
 	{

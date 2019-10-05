@@ -21,11 +21,6 @@ public final class EventSubscriber {
 	@SubscribeEvent
 	public static void registerItems(Register<Item> event) {
 
-		//final Item[] bricks = ConvertToItemBlocks(ModBlocks.BRICKS);
-		//event.getRegistry().registerAll(items);
-		//event.getRegistry().registerAll(itemBlocks);
-		//event.getRegistry().registerAll(bricks);
-		
 		for(Field f : ModBlocks.class.getFields()) 
 		{
 			try {
@@ -39,8 +34,6 @@ public final class EventSubscriber {
 				e.printStackTrace();
 			}
 		}
-		//event.getRegistry().registerAll(ConvertToItemBlocks(ModBlocks.BIGBLACKCERAMIC));
-		//event.getRegistry().registerAll(bricks);
 	}
 	
 	@SubscribeEvent
@@ -68,8 +61,7 @@ public final class EventSubscriber {
 		 Item[] items =  new Item[blocks.length];
 		 for(int i  =0; i < items.length; i++)
 		 {
-			 items[i] = new ItemBlock(blocks[i]).setRegistryName(blocks[i].getRegistryName());			 		 
-			 System.out.println("Converted " + blocks[i] + " to item");
+			 items[i] = new ItemBlock(blocks[i]).setRegistryName(blocks[i].getRegistryName());
 		 }
 		 return items;
 				 

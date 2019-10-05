@@ -31,7 +31,6 @@ public class Utils {
 		DocumentBuilder dBuilder = null;
 		try {
 			dBuilder = dbFactory.newDocumentBuilder();
-			System.out.println("Resource config doc for TEL: " + com.cilka.telgt.Utils.class.getResource("/assets/tel/config/alltextures.xml"));
 			Document doc = dBuilder.parse(com.cilka.telgt.Utils.class.getResourceAsStream("/assets/tel/config/alltextures.xml"));
 			NodeList list  = doc.getElementsByTagName("dir");
 			for(int i =0; i < list.getLength(); i++)
