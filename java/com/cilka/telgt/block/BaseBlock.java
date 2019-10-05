@@ -31,6 +31,7 @@ public class BaseBlock extends Block {
 		setSoundType(options.GetSound());
 		this.blockName = blockName;
 		this.layer = options.GetLayer();
+
 		SetRegistrationFromFile();
 	}
 	public String GetBlockName()
@@ -41,8 +42,8 @@ public class BaseBlock extends Block {
 
 	@Override
 	public BlockRenderLayer getRenderLayer()
-	{	
-		return layer != null ? layer : getRenderLayer();
+	{
+		return layer;
 	}
 
 	@Override 
