@@ -10,8 +10,9 @@ import net.minecraft.block.properties.IProperty;
 import net.minecraft.block.state.IBlockState;
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.util.BlockRenderLayer;
+import net.minecraftforge.registries.IForgeRegistryEntry;
 
-public class BaseBlock extends Block {
+public class BaseBlock extends Block{
 
 	private String blockName;
 	private BlockRenderLayer layer;
@@ -57,6 +58,5 @@ public class BaseBlock extends Block {
 		setRegistryName(Main.MODID, blockName);
 		setTranslationKey(blockName);
 	}
-	
 
 }

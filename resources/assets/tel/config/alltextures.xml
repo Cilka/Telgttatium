@@ -338,12 +338,10 @@
   <file>clonexysis_tile_yellow</file>
   </dir>
   <dir id="textures.blocks.glass.nve">
-    <file>nve_blue_glass</file>
-    <file>nve_cyan_glass</file>
-    <file>nve_dark_blue</file>
-    <file>nve_black</file>
     <file>nve_blue</file>
     <file>nve_cyan</file>
+    <file>nve_dark_blue</file>
+    <file>nve_black</file>
     <file>nve_dark_orange</file>
     <file>nve_dark_purple</file>
     <file>nve_orange</file>
@@ -351,8 +349,11 @@
     <file>nve_purple</file>
     <file>nve_red</file>
     <file>nve_yellow</file>
-
+	<file>nve_dark_green</file>
+    <file>nve_green</file>
+    <file>nve_white</file>
   </dir>
+
   <dir id="textures.blocks.glass.Simple Glass Full Frame Formated">
     <file>Simple_Glass_Black</file>
     <file>Simple_Glass_Blue</file>
@@ -793,9 +794,6 @@
     <file>machine_arrow_red</file>
     <file>machine_arrow_white</file>
     <file>machine_arrow_yellow</file>
-    <file>nve_dark_green</file>
-    <file>nve_green</file>
-    <file>nve_white</file>
   </dir>
   <dir id="textures.blocks.nevo_evolution.bionic_stained">
     <file>bionic_stained_blue</file>
@@ -818,6 +816,7 @@
     <file>nve_stained_red</file>
     <file>nve_stained_white</file>
     <file>nve_stained_yellow</file>
+	
   </dir>
 
   <dir id="textures.blocks.nevo_evolution.nve_tch_tiles">

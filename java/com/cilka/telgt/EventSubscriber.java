@@ -24,7 +24,7 @@ public final class EventSubscriber {
 		for(Field f : ModBlocks.class.getFields()) 
 		{
 			try {
-				event.getRegistry().registerAll(ConvertToItemBlocks((BaseBlock[])f.get(ModBlocks.class)));
+				event.getRegistry().registerAll(ConvertToItemBlocks((Block[])f.get(ModBlocks.class)));
 				
 			} catch (IllegalArgumentException e) {
 				// TODO Auto-generated catch block
@@ -43,7 +43,7 @@ public final class EventSubscriber {
 		for(Field f : ModBlocks.class.getFields()) 
 		{
 			try {
-				event.getRegistry().registerAll((BaseBlock[])f.get(ModBlocks.class));
+				event.getRegistry().registerAll((Block[])f.get(ModBlocks.class));
 			} catch (IllegalArgumentException e) {
 				// TODO Auto-generated catch block
 				e.printStackTrace();
