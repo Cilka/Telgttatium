@@ -9,6 +9,8 @@ public class BlockOptions {
 	private SoundType Sound;
 	private CreativeTabs Tab;
 	private BlockRenderLayer Layer;
+	private Boolean canDropSelf = true;
+	private Boolean isFramed = true;
 	public BlockOptions(Material mat, SoundType sound, CreativeTabs tab, BlockRenderLayer layer)
 	{
 		this.Material =  mat;
@@ -32,5 +34,13 @@ public class BlockOptions {
 	public BlockRenderLayer GetLayer()
 	{
 		return Layer;
+	}
+
+    public boolean CanDropSelf() {
+		return canDropSelf;
+    }
+
+	public boolean IsFramed() {
+		return isFramed;
 	}
 }
