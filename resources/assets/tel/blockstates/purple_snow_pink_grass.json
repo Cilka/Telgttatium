@@ -1,0 +1,15 @@
+{
+"forge_marker" : 1,
+	"defaults":{
+	"model":"tel:purple_snow_pink_grass"
+	},
+	"variants":{
+	"snowy=false":[
+		{"model":"tel:purple_snow_pink_grass"},
+	{"model":"tel:purple_snow_pink_grass", "y":90},
+	{"model":"tel:purple_snow_pink_grass", "y":180},
+	{"model":"tel:purple_snow_pink_grass", "y":270}
+	],
+	"inventory": [{}]
+	}
+}

@@ -1,0 +1,11 @@
+{
+	"parent":"block/grass",
+	"textures": {
+		"particle": "tel:blocks/biome_dirt/fantasysolea_dirt",
+		"bottom" : "tel:blocks/biome_dirt/fantasysolea_dirt",
+		"top" : "tel:blocks/biome_grass/white_grass_v2",
+		"side" : "tel:blocks/biome_grass/white_grass_side_fantasysolea_dirt_block_v2",
+		"overlay": "tel:blocks/biome_grass/white_grass_side_fantasysolea_dirt_block_v2"
+		
+	}
+}

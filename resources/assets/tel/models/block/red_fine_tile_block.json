@@ -1,0 +1,6 @@
+{
+   "parent": "block/cube_all",
+   "textures": {
+       "all": "tel:blocks/gold_taya/red_fine_tile_block"
+   }
+}

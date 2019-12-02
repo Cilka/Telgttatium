@@ -1,0 +1,11 @@
+{
+	"parent":"block/grass",
+	"textures": {
+		"particle": "tel:blocks/biome_dirt/valley_dirt",
+		"bottom" : "tel:blocks/biome_dirt/valley_dirt",
+		"top" : "tel:blocks/biome_grass/ocean_blue_grass",
+		"side" : "tel:blocks/biome_grass/ocean_blue_valley_grass_side",
+		"overlay": "tel:blocks/biome_grass/ocean_blue_valley_grass_side"
+		
+	}
+}

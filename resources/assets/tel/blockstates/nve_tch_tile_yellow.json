@@ -1,0 +1,14 @@
+{
+"forge_marker" : 1,
+    "defaults":{
+  "model": "tel:nve_tch_tile_yellow"
+},
+    "variants": {
+        "axis=y":  { "model": "tel:nve_tch_tile_yellow" },
+        "axis=z":   { "model": "tel:nve_tch_tile_yellow", "x": 90 },
+        "axis=x":   { "model": "tel:nve_tch_tile_yellow", "x": 90, "y": 90 },
+        "axis=none": { "model": "tel:nve_tch_tile_yellow_cap" },
+	"normal": [{}],
+	"inventory": [{}]
+    }
+}

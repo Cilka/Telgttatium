@@ -1,0 +1,16 @@
+{
+"forge_marker" : 1,
+	"defaults":{
+	"model":"tel:weird_grass_1_dark_grass"
+	},
+	"variants":{
+	"snowy=false":[
+		{"model":"tel:weird_grass_1_dark_grass"},
+	{"model":"tel:weird_grass_1_dark_grass", "y":90},
+	{"model":"tel:weird_grass_1_dark_grass", "y":180},
+	{"model":"tel:weird_grass_1_dark_grass", "y":270}
+	],
+	
+	"inventory": [{}]
+	}
+}

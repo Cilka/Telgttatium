@@ -1,0 +1,11 @@
+{
+	"parent":"block/grass",
+	"textures": {
+		"particle": "tel:blocks/biome_dirt/deepsolea_dirt",
+		"bottom" : "tel:blocks/biome_dirt/deepsolea_dirt",
+		"top" : "tel:blocks/biome_grass/magenta_grass_v2",
+		"side" : "tel:blocks/biome_grass/magenta_grass_side_deepsolea_dirt_block_v2",
+		"overlay": "tel:blocks/biome_grass/magenta_grass_side_deepsolea_dirt_block_v2"
+		
+	}
+}

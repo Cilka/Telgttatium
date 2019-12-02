@@ -1,0 +1,6 @@
+{
+   "parent": "block/cube_all",
+   "textures": {
+       "all": "tel:blocks/simple_life/lime_green_tile_type_3"
+   }
+}

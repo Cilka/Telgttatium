@@ -1,0 +1,6 @@
+{
+   "parent": "block/cube_all",
+   "textures": {
+       "all": "tel:blocks/lujill_kanses/senaanti/senaanti_rune_3_blue_moon"
+   }
+}

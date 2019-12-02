@@ -1,0 +1,16 @@
+{
+"forge_marker" : 1,
+	"defaults":{
+	"model":"tel:dark_blue_poison_grass_v2"
+	},
+	"variants":{
+	"snowy=false":[
+		{"model":"tel:dark_blue_poison_grass_v2"},
+	{"model":"tel:dark_blue_poison_grass_v2", "y":90},
+	{"model":"tel:dark_blue_poison_grass_v2", "y":180},
+	{"model":"tel:dark_blue_poison_grass_v2", "y":270}
+	],
+	
+	"inventory": [{}]
+	}
+}

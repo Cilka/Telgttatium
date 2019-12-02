@@ -1,0 +1,16 @@
+{
+"forge_marker" : 1,
+	"defaults":{
+	"model":"tel:ocean_blue_ashed_grass"
+	},
+	"variants":{
+	"snowy=false":[
+		{"model":"tel:ocean_blue_ashed_grass"},
+	{"model":"tel:ocean_blue_ashed_grass", "y":90},
+	{"model":"tel:ocean_blue_ashed_grass", "y":180},
+	{"model":"tel:ocean_blue_ashed_grass", "y":270}
+	],
+	
+	"inventory": [{}]
+	}
+}

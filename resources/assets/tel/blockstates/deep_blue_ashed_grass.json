@@ -1,0 +1,16 @@
+{
+"forge_marker" : 1,
+	"defaults":{
+	"model":"tel:deep_blue_ashed_grass"
+	},
+	"variants":{
+	"snowy=false":[
+		{"model":"tel:deep_blue_ashed_grass"},
+	{"model":"tel:deep_blue_ashed_grass", "y":90},
+	{"model":"tel:deep_blue_ashed_grass", "y":180},
+	{"model":"tel:deep_blue_ashed_grass", "y":270}
+	],
+	
+	"inventory": [{}]
+	}
+}

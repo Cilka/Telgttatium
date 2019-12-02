@@ -1,0 +1,6 @@
+{
+   "parent": "block/cube_all",
+   "textures": {
+       "all": "tel:blocks/tuvu_cleik/ara_vahier"
+   }
+}

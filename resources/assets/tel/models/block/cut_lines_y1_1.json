@@ -1,0 +1,6 @@
+{
+   "parent": "block/cube_all",
+   "textures": {
+       "all": "tel:blocks/city_blocks/cut_lines_y1_1"
+   }
+}

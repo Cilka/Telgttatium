@@ -1,0 +1,6 @@
+{
+   "parent": "block/cube_all",
+   "textures": {
+       "all": "tel:blocks/ice_deco/clevikjaih_deco_wall"
+   }
+}

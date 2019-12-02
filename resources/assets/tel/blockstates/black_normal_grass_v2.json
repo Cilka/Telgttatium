@@ -1,0 +1,16 @@
+{
+"forge_marker" : 1,
+	"defaults":{
+	"model":"tel:black_normal_grass_v2"
+	},
+	"variants":{
+	"snowy=false":[
+		{"model":"tel:black_normal_grass_v2"},
+	{"model":"tel:black_normal_grass_v2", "y":90},
+	{"model":"tel:black_normal_grass_v2", "y":180},
+	{"model":"tel:black_normal_grass_v2", "y":270}
+	],
+	
+	"inventory": [{}]
+	}
+}

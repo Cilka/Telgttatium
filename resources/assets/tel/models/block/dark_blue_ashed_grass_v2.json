@@ -1,0 +1,11 @@
+{
+	"parent":"block/grass",
+	"textures": {
+		"particle": "tel:blocks/biome_dirt/ashed_dirt",
+		"bottom" : "tel:blocks/biome_dirt/ashed_dirt",
+		"top" : "tel:blocks/biome_grass/dark_blue_grass_v2",
+		"side" : "tel:blocks/biome_grass/dark_blue_grass_side_ashed_dirt_block_v2",
+		"overlay": "tel:blocks/biome_grass/dark_blue_grass_side_ashed_dirt_block_v2"
+		
+	}
+}

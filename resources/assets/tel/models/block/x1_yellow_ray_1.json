@@ -1,0 +1,6 @@
+{
+   "parent": "block/cube_all",
+   "textures": {
+       "all": "tel:blocks/city_blocks/x1_yellow_ray_1"
+   }
+}

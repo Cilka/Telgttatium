@@ -1,0 +1,6 @@
+{
+   "parent": "block/cube_all",
+   "textures": {
+       "all": "tel:blocks/lujill_kanses/kunkasie/kunkasie_tile_moon"
+   }
+}

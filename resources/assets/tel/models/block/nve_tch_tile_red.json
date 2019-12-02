@@ -1,0 +1,7 @@
+{
+    "parent": "block/cube_column",
+    "textures": {
+        "end": "tel:blocks/nevo_evolution/nve_tch_tiles/nve_tch_tile_top_red",
+        "side": "tel:blocks/nevo_evolution/nve_tch_tiles/nve_tch_tile_side_red"
+    }
+}
