@@ -1,16 +1,16 @@
 {
 "forge_marker" : 1,
 	"defaults":{
-	"model": "tel:dirty_red_grass"
+	"model":"tel:dirty_red_grass"
 	},
 	"variants":{
 	"snowy=false":[
-		{"model": "tel:dirty_red_grass"},
-	{"model": "tel:dirty_red_grass", "y":90},
-	{"model": "tel:dirty_red_grass", "y":180},
-	{"model": "tel:dirty_red_grass", "y":270}
+		{"model":"tel:dirty_red_grass"},
+	{"model":"tel:dirty_red_grass", "y":90},
+	{"model":"tel:dirty_red_grass", "y":180},
+	{"model":"tel:dirty_red_grass", "y":270}
 	],
-	"snowy=true": {"model": "tel:snowy_dirty_grass"},
+	"snowy=true": {"model":"tel:snowy_dirty_grass"},
 	"inventory": [{}]
 	}
 }

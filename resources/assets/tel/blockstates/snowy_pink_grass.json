@@ -1,16 +1,16 @@
 {
 "forge_marker" : 1,
 	"defaults":{
-	"model": "tel:snowy_pink_grass"
+	"model":"tel:snowy_pink_grass"
 	},
 	"variants":{
 	"snowy=false":[
-		{"model": "tel:snowy_pink_grass"},
-	{"model": "tel:snowy_pink_grass", "y":90},
-	{"model": "tel:snowy_pink_grass", "y":180},
-	{"model": "tel:snowy_pink_grass", "y":270}
+		{"model":"tel:snowy_pink_grass"},
+	{"model":"tel:snowy_pink_grass", "y":90},
+	{"model":"tel:snowy_pink_grass", "y":180},
+	{"model":"tel:snowy_pink_grass", "y":270}
 	],
-	"snowy=true": {"model": "tel:snowy_snowy_grass"},
+	"snowy=true": {"model":"tel:snowy_snowy_grass"},
 	"inventory": [{}]
 	}
 }

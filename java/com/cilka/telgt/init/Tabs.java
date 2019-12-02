@@ -82,4 +82,78 @@ public class Tabs{
 			return new ItemStack(ModBlocks.KUNKASIE[0]);
 		}
 	};
+	public static CreativeTabs CITYBLOCKS = new TelTab("city_blocks") {
+		@SideOnly(Side.CLIENT)
+		@Override
+		public ItemStack createIcon() {
+			return new ItemStack(ModBlocks.KUNKASIE[0]);
+		}
+	};	public static CreativeTabs SRIDINTARIA = new TelTab("sridintaria") {
+		@SideOnly(Side.CLIENT)
+		@Override
+		public ItemStack createIcon() {
+			return new ItemStack(ModBlocks.KUNKASIE[0]);
+		}
+	};	public static CreativeTabs FENCES = new TelTab("fences") {
+		@SideOnly(Side.CLIENT)
+		@Override
+		public ItemStack createIcon() {
+			return new ItemStack(ModBlocks.KUNKASIE[0]);
+		}
+	};	public static CreativeTabs TOOLS = new TelTab("tools") {
+		@SideOnly(Side.CLIENT)
+		@Override
+		public ItemStack createIcon() {
+			return new ItemStack(ModBlocks.KUNKASIE[0]);
+		}
+	};	public static CreativeTabs GANDECO = new TelTab("gan_deco") {
+		@SideOnly(Side.CLIENT)
+		@Override
+		public ItemStack createIcon() {
+			return new ItemStack(ModBlocks.KUNKASIE[0]);
+		}
+	};	public static CreativeTabs GOLDTAYA = new TelTab("gold_taya") {
+		@SideOnly(Side.CLIENT)
+		@Override
+		public ItemStack createIcon() {
+			return new ItemStack(ModBlocks.KUNKASIE[0]);
+		}
+	};	public static CreativeTabs ICEDECO = new TelTab("ice_deco") {
+		@SideOnly(Side.CLIENT)
+		@Override
+		public ItemStack createIcon() {
+			return new ItemStack(ModBlocks.KUNKASIE[0]);
+		}
+	};	public static CreativeTabs MOKOIV = new TelTab("mokoiv") {
+		@SideOnly(Side.CLIENT)
+		@Override
+		public ItemStack createIcon() {
+			return new ItemStack(ModBlocks.KUNKASIE[0]);
+		}
+	};public static CreativeTabs TUVUCLEIK = new TelTab("tuvu_cleik") {
+		@SideOnly(Side.CLIENT)
+		@Override
+		public ItemStack createIcon() {
+			return new ItemStack(ModBlocks.KUNKASIE[0]);
+		}
+	};public static CreativeTabs FASTFOOD = new TelTab("fast_food") {
+		@SideOnly(Side.CLIENT)
+		@Override
+		public ItemStack createIcon() {
+			return new ItemStack(ModBlocks.KUNKASIE[0]);
+		}
+	};public static CreativeTabs CANDY = new TelTab("candy") {
+		@SideOnly(Side.CLIENT)
+		@Override
+		public ItemStack createIcon() {
+			return new ItemStack(ModBlocks.KUNKASIE[0]);
+		}
+	};public static CreativeTabs FOOD = new TelTab("food") {
+		@SideOnly(Side.CLIENT)
+		@Override
+		public ItemStack createIcon() {
+			return new ItemStack(ModBlocks.KUNKASIE[0]);
+		}
+	};
+
 }

@@ -38,5 +38,9 @@ public class ModBlocks {
 	public static final BaseBlock [] KUHUNO = Utils.GenerateBlocksFromTextureFolder("lujill_kanses.kuhuno", ModBlockOptions.LUJILLKANSES);
 	public static final BaseBlock [] KUNKASIE = Utils.GenerateBlocksFromTextureFolder("lujill_kanses.kunkasie", ModBlockOptions.LUJILLKANSES);
 	public static final BaseBlock [] SENAANTI = Utils.GenerateBlocksFromTextureFolder("lujill_kanses.senaati", ModBlockOptions.LUJILLKANSES);
+	public static final BaseBlock [] SIMPLEGLASSPANEFRAME = Utils.GenerateBlocksFromTextureFolder("glass.simple_life_glass_frame", ModBlockOptions.SIMPLEGLASSPANEFRAME);
+	public static final BaseBlock [] CITYBLOCKS = Utils.GenerateBlocksFromTextureFolder("city_blocks", ModBlockOptions.BRICK);
+	public static final BaseBlock [] ARTGRASS =Utils.GenerateBlocksFromTextureFolder("artifical_grass", ModBlockOptions.GRASS);
+
 
 }

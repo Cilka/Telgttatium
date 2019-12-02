@@ -2,6 +2,7 @@ package com.cilka.telgt.init;
 
 import com.cilka.telgt.block.BlockOptions;
 
+import net.minecraft.block.Block;
 import net.minecraft.block.SoundType;
 import net.minecraft.block.material.Material;
 import net.minecraft.util.BlockRenderLayer;
@@ -23,6 +24,7 @@ public class ModBlockOptions {
 	public static final BlockOptions SIMPLEWOOD= new BlockOptions(Material.WOOD, SoundType.WOOD, Tabs.SIMPLELIFE, BlockRenderLayer.SOLID);
 	public static final BlockOptions NVEGLASS =  new BlockOptions(Material.GLASS, SoundType.GLASS,Tabs.NEVOEVO,BlockRenderLayer.TRANSLUCENT);
 	public static final BlockOptions LUJILLKANSES =  new BlockOptions(Material.ROCK, SoundType.STONE,Tabs.LUJILLKANSES,BlockRenderLayer.SOLID);
+	public static final BlockOptions SIMPLEGLASSPANEFRAME =  new BlockOptions(Material.GLASS, SoundType.GLASS, Tabs.SIMPLELIFE, BlockRenderLayer.TRANSLUCENT);
 
 
 }

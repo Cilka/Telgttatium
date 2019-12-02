@@ -31,7 +31,7 @@ public class Utils {
 		DocumentBuilder dBuilder = null;
 		try {
 			dBuilder = dbFactory.newDocumentBuilder();
-			Document doc = dBuilder.parse(com.cilka.telgt.Utils.class.getResourceAsStream("/assets/tel/config/alltextures.xml"));
+			Document doc = dBuilder.parse(com.cilka.telgt.Utils.class.getResourceAsStream("/assets/tel/config/entitydb.xml"));
 			NodeList list  = doc.getElementsByTagName("dir");
 			for(int i =0; i < list.getLength(); i++)
 			{
