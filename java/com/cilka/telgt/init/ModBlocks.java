@@ -39,8 +39,14 @@ public class ModBlocks {
 	public static final BaseBlock [] KUNKASIE = Utils.GenerateBlocksFromTextureFolder("lujill_kanses.kunkasie", ModBlockOptions.LUJILLKANSES);
 	public static final BaseBlock [] SENAANTI = Utils.GenerateBlocksFromTextureFolder("lujill_kanses.senaati", ModBlockOptions.LUJILLKANSES);
 	public static final BaseBlock [] SIMPLEGLASSPANEFRAME = Utils.GenerateBlocksFromTextureFolder("glass.simple_life_glass_frame", ModBlockOptions.SIMPLEGLASSPANEFRAME);
-	public static final BaseBlock [] CITYBLOCKS = Utils.GenerateBlocksFromTextureFolder("city_blocks", ModBlockOptions.BRICK);
+	public static final BaseBlock [] CITYBLOCKS = Utils.GenerateBlocksFromTextureFolder("city_blocks", ModBlockOptions.CITYBLOCK);
 	public static final BaseBlock [] ARTGRASS =Utils.GenerateBlocksFromTextureFolder("artifical_grass", ModBlockOptions.GRASS);
-
+	public static final BaseBlock [] GOLDTAYA =  Utils.GenerateBlocksFromTextureFolder("gold_taya", ModBlockOptions.GOLDTAYA);
+	public static final BaseBlock [] TUVUCLEIK =  Utils.GenerateBlocksFromTextureFolder("tuvu_cleik", ModBlockOptions.TUVUCLEIK);
+	public static final BaseBlock [] SRINDINTARIA =  Utils.GenerateBlocksFromTextureFolder("srindintaria", ModBlockOptions.SRINDINTARIA);
+	public static final BaseBlock [] SIMPLELIFE =  Utils.GenerateBlocksFromTextureFolder("simple_life", ModBlockOptions.SIMPLELIFE);
+	public static final BaseBlock [] MOKOIV =  Utils.GenerateBlocksFromTextureFolder("mokoiv", ModBlockOptions.MOKOIV);
+	public static final BaseBlock [] ICEDECO =  Utils.GenerateBlocksFromTextureFolder("ice_deco", ModBlockOptions.ICEDECO);
+	public static final BaseBlock [] GANDECO =  Utils.GenerateBlocksFromTextureFolder("gan_deco", ModBlockOptions.GANDECO);
 
 }

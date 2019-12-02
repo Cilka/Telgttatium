@@ -37,7 +37,7 @@ public class Utils {
 			{
 				if(path.equalsIgnoreCase(list.item(i).getAttributes().item(0).getNodeValue())){
 
-				String[] types = list.item(i).getTextContent().replaceAll(" ","").split("\\n");
+				String[] types = list.item(i).getTextContent().replaceAll(" ","").replaceAll("\t", "").split("\\n");
 				int arrayCount = 0;
 				blocks = new BaseBlock[types.length -1];
 				for(String name : types)

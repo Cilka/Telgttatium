@@ -25,6 +25,17 @@ public class ModBlockOptions {
 	public static final BlockOptions NVEGLASS =  new BlockOptions(Material.GLASS, SoundType.GLASS,Tabs.NEVOEVO,BlockRenderLayer.TRANSLUCENT);
 	public static final BlockOptions LUJILLKANSES =  new BlockOptions(Material.ROCK, SoundType.STONE,Tabs.LUJILLKANSES,BlockRenderLayer.SOLID);
 	public static final BlockOptions SIMPLEGLASSPANEFRAME =  new BlockOptions(Material.GLASS, SoundType.GLASS, Tabs.SIMPLELIFE, BlockRenderLayer.TRANSLUCENT);
+	public static final BlockOptions GOLDTAYA =  new BlockOptions(Material.ROCK, SoundType.METAL, Tabs.GOLDTAYA, BlockRenderLayer.SOLID);
+	public static final BlockOptions TUVUCLEIK =  new BlockOptions(Material.ROCK, SoundType.STONE, Tabs.TUVUCLEIK, BlockRenderLayer.SOLID);
+	public static final BlockOptions SRINDINTARIA =  new BlockOptions(Material.ROCK, SoundType.STONE, Tabs.SRIDINTARIA, BlockRenderLayer.SOLID);
+	public static final BlockOptions SIMPLELIFE =  new BlockOptions(Material.ROCK, SoundType.STONE, Tabs.SIMPLELIFE, BlockRenderLayer.SOLID);
+	public static final BlockOptions MOKOIV =  new BlockOptions(Material.ROCK, SoundType.STONE, Tabs.MOKOIV, BlockRenderLayer.SOLID);
+	public static final BlockOptions ICEDECO =  new BlockOptions(Material.ICE, SoundType.GLASS, Tabs.ICEDECO, BlockRenderLayer.SOLID);
+	public static final BlockOptions CITYBLOCK =  new BlockOptions(Material.ROCK, SoundType.STONE, Tabs.CITYBLOCKS, BlockRenderLayer.SOLID);
+	public static final BlockOptions GANDECO =  new BlockOptions(Material.ROCK, SoundType.STONE, Tabs.GANDECO, BlockRenderLayer.SOLID);
+
+
+
 
 
 }
