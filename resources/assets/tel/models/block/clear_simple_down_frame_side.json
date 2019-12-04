@@ -1,0 +1,7 @@
+{
+    "parent": "block/pane_side",
+    "textures": {
+        "edge": "tel:blocks/glass/simple_glass_full_frame/simple_glass_clear",
+        "pane": "tel:blocks/glass/simple_glass_side_frames/clear/clearsimple_down_frame"
+    }
+}

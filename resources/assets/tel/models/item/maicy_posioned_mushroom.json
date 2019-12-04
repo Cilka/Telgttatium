@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "tel:items/maicy_posioned_mushroom"
+  }
+}

@@ -61,6 +61,7 @@ public class Tabs {
             return new ItemStack(ModBlocks.CELTICRUNES[0]);
         }
     };
+
     public static CreativeTabs SIMPLELIFE = new TelTab("simple_life") {
         @SideOnly(Side.CLIENT)
         @Override
@@ -96,20 +97,7 @@ public class Tabs {
             return new ItemStack(ModBlocks.SRINDINTARIA[0]);
         }
     };
-    public static CreativeTabs FENCES = new TelTab("fences") {
-        @SideOnly(Side.CLIENT)
-        @Override
-        public ItemStack createIcon() {
-            return new ItemStack(ModBlocks.KUNKASIE[0]);
-        }
-    };
-    public static CreativeTabs TOOLS = new TelTab("tools") {
-        @SideOnly(Side.CLIENT)
-        @Override
-        public ItemStack createIcon() {
-            return new ItemStack(ModBlocks.KUNKASIE[0]);
-        }
-    };
+
     public static CreativeTabs GANDECO = new TelTab("gan_deco") {
         @SideOnly(Side.CLIENT)
         @Override
@@ -145,6 +133,7 @@ public class Tabs {
             return new ItemStack(ModBlocks.TUVUCLEIK[0]);
         }
     };
+    /*
     public static CreativeTabs FASTFOOD = new TelTab("fast_food") {
         @SideOnly(Side.CLIENT)
         @Override
@@ -166,5 +155,19 @@ public class Tabs {
             return new ItemStack(ModBlocks.KUNKASIE[0]);
         }
     };
-
+     public static CreativeTabs FENCES = new TelTab("fences") {
+        @SideOnly(Side.CLIENT)
+        @Override
+        public ItemStack createIcon() {
+            return new ItemStack(ModBlocks.KUNKASIE[0]);
+        }
+    };
+    public static CreativeTabs TOOLS = new TelTab("tools") {
+        @SideOnly(Side.CLIENT)
+        @Override
+        public ItemStack createIcon() {
+            return new ItemStack(ModBlocks.KUNKASIE[0]);
+        }
+    };
+*/
 }

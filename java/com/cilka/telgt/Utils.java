@@ -26,49 +26,23 @@ public class Utils {
 	public static <T extends BaseBlock> BaseBlock[] GenerateBlocksFromTextureFolder(String path, BlockOptions options, Class<T> clazz) {
 		BaseBlock[] blocks = null;
 		path = "textures.blocks." + path;
-		//com.cilka.telgt.Utils.class.getResourceAsStream("alltextures.xml");
-		DocumentBuilderFactory dbFactory = DocumentBuilderFactory.newInstance();
-		DocumentBuilder dBuilder = null;
-		try {
-			dBuilder = dbFactory.newDocumentBuilder();
-			Document doc = dBuilder.parse(com.cilka.telgt.Utils.class.getResourceAsStream("/assets/tel/config/entitydb.xml"));
-			NodeList list  = doc.getElementsByTagName("dir");
-			for(int i =0; i < list.getLength(); i++)
-			{
-				if(path.equalsIgnoreCase(list.item(i).getAttributes().item(0).getNodeValue())){
 
-				String[] types = list.item(i).getTextContent().replaceAll(" ","").replaceAll("\t", "").split("\\n");
-				int arrayCount = 0;
-				blocks = new BaseBlock[types.length -1];
-				for(String name : types)
+
+				String[] types = buildEntityList(path);
+				blocks = new BaseBlock[types.length];
+				try{
+				for(int count = 0; count < blocks.length; count++)
 				{
-					if(name.isEmpty())
-					{
-						continue;
-					}
-					blocks[arrayCount] = (options == null ?
-							clazz.getConstructor(String.class).newInstance(name)
-							:clazz.getConstructor(String.class,BlockOptions.class).newInstance(name,options));
-					arrayCount++;
+					blocks[count] = (options == null ?
+							clazz.getConstructor(String.class).newInstance(types[count])
+							:clazz.getConstructor(String.class,BlockOptions.class).newInstance(types[count],options));
 				}
-				break;
-			}
-			}
-		} catch (ParserConfigurationException e) {
-			e.printStackTrace();
-		} catch (SAXException e) {
-			e.printStackTrace();
-		} catch (IOException e) {
-			e.printStackTrace();
-		} catch (InstantiationException e) {
-			e.printStackTrace();
-		} catch (InvocationTargetException e) {
-			e.printStackTrace();
-		} catch (NoSuchMethodException e) {
-			e.printStackTrace();
-		} catch (IllegalAccessException e) {
-			e.printStackTrace();
-		}
+				}
+				catch(Exception e)
+				{
+					e.printStackTrace();
+				}
+
 
 		return blocks;
 	}
@@ -92,5 +66,26 @@ public class Utils {
 
 		return blocks;
 	}
-	
+
+	private static String [] buildEntityList(String path)
+	{
+		DocumentBuilderFactory dbFactory = DocumentBuilderFactory.newInstance();
+		DocumentBuilder dBuilder = null;
+		String [] types = null;
+		try {
+			dBuilder = dbFactory.newDocumentBuilder();
+			Document doc = dBuilder.parse(com.cilka.telgt.Utils.class.getResourceAsStream("/assets/tel/config/entitydb.xml"));
+			NodeList list  = doc.getElementsByTagName("dir");
+			for(int i =0; i < list.getLength() && types == null; i++) {
+				if (path.equalsIgnoreCase(list.item(i).getAttributes().item(0).getNodeValue())) {
+
+					types = list.item(i).getTextContent().replaceAll(" ", "").replaceAll("\t", "").replaceFirst("\\n","").split("\\n");
+				}
+			}
+		} catch( Exception e)
+		{
+			e.printStackTrace();
+		}
+		return types;
+	}
 }

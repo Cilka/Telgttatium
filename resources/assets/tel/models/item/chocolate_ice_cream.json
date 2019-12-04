@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "tel:items/chocolate_ice_cream"
+  }
+}
