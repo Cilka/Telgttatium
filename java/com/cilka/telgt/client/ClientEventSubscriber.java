@@ -6,6 +6,7 @@ import com.cilka.telgt.block.BaseBlock;
 import com.cilka.telgt.init.ModBlocks;
 import com.cilka.telgt.init.ModItems;
 
+import com.cilka.telgt.utils.Utils;
 import net.minecraft.block.Block;
 import net.minecraft.client.renderer.block.model.ModelResourceLocation;
 import net.minecraft.item.Item;
@@ -19,7 +20,7 @@ import net.minecraftforge.fml.relauncher.Side;
 public final class ClientEventSubscriber {
 	  @SubscribeEvent
 	    public static void registerModels(ModelRegistryEvent event) {
-
+           /*
 			for(Field f : ModBlocks.class.getFields()) 
 			{
 				try {
@@ -34,7 +35,19 @@ public final class ClientEventSubscriber {
 					// TODO Auto-generated catch block
 					e.printStackTrace();
 				}
-			}	       
+			}
+
+			for(Field f : ModItems.class.getFields()){
+				try{
+				for(Item i: ((Item[])f.get(ModItems.class))){
+					registerModel(i);
+				}
+				} catch(Exception e){
+					e.printStackTrace();
+				}
+			}*/
+
+           Utils.Generate();
 	    }
 
 	    private static void registerModel(Item item) {

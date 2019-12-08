@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<tel>
+	<tab>
+		<name>celtic</name>
+		<sections>
+			<section>
+				<name>glass</name>
+				<defaults>
+					<defaulto>
+						<name>glass</name>
+						<material>glass</material>
+						<soundType>glass</soundType>
+						<blockRenderLayer>translucent</blockRenderLayer>
+					</defaulto>
+				</defaults>
+				<blocks>
+					<block tabIcon>
+						<name>celtic_glass_another_world</name>
+						<type>block</type>					
+					</block>
+				</blocks>
+				<items/>
+			</section>
+		</sections>
+	</tab>
+</tel>

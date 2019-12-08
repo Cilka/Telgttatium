@@ -1,0 +1,6 @@
+{
+   "parent": "block/cube_all",
+   "textures": {
+       "all": "tel:blocks/castle/castlefloor/floor_w_castle"
+   }
+}

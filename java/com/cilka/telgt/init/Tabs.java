@@ -6,7 +6,7 @@ import net.minecraftforge.fml.relauncher.Side;
 import net.minecraftforge.fml.relauncher.SideOnly;
 
 public class Tabs {
-
+/*
     public static CreativeTabs BRICKS = new TelTab("brick") {
         @SideOnly(Side.CLIENT)
         @Override
@@ -133,26 +133,74 @@ public class Tabs {
             return new ItemStack(ModBlocks.TUVUCLEIK[0]);
         }
     };
-    /*
+    public static CreativeTabs AGA = new TelTab("aga") {
+        @SideOnly(Side.CLIENT)
+        @Override
+        public ItemStack createIcon() {
+            return new ItemStack(ModBlocks.AGA[0]);
+        }
+    };
+    public static CreativeTabs ANCIENT = new TelTab("ancient") {
+        @SideOnly(Side.CLIENT)
+        @Override
+        public ItemStack createIcon() {
+            return new ItemStack(ModBlocks.ANCIENT[0]);
+        }
+    };
+    public static CreativeTabs CASTLE = new TelTab("castle") {
+        @SideOnly(Side.CLIENT)
+        @Override
+        public ItemStack createIcon() {
+            return new ItemStack(ModBlocks.CASTLE[0]);
+        }
+    };
+    public static CreativeTabs TETRI = new TelTab("tetri") {
+        @SideOnly(Side.CLIENT)
+        @Override
+        public ItemStack createIcon() {
+            return new ItemStack(ModBlocks.TETRI[0]);
+        }
+    };
+    public static CreativeTabs TNA = new TelTab("tna") {
+        @SideOnly(Side.CLIENT)
+        @Override
+        public ItemStack createIcon() {
+            return new ItemStack(ModBlocks.TNA[0]);
+        }
+    };
+    public static CreativeTabs NORMAL = new TelTab("normal") {
+        @SideOnly(Side.CLIENT)
+        @Override
+        public ItemStack createIcon() {
+            return new ItemStack(ModBlocks.FLOOR[0]);
+        }
+    }; public static CreativeTabs TEMPLE = new TelTab("temple") {
+        @SideOnly(Side.CLIENT)
+        @Override
+        public ItemStack createIcon() {
+            return new ItemStack(ModBlocks.TEMPLE[0]);
+        }
+    };
+/*
     public static CreativeTabs FASTFOOD = new TelTab("fast_food") {
         @SideOnly(Side.CLIENT)
         @Override
         public ItemStack createIcon() {
-            return new ItemStack(ModBlocks.KUNKASIE[0]);
+            return new ItemStack(ModItems.FASTFOOD[0]);
         }
     };
     public static CreativeTabs CANDY = new TelTab("candy") {
         @SideOnly(Side.CLIENT)
         @Override
         public ItemStack createIcon() {
-            return new ItemStack(ModBlocks.KUNKASIE[0]);
+            return new ItemStack(ModItems.CANDY[0]);
         }
     };
     public static CreativeTabs FOOD = new TelTab("food") {
         @SideOnly(Side.CLIENT)
         @Override
         public ItemStack createIcon() {
-            return new ItemStack(ModBlocks.KUNKASIE[0]);
+            return new ItemStack(ModItems.FOOD[0]);
         }
     };
      public static CreativeTabs FENCES = new TelTab("fences") {
@@ -168,6 +216,5 @@ public class Tabs {
         public ItemStack createIcon() {
             return new ItemStack(ModBlocks.KUNKASIE[0]);
         }
-    };
-*/
+    };*/
 }

@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
 <directories>
   <dir id="textures.blocks" />
   <dir id="textures.blocks.biome_dirt">
@@ -271,6 +272,7 @@
   <file>purple_glass</file>
   <file>red_glass</file>
   <file>yellow_glass</file>
+  <file>celtic_glass_another_world_pane</file>
   </dir>
   <dir id="textures.blocks.brick">
     <file>alternative_brick</file>
@@ -350,6 +352,14 @@
     <file>taitud_vintage_ceramic_red</file>
     <file>taitud_vintage_ceramic_yellow</file>
     <file>toxinology_floor</file>
+	<file>wallblock_a_ceramic</file>
+	<file>wallblock_ag_ceramic</file>
+	<file>wallblock_b_ceramic</file>
+	<file>wallblock_bk_ceramic</file>
+	<file>wallblock_cpp_ceramic</file>
+	<file>wallblock_crm_ceramic</file>
+	<file>wallblock_r_ceramic</file>
+	<file>wallblock_w_ceramic</file>
   </dir>
   <dir id="textures.blocks.ceramic.big_black_block_floor">
     <file>big_black_block_blue</file>
@@ -861,207 +871,207 @@
     <file>first_item</file>
   </dir>
   
-  <dir id="textures.items.Candies">
-    <file>Ark_Diet_soda</file>
-    <file>Ark_Light_Soda</file>
-    <file>Ark_Soda</file>
-    <file>Banana_Bombon</file>
-    <file>Blackberry_sweet</file>
-    <file>Blueberry_sweet</file>
-    <file>Blue_Lolipop</file>
-    <file>Candy_cane</file>
-    <file>Cherry_sweet</file>
-    <file>Chocolate_bar</file>
-    <file>Chocolate_chip_Cookie</file>
-    <file>Chocolate_ice_cream</file>
-    <file>Cool_Blue_ice_cream</file>
-    <file>Cool_Green_ice_cream</file>
-    <file>Cool_Orange_ice_cream</file>
-    <file>Cool_Purple_ice_cream</file>
-    <file>Cool_Red_ice_cream</file>
-    <file>Fruits_Item</file>
-    <file>Gingerbreadman</file>
-    <file>Green_Lolipop</file>
-    <file>Lemon_sweet</file>
-    <file>Orange_Lolipop</file>
-    <file>Pink_Lolipop</file>
-    <file>Purple_Lolipop</file>
-    <file>Rainbow_Lolipop</file>
-    <file>Random_Lolipop</file>
-    <file>Strawberry_ice_cream</file>
-    <file>White_chocolate_bar</file>
-    <file>Yellow_Lolipop</file>
+  <dir id="textures.items.candies">
+    <file>ark_diet_soda</file>
+    <file>ark_light_soda</file>
+    <file>ark_soda</file>
+    <file>banana_bombon</file>
+    <file>blackberry_sweet</file>
+    <file>blueberry_sweet</file>
+    <file>blue_lolipop</file>
+    <file>candy_cane</file>
+    <file>cherry_sweet</file>
+    <file>chocolate_bar</file>
+    <file>chocolate_chip_cookie</file>
+    <file>chocolate_ice_cream</file>
+    <file>cool_blue_ice_cream</file>
+    <file>cool_green_ice_cream</file>
+    <file>cool_orange_ice_cream</file>
+    <file>cool_purple_ice_cream</file>
+    <file>cool_red_ice_cream</file>
+    <file>fruits_item</file>
+    <file>gingerbreadman</file>
+    <file>green_lolipop</file>
+    <file>lemon_sweet</file>
+    <file>orange_lolipop</file>
+    <file>pink_lolipop</file>
+    <file>purple_lolipop</file>
+    <file>rainbow_lolipop</file>
+    <file>random_lolipop</file>
+    <file>strawberry_ice_cream</file>
+    <file>white_chocolate_bar</file>
+    <file>yellow_lolipop</file>
   </dir>
-  <dir id="textures.items.Candies.Mods">
-    <file>Blue Gummy Slime egg</file>
-    <file>Blue Gummy Slime monster</file>
-    <file>Cheese Slime egg</file>
-    <file>Cheesee Slime monster</file>
-    <file>Ghost Chumpy egg</file>
-    <file>Ghostly Chumpy mod</file>
-    <file>Ghostly Gummy Rabbit egg</file>
-    <file>Gummy Rabbit Egg</file>
-    <file>Happy Chumpy egg</file>
-    <file>Happy Chumpy mod</file>
-    <file>Hypper Chumpy egg</file>
-    <file>Hypper Chumpy mod</file>
-    <file>Knight Gummy Bear egg</file>
-    <file>Orange Gummy Slime egg</file>
-    <file>Orange Gummy Slime monster</file>
-    <file>Pink Gummy Slime egg</file>
-    <file>Pink Gummy Slime monster</file>
-    <file>Queen Gummy Slime egg</file>
+  <dir id="textures.items.candies.mods">
+    <file>blue gummy slime egg</file>
+    <file>blue gummy slime monster</file>
+    <file>cheese slime egg</file>
+    <file>cheesee slime monster</file>
+    <file>ghost chumpy egg</file>
+    <file>ghostly chumpy mod</file>
+    <file>ghostly gummy rabbit egg</file>
+    <file>gummy rabbit egg</file>
+    <file>happy chumpy egg</file>
+    <file>happy chumpy mod</file>
+    <file>hypper chumpy egg</file>
+    <file>hypper chumpy mod</file>
+    <file>knight gummy bear egg</file>
+    <file>orange gummy slime egg</file>
+    <file>orange gummy slime monster</file>
+    <file>pink gummy slime egg</file>
+    <file>pink gummy slime monster</file>
+    <file>queen gummy slime egg</file>
   </dir>
-  <dir id="textures.items.Fast_Food">
-    <file>Arkea_Drink_Big_size</file>
-    <file>Arkea_Drink_Regular_Size</file>
-    <file>ArkTeshia_wine</file>
-    <file>Ark_Orange_Wine</file>
-    <file>Ark_Shana_wine</file>
-    <file>Ark_Wine</file>
-    <file>Blueberry_ice_cream_bowl</file>
-    <file>Blue_Jelly_Full_Pizza</file>
-    <file>Blue_Jelly_Pizza</file>
-    <file>Blue_Strawberry_mix_ice_cream_bowl</file>
-    <file>Brochettes</file>
-    <file>Burger</file>
-    <file>Chiken_tenders</file>
-    <file>Chinesse_food</file>
-    <file>Coffee</file>
-    <file>Cooked_patty</file>
-    <file>Cooked_Roll_patty</file>
-    <file>DeepSeafood</file>
-    <file>French_fries</file>
-    <file>Full_Pizza</file>
-    <file>Grape_ice_cream_bowl</file>
-    <file>Hot_Dog</file>
-    <file>Jelly_Full_Pizza</file>
-    <file>Jelly_Pizza</file>
-    <file>Lemon_ice_cream_bowl</file>
-    <file>Mango_ice_cream_bowl</file>
-    <file>Mixed_Ramen</file>
-    <file>Orange_Blue_mix_ice_cream_bowl</file>
-    <file>Orange_Drink</file>
-    <file>Orange_ice_cream_bowl</file>
-    <file>Patty</file>
-    <file>Pineapple_Drink_Big_size</file>
-    <file>Pineapple_Drink_Regular_Size</file>
-    <file>Pizza</file>
-    <file>Popcorn</file>
-    <file>Ramen</file>
-    <file>Random_food_Item_Gift</file>
-    <file>Random_Seed_Gift</file>
-    <file>Random_Weapon_Gift</file>
-    <file>Rice</file>
-    <file>Riceball</file>
-    <file>Rich_Rice</file>
-    <file>Roll_patty</file>
-    <file>Seafood</file>
-    <file>Shana_Drink</file>
-    <file>Soda_Drink_Big_Size</file>
-    <file>Soda_Drink_Regular_Size</file>
-    <file>SpringHeart_Drink_Big_size</file>
-    <file>SpringHeart_Drink_Regular_Size</file>
-    <file>Strawberry_Green_mix_ice_cream_bowl</file>
-    <file>Strawberry_ice_cream_bowl</file>
-    <file>Tea</file>
-    <file>Teshia_Drink</file>
-    <file>Vanilla_ice_cream_bowl</file>
-    <file>Wine_Drink</file>
+  <dir id="textures.items.fast_food">
+    <file>arkea_drink_big_size</file>
+    <file>arkea_drink_regular_size</file>
+    <file>arkteshia_wine</file>
+    <file>ark_orange_wine</file>
+    <file>ark_shana_wine</file>
+    <file>ark_wine</file>
+    <file>blueberry_ice_cream_bowl</file>
+    <file>blue_jelly_full_pizza</file>
+    <file>blue_jelly_pizza</file>
+    <file>blue_strawberry_mix_ice_cream_bowl</file>
+    <file>brochettes</file>
+    <file>burger</file>
+    <file>chiken_tenders</file>
+    <file>chinesse_food</file>
+    <file>coffee</file>
+    <file>cooked_patty</file>
+    <file>cooked_roll_patty</file>
+    <file>deepseafood</file>
+    <file>french_fries</file>
+    <file>full_pizza</file>
+    <file>grape_ice_cream_bowl</file>
+    <file>hot_dog</file>
+    <file>jelly_full_pizza</file>
+    <file>jelly_pizza</file>
+    <file>lemon_ice_cream_bowl</file>
+    <file>mango_ice_cream_bowl</file>
+    <file>mixed_ramen</file>
+    <file>orange_blue_mix_ice_cream_bowl</file>
+    <file>orange_drink</file>
+    <file>orange_ice_cream_bowl</file>
+    <file>patty</file>
+    <file>pineapple_drink_big_size</file>
+    <file>pineapple_drink_regular_size</file>
+    <file>pizza</file>
+    <file>popcorn</file>
+    <file>ramen</file>
+    <file>random_food_item_gift</file>
+    <file>random_seed_gift</file>
+    <file>random_weapon_gift</file>
+    <file>rice</file>
+    <file>riceball</file>
+    <file>rich_rice</file>
+    <file>roll_patty</file>
+    <file>seafood</file>
+    <file>shana_drink</file>
+    <file>soda_drink_big_size</file>
+    <file>soda_drink_regular_size</file>
+    <file>springheart_drink_big_size</file>
+    <file>springheart_drink_regular_size</file>
+    <file>strawberry_green_mix_ice_cream_bowl</file>
+    <file>strawberry_ice_cream_bowl</file>
+    <file>tea</file>
+    <file>teshia_drink</file>
+    <file>vanilla_ice_cream_bowl</file>
+    <file>wine_drink</file>
   </dir>
-  <dir id="textures.items.Food">
-    <file>Apple</file>
-    <file>Apple_Jam_Jar</file>
-    <file>Arika_Pumpkin</file>
-    <file>Ashed_Bread</file>
-    <file>Banana</file>
-    <file>Barley</file>
-    <file>Blackberry</file>
-    <file>Blackberry_Jam_Jar</file>
-    <file>Blueberry</file>
-    <file>Blueberry_Jam_Jar</file>
-    <file>Blue_Fish</file>
-    <file>Border_Bread</file>
-    <file>Bread</file>
-    <file>Brocoli</file>
-    <file>Brown_Mushroom</file>
-    <file>Carrot</file>
-    <file>Chicken</file>
-    <file>Chicken_thigh</file>
-    <file>Cooked_Beef_Meat</file>
-    <file>Cooked_Chiken</file>
-    <file>Cooked_Turkey</file>
-    <file>Cooked_Turkey_copy</file>
-    <file>Cow_Meat</file>
-    <file>Cow_Milk</file>
-    <file>Cutted_Apple</file>
-    <file>Cutted_Banana</file>
-    <file>Cutted_Carrot</file>
-    <file>Cutted_mushroom</file>
-    <file>Cutted_Onion</file>
-    <file>Cutted_Pear</file>
-    <file>Cutted_Pineapple</file>
-    <file>Cutted_Pumpkin</file>
-    <file>Cutted_strawberry</file>
-    <file>Cutted_Turnip</file>
-    <file>Cutted_Watermelon</file>
-    <file>Decomposed_Shana</file>
-    <file>Desert_Octopus_tentacle</file>
-    <file>Fish</file>
-    <file>Fish_Fillet</file>
-    <file>Goldem_Turkey</file>
-    <file>Golden_Cooked_Turkey</file>
-    <file>Green_Fish</file>
-    <file>Kakurna_Pumpkin</file>
-    <file>Light_Octopus_Tentacle</file>
-    <file>Light_Teshia</file>
-    <file>Lima_Slides</file>
-    <file>Limon_Jam_Jar</file>
-    <file>Limon_Slides</file>
-    <file>Maicy_Mushroom</file>
-    <file>Maicy_Posioned_Mushroom</file>
-    <file>Mango</file>
-    <file>Mango_Slides</file>
-    <file>Mysterious_Blue_bread</file>
-    <file>Mysterious_Gold_bread</file>
-    <file>Mysterious_Pumpkin_type_1</file>
-    <file>Mysterious_Pumpkin_type_2</file>
-    <file>Mysterious_Pumpkin_type_3</file>
-    <file>Mysterious_Red_Bread</file>
-    <file>Octopus_Tentacle</file>
-    <file>Onion</file>
-    <file>Orange</file>
-    <file>Orange_Fish</file>
-    <file>Orange_Slides</file>
-    <file>Pear</file>
-    <file>Pineapple</file>
-    <file>Poisoned_Teshia</file>
-    <file>Poisoning_Mushroom</file>
-    <file>Poison_Cow_Meat</file>
-    <file>Pre_HotDog</file>
-    <file>Pumpkin</file>
-    <file>Purple_Fish</file>
-    <file>Red_Fish</file>
-    <file>Red_musroom</file>
-    <file>Shana</file>
-    <file>Slide_of_bread</file>
-    <file>Strawberry</file>
-    <file>Strawberry_Jam_Jar</file>
-    <file>Teshia</file>
-    <file>Tupia</file>
-    <file>Turnip</file>
-    <file>Water_Melon</file>
-    <file>Wheat</file>
-    <file>Yellow_Fish</file>
+  <dir id="textures.items.food">
+    <file>apple</file>
+    <file>apple_jam_jar</file>
+    <file>arika_pumpkin</file>
+    <file>ashed_bread</file>
+    <file>banana</file>
+    <file>barley</file>
+    <file>blackberry</file>
+    <file>blackberry_jam_jar</file>
+    <file>blueberry</file>
+    <file>blueberry_jam_jar</file>
+    <file>blue_fish</file>
+    <file>border_bread</file>
+    <file>bread</file>
+    <file>brocoli</file>
+    <file>brown_mushroom</file>
+    <file>carrot</file>
+    <file>chicken</file>
+    <file>chicken_thigh</file>
+    <file>cooked_beef_meat</file>
+    <file>cooked_chiken</file>
+    <file>cooked_turkey</file>
+    <file>cooked_turkey_copy</file>
+    <file>cow_meat</file>
+    <file>cow_milk</file>
+    <file>cutted_apple</file>
+    <file>cutted_banana</file>
+    <file>cutted_carrot</file>
+    <file>cutted_mushroom</file>
+    <file>cutted_onion</file>
+    <file>cutted_pear</file>
+    <file>cutted_pineapple</file>
+    <file>cutted_pumpkin</file>
+    <file>cutted_strawberry</file>
+    <file>cutted_turnip</file>
+    <file>cutted_watermelon</file>
+    <file>decomposed_shana</file>
+    <file>desert_octopus_tentacle</file>
+    <file>fish</file>
+    <file>fish_fillet</file>
+    <file>goldem_turkey</file>
+    <file>golden_cooked_turkey</file>
+    <file>green_fish</file>
+    <file>kakurna_pumpkin</file>
+    <file>light_octopus_tentacle</file>
+    <file>light_teshia</file>
+    <file>lima_slides</file>
+    <file>limon_jam_jar</file>
+    <file>limon_slides</file>
+    <file>maicy_mushroom</file>
+    <file>maicy_posioned_mushroom</file>
+    <file>mango</file>
+    <file>mango_slides</file>
+    <file>mysterious_blue_bread</file>
+    <file>mysterious_gold_bread</file>
+    <file>mysterious_pumpkin_type_1</file>
+    <file>mysterious_pumpkin_type_2</file>
+    <file>mysterious_pumpkin_type_3</file>
+    <file>mysterious_red_bread</file>
+    <file>octopus_tentacle</file>
+    <file>onion</file>
+    <file>orange</file>
+    <file>orange_fish</file>
+    <file>orange_slides</file>
+    <file>pear</file>
+    <file>pineapple</file>
+    <file>poisoned_teshia</file>
+    <file>poisoning_mushroom</file>
+    <file>poison_cow_meat</file>
+    <file>pre_hotdog</file>
+    <file>pumpkin</file>
+    <file>purple_fish</file>
+    <file>red_fish</file>
+    <file>red_musroom</file>
+    <file>shana</file>
+    <file>slide_of_bread</file>
+    <file>strawberry</file>
+    <file>strawberry_jam_jar</file>
+    <file>teshia</file>
+    <file>tupia</file>
+    <file>turnip</file>
+    <file>water_melon</file>
+    <file>wheat</file>
+    <file>yellow_fish</file>
   </dir>
-  <dir id="textures.items.Seeds">
-    <file>Blue bany -Eculcary</file>
-    <file>Forest -Eculcary</file>
-    <file>Mysterius - Eculcary</file>
-    <file>Poison - Eculcary</file>
-    <file>Seeds</file>
-    <file>Vocanic - Eculcary</file>
-    <file>Vulcora - Eculcary</file>
+  <dir id="textures.items.seeds">
+    <file>blue_bany_eculcary</file>
+    <file>forest_eculcary</file>
+    <file>mysterious_eculcary</file>
+    <file>poison_eculcary</file>
+    <file>seeds</file>
+    <file>vocanic_eculcary</file>
+    <file>vulcora_eculcary</file>
   </dir>
 
 <dir id="textures.blocks.gold_taya">
@@ -1313,5 +1323,342 @@
 <file>gan_deco_white </file>
 <file>gan_deco_white_black_frame </file>
 </dir>
+<dir id="textures.blocks.aga">
+<file>tile_ag_aga </file>
+<file>tile_a_aga </file>
+<file>tile_bk_aga </file>
+<file>tile_b_aga </file>
+<file>tile_cpp_aga </file>
+<file>tile_crm_aga </file>
+<file>tile_r_aga </file>
+<file>tile_w_aga </file>
+<file>wallblock_ag_aga </file>
+<file>wallblock_a_aga </file>
+<file>wallblock_bk_aga </file>
+<file>wallblock_b_aga </file>
+<file>wallblock_cpp_aga </file>
+<file>wallblock_crm_aga </file>
+<file>wallblock_r_aga </file>
+<file>wallblock_w_aga </file>
+</dir>
+<dir id="textures.blocks.ancient">
+<file>rune_2ag_acient </file>
+<file>rune_2a_acient </file>
+<file>rune_2bk_acient </file>
+<file>rune_2b_acient </file>
+<file>rune_2cpp_acient </file>
+<file>rune_2crm_acient </file>
+<file>rune_2r_acient </file>
+<file>rune_2w_acient </file>
+<file>rune_ag_acient </file>
+<file>rune_a_acient </file>
+<file>rune_bk_acient </file>
+<file>rune_b_acient </file>
+<file>rune_cpp_acient </file>
+<file>rune_crm_acient </file>
+<file>rune_r_acient </file>
+<file>rune_w_acient </file>
+</dir>
 
+<dir id="textures.blocks.castle">
+<file>brick_ag_castle </file>
+<file>brick_a_castle </file>
+<file>brick_bk_castle </file>
+<file>brick_b_castle </file>
+<file>brick_cpp_castle </file>
+<file>brick_crm_castle </file>
+<file>brick_red_castle </file>
+<file>brick_w_castle </file>
+</dir>
+<dir id="textures.blocks.castle.castlefloor">
+<file>floor_ag_castle </file>
+<file>floor_a_castle </file>
+<file>floor_bk_castle </file>
+<file>floor_b_castle </file>
+<file>floor_cpp_castle </file>
+<file>floor_crm_castle </file>
+<file>floor_r_castle </file>
+<file>floor_w_castle </file>
+</dir>
+<dir id="textures.blocks.castle.darkbrick">
+<file>darkbrick_ag_castle </file>
+<file>darkbrick_a_castle </file>
+<file>darkbrick_bk_castle </file>
+<file>darkbrick_b_castle </file>
+<file>darkbrick_cpp_castle </file>
+<file>darkbrick_crm_castle </file>
+<file>darkbrick_r_castle </file>
+<file>darkbrick_w_castle </file>
+</dir>
+<dir id="textures.blocks.castle.floor">
+<file>floorbrick_ag_castle </file>
+<file>floorbrick_a_castle </file>
+<file>floorbrick_bk_castle </file>
+<file>floorbrick_b_castle </file>
+<file>floorbrick_cpp_castle </file>
+<file>floorbrick_crm_castle </file>
+<file>floorbrick_red_castle </file>
+<file>floorbrick_w_castle </file>
+</dir>
+
+<dir id="textures.blocks.castle.stairedfloor">
+<file>block_ag_stairedfloor </file>
+<file>block_a_stairedfloor </file>
+<file>block_bk_stairedfloor </file>
+<file>block_b_stairedfloor </file>
+<file>block_cpp_stairedfloor </file>
+<file>block_crm_stairedfloor </file>
+<file>block_r_stairedfloor </file>
+<file>block_w_stairedfloor </file>
+</dir>
+<dir id="textures.blocks.castle.tile">
+<file>tile_ag_castle </file>
+<file>tile_a_castle </file>
+<file>tile_bk_castle </file>
+<file>tile_b_castle </file>
+<file>tile_cpp_castle </file>
+<file>tile_crm_castle </file>
+<file>tile_r_castle </file>
+<file>tile_w_castle </file>
+</dir>
+<dir id="textures.blocks.castle.unifloor">
+<file>unifloor_ag_tile </file>
+<file>unifloor_a_tile </file>
+<file>unifloor_bk_tile </file>
+<file>unifloor_b_tile </file>
+<file>unifloor_cpp_tile </file>
+<file>unifloor_crm_tile </file>
+<file>unifloor_r_tile </file>
+<file>unifloor_w_tile </file>
+</dir>
+
+<dir id="textures.blocks.castle.multifloordown">
+<file>multitiledown_ag_tile </file>
+<file>multitiledown_a_tile </file>
+<file>multitiledown_bk_tile </file>
+<file>multitiledown_b_tile </file>
+<file>multitiledown_cpp_tile </file>
+<file>multitiledown_crm_tile </file>
+<file>multitiledown_r_tile </file>
+<file>multitiledown_w_tile </file>
+</dir>
+<dir id="textures.blocks.castle.multifloortop">
+<file>multifloor top_crm_tile </file>
+<file>multifloortop_ag_tile </file>
+<file>multifloortop_a_tile </file>
+<file>multifloortop_bk_tile </file>
+<file>multifloortop_b_tile </file>
+<file>multifloortop_cpp_tile </file>
+<file>multifloortop_r_tile </file>
+<file>multifloortop_w_tile </file>
+</dir>
+<dir id="textures.blocks.floor">
+<file>floor_ag_tile </file>
+<file>floor_a_tile </file>
+<file>floor_bk_tile </file>
+<file>floor_b_tile </file>
+<file>floor_cpp_tile </file>
+<file>floor_crm_tile </file>
+<file>floor_r_tile </file>
+<file>floor_w_tile </file>
+</dir>
+
+<dir id="textures.blocks.floor2">
+<file>floor2_ag_brick </file>
+<file>floor2_a_brick </file>
+<file>floor2_bk_brick </file>
+<file>floor2_b_brick </file>
+<file>floor2_cpp_brick </file>
+<file>floor2_crm_brick </file>
+<file>floor2_r_brick </file>
+<file>floor2_w_brick </file>
+</dir>
+
+<dir id="textures.blocks.flower">
+<file>rune_ag_flower </file>
+<file>rune_a_flower </file>
+<file>rune_bk_flower </file>
+<file>rune_b_flower </file>
+<file>rune_cpp_flower </file>
+<file>rune_crm_flower </file>
+<file>rune_r_flower </file>
+<file>rune_w_flower </file>
+</dir>
+
+<dir id="textures.blocks.gemrune">
+<file>gemrune_ag_puzzle </file>
+<file>gemrune_a_puzzle </file>
+<file>gemrune_bk_puzzle </file>
+<file>gemrune_b_puzzle </file>
+<file>gemrune_cpp_puzzle </file>
+<file>gemrune_crm_puzzle </file>
+<file>gemrune_r_puzzle </file>
+<file>gemrune_w_puzzle </file>
+</dir>
+
+<dir id="textures.blocks.emptyrune">
+<file>emptyrune_a_puzzle </file>
+<file>emptyrune_bk_puzzle </file>
+<file>emptyrune_b_puzzle </file>
+<file>emptyrune_cpp_puzzle </file>
+<file>emptyrune_crm_puzzle </file>
+<file>emptyrune_r_puzzle </file>
+<file>emptyrune_w_puzzle </file>
+<file>emptyrune_ag_puzzle </file>
+</dir>
+
+<dir id="textures.blocks.hiddenstar">
+<file>rune_ag_hiddenstar </file>
+<file>rune_a_hiddenstar </file>
+<file>rune_bk_hiddenstar </file>
+<file>rune_b_hiddenstar </file>
+<file>rune_cpp_hiddenstar </file>
+<file>rune_crm_hiddenstar </file>
+<file>rune_r_hiddenstar </file>
+<file>rune_w_hiddenstar </file>
+</dir>
+
+<dir id="textures.blocks.secret">
+<file>rune_ag_secret </file>
+<file>rune_a_secret </file>
+<file>rune_bk_secret </file>
+<file>rune_b_secret </file>
+<file>rune_cpp_secret </file>
+<file>rune_crm_secret </file>
+<file>rune_r_secret </file>
+<file>rune_w_secret </file>
+</dir>
+
+<dir id="textures.blocks.stairedwall">
+<file>stairedwall_ag_block </file>
+<file>stairedwall_a_block </file>
+<file>stairedwall_bk_block </file>
+<file>stairedwall_b_block </file>
+<file>stairedwall_cpp_block </file>
+<file>stairedwall_crm_block </file>
+<file>stairedwall_r_block </file>
+<file>stairedwall_w_block </file>
+</dir>
+<dir id="textures.blocks.tears">
+<file>rune_ag_tears </file>
+<file>rune_a_tears </file>
+<file>rune_bk_tears </file>
+<file>rune_b_tears </file>
+<file>rune_cpp_tears </file>
+<file>rune_crm_tears </file>
+<file>rune_r_tears </file>
+<file>rune_w_tears </file>
+</dir>
+<dir id="textures.blocks.tears2">
+<file>rune2_ag_tears </file>
+<file>rune2_a_tears </file>
+<file>rune2_bk_tears </file>
+<file>rune2_b_tears </file>
+<file>rune2_cpp_tears </file>
+<file>rune2_crm_tears </file>
+<file>rune2_r_tears </file>
+<file>rune2_w_tears </file>
+</dir>
+<dir id="textures.blocks.tears3">
+<file>rune3_ag_tear </file>
+<file>rune3_a_tear </file>
+<file>rune3_bk_tear </file>
+<file>rune3_b_tear </file>
+<file>rune3_cpp_tear </file>
+<file>rune3_crm_tear </file>
+<file>rune3_r_tear </file>
+<file>rune3_w_tear </file>
+</dir>
+<dir id="textures.blocks.temple">
+<file>rune_ag_temple2 </file>
+<file>rune_a_temple2 </file>
+<file>rune_bk_temple2 </file>
+<file>rune_b_temple2 </file>
+<file>rune_cpp_temple2 </file>
+<file>rune_crm_temple2 </file>
+<file>rune_r_temple2 </file>
+<file>rune_w_temple2 </file>
+<file>temple_ag_tile </file>
+<file>temple_a_tile </file>
+<file>temple_bk_tile </file>
+<file>temple_b_tile </file>
+<file>temple_cpp_tile </file>
+<file>temple_crm_tile </file>
+<file>temple_r_tile </file>
+<file>temple_w_tile </file>
+</dir>
+
+<dir id="textures.blocks.temple_mark">
+<file>rune1_ag_temple </file>
+<file>rune1_a_temple </file>
+<file>rune1_bk_temple </file>
+<file>rune1_b_temple </file>
+<file>rune1_cpp_temple </file>
+<file>rune1_crm_temple </file>
+<file>rune1_r_temple </file>
+<file>rune1_w_temple </file>
+</dir>
+
+<dir id="textures.blocks.tetri.floor">
+<file>floor_ag_tetri </file>
+<file>floor_a_tetri </file>
+<file>floor_bk_tetri </file>
+<file>floor_b_tetri </file>
+<file>floor_cpp_tetri </file>
+<file>floor_crm_tetri </file>
+<file>floor_r_tetri </file>
+<file>floor_w_tetri </file>
+</dir>
+
+<dir id="textures.blocks.tetri.tetriblock">
+<file>block_ag_tetri </file>
+<file>block_a_tetri </file>
+<file>block_bk_tetri </file>
+<file>block_b_tetri </file>
+<file>block_cpp_tetri </file>
+<file>block_crm_tetri </file>
+<file>block_r_tetri </file>
+<file>block_w_tetri </file>
+</dir>
+
+<dir id="textures.blocks.tna">
+<file>wall_ag_tna </file>
+<file>wall_a_tna </file>
+<file>wall_bk_tna </file>
+<file>wall_b_tna </file>
+<file>wall_cpp_tna </file>
+<file>wall_crm_tna </file>
+<file>wall_r_tna </file>
+<file>wall_w_tna </file>
+</dir>
+<dir id="textures.blocks.tree">
+<file>rune_ag_tree </file>
+<file>rune_a_tree </file>
+<file>rune_bk_tree </file>
+<file>rune_b_tree </file>
+<file>rune_cpp_tree </file>
+<file>rune_crm_tree </file>
+<file>rune_r_tree </file>
+<file>rune_w_tree </file>
+</dir>
+<dir id="textures.blocks.mountain">
+<file>rune_ag_montain </file>
+<file>rune_a_montain </file>
+<file>rune_bk_montain </file>
+<file>rune_b_montain </file>
+<file>rune_cpp_montain </file>
+<file>rune_crm_montain </file>
+<file>rune_r_montain </file>
+<file>rune_w_montain </file>
+</dir>
+<dir id="textures.blocks.water">
+<file>rune_ag_water </file>
+<file>rune_a_water </file>
+<file>rune_bk_water </file>
+<file>rune_b_water </file>
+<file>rune_cpp_water </file>
+<file>rune_crm_water </file>
+<file>rune_r_water </file>
+<file>rune_w_water </file>
+</dir>
 </directories>

@@ -8,7 +8,7 @@ import net.minecraft.block.material.Material;
 import net.minecraft.util.BlockRenderLayer;
 
 public class ModBlockOptions {
-
+/*
 	public static final BlockOptions CELTIC_GLASS =  new BlockOptions(Material.GLASS, SoundType.GLASS,Tabs.GLASS,BlockRenderLayer.TRANSLUCENT);
 	public static final BlockOptions GRASS =new BlockOptions(Material.GRASS, SoundType.GROUND, Tabs.NATRUAL, BlockRenderLayer.SOLID);
 	public static final BlockOptions BRICK = new BlockOptions(Material.ROCK, SoundType.STONE, Tabs.BRICKS, BlockRenderLayer.SOLID);
@@ -33,6 +33,15 @@ public class ModBlockOptions {
 	public static final BlockOptions ICEDECO =  new BlockOptions(Material.ICE, SoundType.GLASS, Tabs.ICEDECO, BlockRenderLayer.SOLID);
 	public static final BlockOptions CITYBLOCK =  new BlockOptions(Material.ROCK, SoundType.STONE, Tabs.CITYBLOCKS, BlockRenderLayer.SOLID);
 	public static final BlockOptions GANDECO =  new BlockOptions(Material.ROCK, SoundType.STONE, Tabs.GANDECO, BlockRenderLayer.SOLID);
+	public static final BlockOptions AGA =  new BlockOptions(Material.ROCK, SoundType.STONE, Tabs.AGA, BlockRenderLayer.SOLID);
+	public static final BlockOptions ANCIENT =  new BlockOptions(Material.ROCK, SoundType.STONE, Tabs.ANCIENT, BlockRenderLayer.SOLID);
+	public static final BlockOptions CASTLE =  new BlockOptions(Material.ROCK, SoundType.STONE, Tabs.CASTLE, BlockRenderLayer.SOLID);
+	public static final BlockOptions TETRI =  new BlockOptions(Material.ROCK, SoundType.STONE, Tabs.TETRI, BlockRenderLayer.SOLID);
+	public static final BlockOptions TNA =  new BlockOptions(Material.ROCK, SoundType.STONE, Tabs.TNA, BlockRenderLayer.SOLID);
+	public static final BlockOptions TEMPLE =  new BlockOptions(Material.ROCK, SoundType.STONE, Tabs.TEMPLE, BlockRenderLayer.SOLID);
+	public static final BlockOptions NORMAL =  new BlockOptions(Material.ROCK, SoundType.STONE, Tabs.NORMAL, BlockRenderLayer.SOLID);
+	public static final BlockOptions CELTICPANE =  new BlockOptions(Material.GLASS, SoundType.GLASS, Tabs.GLASS, BlockRenderLayer.TRANSLUCENT);
+*/
 
 
 

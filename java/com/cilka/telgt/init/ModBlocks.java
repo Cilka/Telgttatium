@@ -1,7 +1,4 @@
 package com.cilka.telgt.init;
-import com.cilka.telgt.Utils;
-import com.cilka.telgt.block.BaseBlock;
-import com.cilka.telgt.block.BaseGrassBlock;
 
 
 //@ObjectHolder(Main.MODID)
@@ -9,6 +6,7 @@ public class ModBlocks {
 
 	
 //public static final BlockFirstBlock First_Block = new BlockFirstBlock();
+	/*
 	public static final BaseBlock [] BRICKS = Utils.GenerateBlocksFromTextureFolder("brick", ModBlockOptions.BRICK);
 	public static final BaseBlock [] DIRT = Utils.GenerateBlocksFromTextureFolder("biome_dirt", ModBlockOptions.DIRT);
 	public static final BaseBlock [] STONE = Utils.GenerateBlocksFromTextureFolder("biome_stone", ModBlockOptions.STONE);
@@ -48,5 +46,37 @@ public class ModBlocks {
 	public static final BaseBlock [] MOKOIV =  Utils.GenerateBlocksFromTextureFolder("mokoiv", ModBlockOptions.MOKOIV);
 	public static final BaseBlock [] ICEDECO =  Utils.GenerateBlocksFromTextureFolder("ice_deco", ModBlockOptions.ICEDECO);
 	public static final BaseBlock [] GANDECO =  Utils.GenerateBlocksFromTextureFolder("gan_deco", ModBlockOptions.GANDECO);
+	public static final BaseBlock [] AGA =  Utils.GenerateBlocksFromTextureFolder("aga", ModBlockOptions.AGA);
+	public static final BaseBlock [] ANCIENT =  Utils.GenerateBlocksFromTextureFolder("ancient", ModBlockOptions.ANCIENT);
+	public static final BaseBlock [] CASTLE =  Utils.GenerateBlocksFromTextureFolder("castle", ModBlockOptions.CASTLE);
+	public static final BaseBlock [] CASTLEFLOOR =  Utils.GenerateBlocksFromTextureFolder("castle.castlefloor", ModBlockOptions.CASTLE);
+	public static final BaseBlock [] CASTLEDARKBRICK =  Utils.GenerateBlocksFromTextureFolder("castle.darkbrick", ModBlockOptions.CASTLE);
+	public static final BaseBlock [] CASTLEFLOOR2=  Utils.GenerateBlocksFromTextureFolder("castle.tile", ModBlockOptions.CASTLE);
+	public static final BaseBlock [] CASTLETILE=  Utils.GenerateBlocksFromTextureFolder("castle.floor", ModBlockOptions.CASTLE);
+	public static final BaseBlock [] CASTLESTAIREDWALL=  Utils.GenerateBlocksFromTextureFolder("castle.stairedfloor", ModBlockOptions.CASTLE);
+	public static final BaseBlock [] CASTLEUNIFLOOR=  Utils.GenerateBlocksFromTextureFolder("castle.unifloor", ModBlockOptions.CASTLE);
+	public static final BaseBlock [] CASTLEMULTIFLOORDOWN=  Utils.GenerateBlocksFromTextureFolder("castle.multifloordown", ModBlockOptions.CASTLE);
+	public static final BaseBlock [] CASTLEMULTIFLOORTOP=  Utils.GenerateBlocksFromTextureFolder("castle.multifloortop", ModBlockOptions.CASTLE);
+	public static final BaseBlock [] STAIREDWALL=  Utils.GenerateBlocksFromTextureFolder("stairedwall", ModBlockOptions.CASTLE);
+	public static final BaseBlock [] FLOOR=  Utils.GenerateBlocksFromTextureFolder("floor", ModBlockOptions.NORMAL);
+	public static final BaseBlock [] FLOOR2=  Utils.GenerateBlocksFromTextureFolder("floor2", ModBlockOptions.NORMAL);
+	public static final BaseBlock [] FLOWER=  Utils.GenerateBlocksFromTextureFolder("flower", ModBlockOptions.RUNES);
+	public static final BaseBlock [] GEMRUNE=  Utils.GenerateBlocksFromTextureFolder("gemrune", ModBlockOptions.RUNES);
+	public static final BaseBlock [] EMPTYRUNE=  Utils.GenerateBlocksFromTextureFolder("emptyrune", ModBlockOptions.RUNES);
+	public static final BaseBlock [] HIDDENSTARRUNE=  Utils.GenerateBlocksFromTextureFolder("hiddenstar", ModBlockOptions.RUNES);
+	public static final BaseBlock [] SECRETRUNE=  Utils.GenerateBlocksFromTextureFolder("secret", ModBlockOptions.RUNES);
+	public static final BaseBlock [] TEARSRUNE=  Utils.GenerateBlocksFromTextureFolder("tears", ModBlockOptions.RUNES);
+	public static final BaseBlock [] TEARSRUNE2=  Utils.GenerateBlocksFromTextureFolder("tears2", ModBlockOptions.RUNES);
+	public static final BaseBlock [] TEARSRUNE3=  Utils.GenerateBlocksFromTextureFolder("tears3", ModBlockOptions.RUNES);
+	public static final BaseBlock [] TEMPLE=  Utils.GenerateBlocksFromTextureFolder("temple", ModBlockOptions.TEMPLE);
+	public static final BaseBlock [] TEMPLEMARK=  Utils.GenerateBlocksFromTextureFolder("temple_mark", ModBlockOptions.TEMPLE);
+	public static final BaseBlock [] TREERUNE=  Utils.GenerateBlocksFromTextureFolder("tree", ModBlockOptions.RUNES);
+	public static final BaseBlock [] WATERRUNE=  Utils.GenerateBlocksFromTextureFolder("water", ModBlockOptions.RUNES);
+	public static final BaseBlock [] MOUNTAINRUNE=  Utils.GenerateBlocksFromTextureFolder("mountain", ModBlockOptions.RUNES);
 
+	public static final BaseBlock [] TETRI =  Utils.GenerateBlocksFromTextureFolder("tetri.tetriblock", ModBlockOptions.TETRI);
+	public static final BaseBlock [] TETRIFLOOR =  Utils.GenerateBlocksFromTextureFolder("tetri.floor", ModBlockOptions.TETRI);
+	public static final BaseBlock [] TNA =  Utils.GenerateBlocksFromTextureFolder("tna", ModBlockOptions.TNA);
+	//public static final BaseBlock [] CELTICPANE = Utils.GenerateBlocksFromTextureFolder("celtic.glass.pane", ModBlockOptions.CELTIC_GLASS, BasePane.class);
+*/
 }

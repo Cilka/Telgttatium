@@ -1,0 +1,6 @@
+{
+   "parent": "block/cube_all",
+   "textures": {
+       "all": "tel:blocks/stairedwall/stairedwall_a_block"
+   }
+}

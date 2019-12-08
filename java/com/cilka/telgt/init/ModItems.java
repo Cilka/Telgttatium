@@ -1,8 +1,10 @@
 package com.cilka.telgt.init;
-import net.minecraftforge.fml.common.registry.GameRegistry.ObjectHolder;
-import com.cilka.telgt.Main;
-import com.cilka.telgt.item.ItemFirstItem;
-@ObjectHolder(Main.MODID)
+import com.cilka.telgt.utils.Utils;
+import net.minecraft.item.Item;
+
 public class ModItems {
-public static final ItemFirstItem First_Item = new ItemFirstItem();
+//public static final ItemFirstItem First_Item = new ItemFirstItem();
+public static final Item[] CANDY = Utils.GenerateItemsFromTextureFolder("candies", null, null);
+public static final Item[] FASTFOOD=Utils.GenerateItemsFromTextureFolder("fast_food", null, null);
+public static final Item[] FOOD=Utils.GenerateItemsFromTextureFolder("food", null, null);
 }
