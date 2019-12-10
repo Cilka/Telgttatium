@@ -1,4 +1,5 @@
 package com.cilka.telgt;
+import com.cilka.telgt.utils.Utils;
 import net.minecraft.block.BlockGrass;
 import org.apache.logging.log4j.Logger;
 
@@ -28,6 +29,7 @@ public class Main {
 	
 	@EventHandler
 	public void preInit(FMLPreInitializationEvent event) {
+		Utils.Generate(Main.MODID);
         proxy.preInit(event);
 	}
 

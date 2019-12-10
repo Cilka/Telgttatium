@@ -2,6 +2,7 @@ package com.cilka.telgt.block;
 
 import com.cilka.telgt.Main;
 
+import com.cilka.telgt.utils.ModOptions;
 import net.minecraft.block.Block;
 import net.minecraft.block.BlockContainer;
 import net.minecraft.block.SoundType;
@@ -16,30 +17,17 @@ public class BaseBlock extends Block{
 
 	private String blockName;
 	private BlockRenderLayer layer;
-	public BaseBlock(String blockName) {
-		
-		super(Material.ROCK);
-		setCreativeTab(CreativeTabs.MISC);
-		setSoundType(SoundType.CLOTH);
-		this.blockName = blockName;
-		SetRegistrationFromFile();
-	}
-	
-	public BaseBlock(String blockName, BlockOptions options)
+
+	public BaseBlock(String blockName, ModOptions options)
 	{
-		super(options.GetMaterial());
-		setCreativeTab(options.GetTab());
-		setSoundType(options.GetSound());
+		super(options.getMaterial());
+		setSoundType(options.getSound());
 		this.blockName = blockName;
-		this.layer = options.GetLayer();
+		this.layer = options.getLayer();
 
 		SetRegistrationFromFile();
 	}
-	public String GetBlockName()
-	{
-		return blockName;
-	
-	}
+
 
 	@Override
 	public BlockRenderLayer getRenderLayer()

@@ -6,25 +6,43 @@ import net.minecraft.util.BlockRenderLayer;
 import org.xml.sax.Attributes;
 import org.xml.sax.SAXException;
 import org.xml.sax.XMLReader;
+import org.xml.sax.helpers.DefaultHandler;
 
 import java.util.Arrays;
 import java.util.HashMap;
 import java.util.Map;
 import java.util.stream.*;
 
-public class DefaultOptionsHandler extends SectionHandler {
+public class DefaultOptionsHandler extends DefaultHandler {
 
     private String name;
     private String material;
     private String sound;
+
+    public String getMaterial() {
+        return material;
+    }
+
+    public String getSound() {
+        return sound;
+    }
+
+    public String getRenderLayer() {
+        return renderLayer;
+    }
+
     private String renderLayer;
     private boolean isName = false;
     private boolean isMaterial = false;
     private boolean isSound = false;
     private boolean isRenderLayer =false;
-    private Map<String,ModOptions> defaultModOptions = new HashMap<String,ModOptions>();
-    public DefaultOptionsHandler(XMLReader reader) {
-        super(reader);
+    private Map<String,Map<String, Object>> defaultModOptions = new HashMap<>();
+    private XMLReader reader;
+    private  DefaultHandler parent;
+    public DefaultOptionsHandler(XMLReader reader, DefaultHandler parent)
+    {
+        this.reader = reader;
+        this.parent = parent;
     }
     @Override
     public void startElement(String uri,
@@ -71,10 +89,17 @@ public class DefaultOptionsHandler extends SectionHandler {
     public void endElement(String uri,
                            String localName, String qName) throws SAXException
     {
+
         try{
-            if(material != null && sound != null && renderLayer != null) {
-                defaultModOptions.put(name, new ModOptions(translateMaterial(), translateSoundType(), translateBlockRenderLayer()));
+            if(qName.equalsIgnoreCase("default")) {
+                Map<String, Object> fields =  new HashMap<>();
+                fields.put("name", name);
+                fields.put("material", material);
+                fields.put("sound", sound);
+                fields.put("renderLayer", renderLayer);
+                defaultModOptions.put(name, fields);
                 System.out.println(name + " " + this.getClass().getSimpleName() + " complete");
+            reader.setContentHandler(parent);
             }
             }
         catch(Exception e)
@@ -83,32 +108,9 @@ public class DefaultOptionsHandler extends SectionHandler {
         }
 
     }
-
-    private Material translateMaterial() throws IllegalAccessException {
-        Material m = (Material)Arrays.stream(Material.class.getFields())
-                .filter( f-> f.getName().equalsIgnoreCase(material))
-                .findFirst()
-                .get()
-                .get(Material.class.getFields());
-
-        return m;
+    public Map<String,Map<String,Object>> getDefaultModOptions(){
+        return defaultModOptions;
     }
-    private SoundType translateSoundType() throws IllegalAccessException {
-        SoundType m = (SoundType) Arrays.stream(SoundType.class.getFields())
-                .filter( f-> f.getName().equalsIgnoreCase(sound))
-                .findFirst()
-                .get()
-                .get(SoundType.class.getFields());
 
-        return m;
-    }
-    private BlockRenderLayer translateBlockRenderLayer() throws IllegalAccessException {
-        BlockRenderLayer m = (BlockRenderLayer) Arrays.stream(BlockRenderLayer.class.getFields())
-                .filter( f-> f.getName().equalsIgnoreCase(renderLayer))
-                .findFirst()
-                .get()
-                .get(BlockRenderLayer.class.getFields());
 
-        return m;
-    }
     }

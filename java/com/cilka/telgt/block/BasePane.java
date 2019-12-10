@@ -1,10 +1,10 @@
 package com.cilka.telgt.block;
 
 import com.cilka.telgt.Main;
+import com.cilka.telgt.utils.ModOptions;
 import net.minecraft.block.Block;
 import net.minecraft.block.BlockAir;
 import net.minecraft.block.BlockPane;
-import net.minecraft.block.material.Material;
 import net.minecraft.block.properties.PropertyBool;
 import net.minecraft.block.state.IBlockState;
 import net.minecraft.util.math.BlockPos;
@@ -12,6 +12,7 @@ import net.minecraft.world.World;
 
 
 public class BasePane extends BlockPane {
+    //todo:move framed pane specific logic out of base
     public static final PropertyBool Down               = PropertyBool.create("down");
     public static final PropertyBool DownLeft           = PropertyBool.create("down_left");
     public static final PropertyBool DownRight          = PropertyBool.create("down_right");
@@ -28,16 +29,13 @@ public class BasePane extends BlockPane {
     public static final PropertyBool RightWalled        = PropertyBool.create("right_single");
     public static final PropertyBool LeftWalled         = PropertyBool.create("left_single");
     public static final PropertyBool Top                = PropertyBool.create("top");
-    protected BasePane(Material materialIn, boolean canDrop) {
-        super(materialIn, canDrop);
-    }
     private boolean isFramed;
-    public BasePane(String blockName, BlockOptions options)
+    public BasePane(String blockName, ModOptions options)
     {
-        super(options.GetMaterial(), options.CanDropSelf());
+        super(options.getMaterial(), options.canDropSelf());
         setRegistryName(Main.MODID, blockName);
         setTranslationKey(blockName);
-        isFramed = options.IsFramed();
+        isFramed = options.isFramed();
     }
     @Override
     public void onBlockAdded(World worldIn, BlockPos pos, IBlockState state)

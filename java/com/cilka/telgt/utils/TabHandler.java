@@ -3,24 +3,37 @@ import org.xml.sax.Attributes;
 import org.xml.sax.SAXException;
 import org.xml.sax.XMLReader;
 import org.xml.sax.helpers.DefaultHandler;
+
+import java.util.HashMap;
+import java.util.Map;
+
 public class TabHandler extends DefaultHandler {
 
     private boolean isName = false;
     private String name;
-    protected XMLReader reader;
-
-    public TabHandler(XMLReader reader)
+    private XMLReader reader;
+    private DefaultHandler parent;
+    private SectionHandler sectionHandler;
+    private Map<String,Tab> tabs;
+    private String icon;
+    private boolean isIcon;
+    public TabHandler(XMLReader reader, DefaultHandler parent)
     {
         this.reader =  reader;
+        this.parent = parent;
+         sectionHandler = new SectionHandler(reader,this);
+         tabs = new HashMap<>();
     }
     @Override
     public void startElement(String uri,
                              String localName, String qName, Attributes attributes) throws SAXException {
         if(qName.equalsIgnoreCase("name")){
             isName = true;
+        }if(qName.equalsIgnoreCase("icon")){
+            isIcon = true;
         }
         else if(qName.equalsIgnoreCase("section")){
-              reader.setContentHandler(new SectionHandler(reader));
+              reader.setContentHandler(sectionHandler);
 
         }
     }
@@ -28,7 +41,12 @@ public class TabHandler extends DefaultHandler {
     public void endElement(String uri,
                            String localName, String qName) throws SAXException
     {
-        System.out.println(name + " tab complete");
+        if(qName.equalsIgnoreCase("tab")){
+            tabs.put(name,new Tab(name, icon, sectionHandler.getSections()));
+            reader.setContentHandler(parent);
+            System.out.println(name + " tab complete");
+        }
+
 
     }
     @Override
@@ -38,12 +56,14 @@ public class TabHandler extends DefaultHandler {
             name = new String(ch, start, length);
             isName =false;
         }
+        if(isIcon)
+        {
+            icon = new String(ch,start,length);
+            isIcon = false;
+        }
     }
-    public String getName(){
-        return name;
-    }
-    public DefaultHandler self()
+    public Map<String, Tab> getTabs()
     {
-        return this;
+        return tabs;
     }
     }

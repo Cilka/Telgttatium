@@ -1,13 +1,8 @@
 package com.cilka.telgt.client;
-import java.lang.reflect.Field;
 
 import com.cilka.telgt.Main;
-import com.cilka.telgt.block.BaseBlock;
-import com.cilka.telgt.init.ModBlocks;
-import com.cilka.telgt.init.ModItems;
 
 import com.cilka.telgt.utils.Utils;
-import net.minecraft.block.Block;
 import net.minecraft.client.renderer.block.model.ModelResourceLocation;
 import net.minecraft.item.Item;
 import net.minecraftforge.client.event.ModelRegistryEvent;
@@ -47,8 +42,14 @@ public final class ClientEventSubscriber {
 				}
 			}*/
 
-           Utils.Generate();
-	    }
+
+	  		for(String s : Utils.blocks.keySet())
+			{
+				registerModel(Item.getItemFromBlock(Utils.blocks.get(s)));
+			}
+
+
+	  }
 
 	    private static void registerModel(Item item) {
 	    
