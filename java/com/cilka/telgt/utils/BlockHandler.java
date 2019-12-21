@@ -22,6 +22,10 @@ public class BlockHandler extends DefaultHandler {
         this.parent = parent;
         this.reader = reader;
     }
+    public void clear()
+    {
+        blocks = new HashMap<>();
+    }
     @Override
     public void startElement(String uri,
                              String localName, String qName, Attributes attributes) throws SAXException {
@@ -51,12 +55,16 @@ public class BlockHandler extends DefaultHandler {
     public void endElement(String uri,
                            String localName, String qName) throws SAXException
     {
-        if(qName.equalsIgnoreCase("blocks")) {
 
+        if(qName.equalsIgnoreCase("block"))
+        {
             Map<String, Object> fields = new HashMap<String,Object>();
             fields.put("name", name);
             fields.put("type", type);
             blocks.put(name, fields);
+        }
+        if(qName.equalsIgnoreCase("blocks")) {
+
             System.out.println(name + " " + this.getClass().getSimpleName() + " complete");
             reader.setContentHandler(parent);
         }

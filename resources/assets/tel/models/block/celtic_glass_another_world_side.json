@@ -1,0 +1,7 @@
+{
+    "parent": "block/pane_side",
+    "textures": {
+        "edge": "tel:blocks/glass/celtic/celtic_glass_another_world",
+        "pane": "tel:blocks/glass/celtic/celtic_glass_another_world"
+    }
+}

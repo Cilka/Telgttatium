@@ -43,10 +43,10 @@ public class TabHandler extends DefaultHandler {
     {
         if(qName.equalsIgnoreCase("tab")){
             tabs.put(name,new Tab(name, icon, sectionHandler.getSections()));
+            sectionHandler.clear();
             reader.setContentHandler(parent);
             System.out.println(name + " tab complete");
         }
-
 
     }
     @Override

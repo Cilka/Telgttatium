@@ -1,0 +1,6 @@
+{
+    "parent": "block/pane_noside_alt",
+    "textures": {
+        "pane": "tel:blocks/glass/celtic/celtic_glass_another_world"
+    }
+}

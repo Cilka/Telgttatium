@@ -4,7 +4,8 @@
         "model": "tel:blue_dirt"
     },
     "variants": {
-        "normal": [{}],
+        "snowy=false,variant=dirt": { "model": "tel:blue_dirt" },
+		"snowy=true,variant=dirt": { "model": "tel:blue_dirt" },
         "inventory": [{}]
     }  
 }

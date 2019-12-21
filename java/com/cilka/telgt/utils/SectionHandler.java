@@ -32,7 +32,10 @@ public class SectionHandler extends DefaultHandler {
     public Map<String, Section> getSections() {
         return sections;
     }
+public void clear(){
+        sections = new HashMap<>();
 
+}
     @Override
     public void startElement(String uri,
                              String localName, String qName, Attributes attributes) throws SAXException {
@@ -42,12 +45,12 @@ public class SectionHandler extends DefaultHandler {
         else if(qName.equalsIgnoreCase("defaultOption")){
             isDefaultOption =true;
         }
-        else if(qName.equalsIgnoreCase("block")) {
+        else if(qName.equalsIgnoreCase("blocks")) {
 
             reader.setContentHandler(blockHandler);
         }
 
-        else if(qName.equalsIgnoreCase("item")) {
+        else if(qName.equalsIgnoreCase("items")) {
            // reader.setContentHandler(itemHandler);
         }
         }
@@ -57,6 +60,7 @@ public class SectionHandler extends DefaultHandler {
     {
         if(qName.equalsIgnoreCase("section")) {
             sections.put(name, new Section(blockHandler.getBlocks(), itemHandler.getItems(),defaultOption));
+            blockHandler.clear();
             reader.setContentHandler(parent);
             System.out.println(name + " " + this.getClass().getSimpleName() + " complete");
 

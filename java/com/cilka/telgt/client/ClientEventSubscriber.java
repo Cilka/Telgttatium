@@ -48,7 +48,6 @@ public final class ClientEventSubscriber {
 				registerModel(Item.getItemFromBlock(Utils.blocks.get(s)));
 			}
 
-
 	  }
 
 	    private static void registerModel(Item item) {

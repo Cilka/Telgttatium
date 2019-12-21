@@ -4,7 +4,8 @@
         "model": "tel:desert_dirt"
     },
     "variants": {
-        "normal": [{}],
+        "snowy=false,variant=dirt": { "model": "tel:desert_dirt" },
+		"snowy=true,variant=dirt": { "model": "tel:desert_dirt"},
         "inventory": [{}]
     }  
 }

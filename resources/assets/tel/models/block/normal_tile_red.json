@@ -1,0 +1,6 @@
+{
+   "parent": "block/cube_all",
+   "textures": {
+       "all": "tel:blocks/normalblock/normal_tile_red"
+   }
+}

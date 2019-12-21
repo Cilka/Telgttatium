@@ -1,1664 +1,1664 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no" ?>
 <directories>
-  <dir id="textures.blocks" />
-  <dir id="textures.blocks.biome_dirt">
-    <file>ashed_dirt</file>
-    <file>blue_dirt</file>
-    <file>dark_dirt</file>
-    <file>deepsolea_dirt</file>
-    <file>desert_dirt</file>
-    <file>dirt</file>
-    <file>fantasysolea_dirt</file>
-    <file>forest_dirt</file>
-    <file>green_dirt</file>
-    <file>mud_type_1</file>
-    <file>mud_type_2</file>
-    <file>normal_dirt</file>
-    <file>pink_dirt</file>
-    <file>poison_dirt</file>
-    <file>purple_dirt</file>
-    <file>valley_dirt</file>
-  </dir>
-  <dir id="textures.blocks.biome_grass">
-	<file>ashed_ashed_grass</file>
-	<file>ashed_red_grass</file>
-	<file>blue_ashed_grass</file>
-	<file>blue_purple_grass</file>
-	<file>blue_red_grass</file>
-	<file>dark_ashed_grass</file>
-	<file>dark_red_grass</file>
-	<file>desert_ashed_grass</file>
-	<file>desert_grass_grass</file>
-	<file>desert_red_grass</file>
-	<file>desert_valley_grass</file>
-	<file>dirty_grass_grass</file>
-	<file>dirty_red_grass</file>
-	<file>dirty_valley_grass</file>
-	<file>green_ashed_grass</file>
-	<file>green_red_grass</file>
-	<file>pink_ashed_grass</file>
-	<file>pink_cyan_grass</file>
-	<file>pink_red_grass</file>
-	<file>purple_red_grass</file>
-	<file>snowy_ashed_grass</file>
-	<file>snowy_blue_grass</file>
-	<file>snowy_dark_grass</file>
-	<file>snowy_green_grass</file>
-	<file>snowy_pink_grass</file>
-	<file>snowy_purple_grass</file>
-	<file>snowy_valley_grass</file>
-	<file>white_poison_grass</file>
-	<file>white_valley_grass</file>
-	<file>white_purple_grass</file>
-	<file>white_pink_grass</file>
-	<file>white_green_grass</file>
-	<file>white_blue_grass</file>
-	<file>white_ashed_grass</file>
-	<file>white_poison_grass_v2</file>
-	<file>white_normal_grass_v2</file>
-	<file>white_forest_grass_v2</file>
-	<file>white_fantasy_solea_grass_v2</file>
-	<file>white_desert_grass_v2</file>
-	<file>white_deepsolea_grass_v2</file>
-	<file>white_ashed_grass_v2</file>
-	<file>autum_yellow_ashed_grass</file>
-	<file>autum_yellow_blue_grass</file>
-	<file>autum_yellow_dark_grass</file>
-	<file>autum_yellow_green_grass</file>
-	<file>autum_yellow_pink_grass</file>
-	<file>autum_yellow_purple_grass</file>
-	<file>autum_yellow_valley_grass</file>
-	<file>black_ashes_ashed_grass</file>
-	<file>black_ashes_blue_grass</file>
-	<file>black_ashes_dark_grass</file>
-	<file>black_ashes_green_grass</file>
-	<file>black_ashes_pink_grass</file>
-	<file>black_ashes_purple_grass</file>
-	<file>black_ashes_valley_grass</file>
-	<file>dark_poison_valley_grass</file>
-	<file>dark_poison_purple_grass</file>
-	<file>dark_poison_pink_grass</file>
-	<file>dark_poison_green_grass</file>
-	<file>dark_poison_blue_grass</file>
-	<file>dark_poison_ashed_grass</file>
-	<file>deep_blue_valley_grass</file>
-	<file>deep_blue_purple_grass</file>
-	<file>deep_blue_pink_grass</file>
-	<file>deep_blue_green_grass</file>
-	<file>deep_blue_dark_grass</file>
-	<file>deep_blue_blue_grass</file>
-	<file>deep_blue_ashed_grass</file>
-	<file>forest_green_valley_grass</file>
-	<file>forest_green_purple_grass</file>
-	<file>forest_green_pink_grass</file>
-	<file>forest_green_green_grass</file>
-	<file>forest_green_dark_grass</file>
-	<file>forest_green_blue_grass</file>
-	<file>forest_green_ashed_grass</file>
-	<file>light_icey_valley_grass</file>
-	<file>light_icey_purple_grass</file>
-	<file>light_icey_pink_grass</file>
-	<file>light_icey_green_grass</file>
-	<file>light_icey_dark_grass</file>
-	<file>light_icey_blue_grass</file>
-	<file>light_icey_ashed_grass</file>
-	<file>normal_valley_grass</file>
-	<file>normal_purple_grass</file>
-	<file>normal_pink_grass</file>
-	<file>normal_green_grass</file>
-	<file>normal_dark_grass</file>
-	<file>normal_blue_grass</file>
-	<file>normal_ashed_grass</file>
-	<file>ocean_blue_valley_grass</file>
-	<file>ocean_blue_purple_grass</file>
-	<file>ocean_blue_pink_grass</file>
-	<file>ocean_blue_green_grass</file>
-	<file>ocean_blue_dark_grass</file>
-	<file>ocean_blue_blue_grass</file>
-	<file>ocean_blue_ashed_grass</file>
-	<file>orange_warm_valley_grass</file>
-	<file>orange_warm_purple_grass</file>
-	<file>orange_warm_pink_grass</file>
-	<file>orange_warm_green_grass</file>
-	<file>orange_warm_dark_grass</file>
-	<file>orange_warm_blue_grass</file>
-	<file>orange_warm_ashed_grass</file>
-	<file>purple_snow_valley_grass</file>
-	<file>purple_snow_purple_grass</file>
-	<file>purple_snow_pink_grass</file>
-	<file>purple_snow_green_grass</file>
-	<file>purple_snow_dark_grass</file>
-	<file>purple_snow_blue_grass</file>
-	<file>purple_snow_ashed_grass</file>
-	<file>red_sweet_valley_grass</file>
-	<file>red_sweet_purple_grass</file>
-	<file>red_sweet_pink_grass</file>
-	<file>red_sweet_green_grass</file>
-	<file>red_sweet_dark_grass</file>
-	<file>red_sweet_blue_grass</file>
-	<file>red_sweet_ashed_grass</file>
-	<file>red_wood_valley_grass</file>
-	<file>red_wood_purple_grass</file>
-	<file>red_wood_pink_grass</file>
-	<file>red_wood_green_grass</file>
-	<file>red_wood_dark_grass</file>
-	<file>red_wood_blue_grass</file>
-	<file>red_wood_ashed_grass</file>
-	<file>weird_grass_1_ashed_grass</file>
-	<file>weird_grass_1_blue_grass</file>
-	<file>weird_grass_1_dark_grass</file>
-	<file>weird_grass_1_green_grass</file>
-	<file>weird_grass_1_pink_grass</file>
-	<file>weird_grass_1_purple_grass</file>
-	<file>weird_grass_1_valley_grass</file>
-	<file>weird_grass_2_ashed_grass</file>
-	<file>weird_grass_2_blue_grass</file>
-	<file>weird_grass_2_dark_grass</file>
-	<file>weird_grass_2_green_grass</file>
-	<file>weird_grass_2_pink_grass</file>
-	<file>weird_grass_2_purple_grass</file>
-	<file>weird_grass_2_valley_grass</file>
-	<file>wheat_poison_grass_v2</file>
-	<file>wheat_normal_grass_v2</file>
-	<file>wheat_forest_grass_v2</file>
-	<file>wheat_fantasysolea_grass_v2</file>
-	<file>wheat_desert_grass_v2</file>
-	<file>wheat_deepsolea_grass_v2</file>
-	<file>wheat_ashed_grass_v2</file>
-	<file>red_poison_grass_v2</file>
-	<file>red_normal_grass_v2</file>
-	<file>red_forest_grass_v2</file>
-	<file>red_fantasysolea_grass_v2</file>
-	<file>red_desert_grass_v2</file>
-	<file>red_deepsolea_grass_v2</file>
-	<file>red_ashed_grass_v2</file>
-	<file>purple_poison_grass_v2</file>
-	<file>purple_normal_grass_v2</file>
-	<file>purple_forest_grass_v2</file>
-	<file>purple_fantasysolea_grass_v2</file>
-	<file>purple_desert_grass_v2</file>
-	<file>purple_deepsolea_grass_v2</file>
-	<file>purple_ashed_grass_v2</file>
-	<file>dark_purple_poison_grass_v2</file>
-	<file>dark_purple_deepsolea_grass_v2</file>
-	<file>dark_purple_normal_grass_v2</file>
-	<file>dark_purple_forest_grass_v2</file>
-	<file>dark_purple_fantasysolea_grass_v2</file>
-	<file>dark_purple_desert_grass_v2</file>
-	<file>dark_purple_ashed_grass_v2</file>
-	<file>pink_poison_grass_v2</file>
-	<file>pink_normal_grass_v2</file>
-	<file>pink_forest_grass_v2</file>
-	<file>pink_fantasysolea_grass_v2</file>
-	<file>pink_desert_grass_v2</file>
-	<file>pink_deepsolea_grass_v2</file>
-	<file>pink_ashed_grass_v2</file>
-	<file>orange_poison_grass_v2</file>
-	<file>orange_normal_grass_v2</file>
-	<file>orange_forest_grass_v2</file>
-	<file>orange_fantasysolea_grass_v2</file>
-	<file>orange_desert_grass_v2</file>
-	<file>orange_deepsolea_grass_v2</file>
-	<file>orange_ashed_grass_v2</file>
-	<file>magenta_poison_grass_v2</file>
-	<file>magenta_normal_grass_v2</file>
-	<file>magenta_forest_grass_v2</file>
-	<file>magenta_fantasysolea_grass_v2</file>
-	<file>magenta_desert_grass_v2</file>
-	<file>magenta_deepsolea_grass_v2</file>
-	<file>magenta_ashed_grass_v2</file>
-	<file>dark_blue_poison_grass_v2</file>
-	<file>dark_blue_normal_grass_v2</file>
-	<file>dark_blue_forest_grass_v2</file>
-	<file>dark_blue_fantasysolea_grass_v2</file>
-	<file>dark_blue_deepsolea_grass_v2</file>
-	<file>dark_blue_desert_grass_v2</file>
-	<file>dark_blue_ashed_grass_v2</file>
-	<file>cyan_forest_grass_v2</file>
-	<file>cyan_poison_grass_v2</file>
-	<file>cyan_normal_grass_v2</file>
-	<file>cyan_fantasysolea_grass_v2</file>
-	<file>cyan_desert_grass_v2</file>
-	<file>cyan_deepsolea_grass_v2</file>
-	<file>cyan_ashed_grass_v2</file>
-	<file>blue_poison_grass_v2</file>
-	<file>blue_normal_grass_v2</file>
-	<file>blue_forest_grass_v2</file>
-	<file>blue_fantasysolea_grass_v2</file>
-	<file>blue_desert_grass_v2</file>
-	<file>blue_deepsolea_grass_v2</file>
-	<file>blue_ashed_grass_v2</file>
-	<file>black_normal_grass_v2</file>
-	<file>black_poison_grass_v2</file>
-	<file>black_forest_grass_v2</file>
-	<file>black_desert_grass_v2</file>
-	<file>black_fantasysolea_grass_v2</file>
-	<file>black_deepsolea_grass_v2</file>
-	<file>black_ashed_grass_v2</file>
-  </dir>
-  <dir id="textures.blocks.biome_stone">
-    <file>blood_stone</file>
-    <file>desert_sand_stone</file>
-    <file>lavender_stone</file>
-    <file>mossy_green_stone</file>
-    <file>orange_stone</file>
-    <file>stone</file>
-    <file>underground_stone</file>
-    <file>underwater_stone</file>
-    <file>white_stone</file>
-  </dir>
-  <dir id="textures.blocks.biome_tree_leaves">
-    <file>autumn_leaves</file>
-    <file>birch_leaves</file>
-    <file>blue_leaves</file>
-    <file>forest_leaves</file>
-    <file>leaves</file>
-    <file>purple_leaves</file>
-    <file>red_leaves</file>
-    <file>snow_leaves</file>
-    <file>white_leaves</file>
-  </dir>
-  <dir id="textures.blocks.glass.glass_color">
-  <file>black_glass</file>
-  <file>clear_glass</file>
-  <file>cyan_glass</file>
-  <file>dark_blue_glass</file>
-  <file>dark_green_glass</file>
-  <file>dark_purple_glass</file>
-  <file>green_glass</file>
-  <file>magenta_glass</file>
-  <file>orange_glass</file>
-  <file>pink_glass</file>
-  <file>purple_glass</file>
-  <file>red_glass</file>
-  <file>yellow_glass</file>
-  <file>celtic_glass_another_world_pane</file>
-  </dir>
-  <dir id="textures.blocks.brick">
-    <file>alternative_brick</file>
-    <file>black_brick</file>
-    <file>blue_brick</file>
-    <file>decorative_sandstone_brick</file>
-    <file>green_brick</file>
-    <file>mossy_stone_brick</file>
-    <file>red_brick</file>
-    <file>sandstone_brick</file>
-    <file>snow_brick</file>
-    <file>stone_brick</file>
-  </dir>
-  <dir id="textures.blocks.carpet_wool">
-    <file>celtic_ wool_another_world</file>
-    <file>celtic_wool_blue</file>
-    <file>celtic_wool_cream</file>
-    <file>celtic_wool_gold</file>
-    <file>celtic_wool_green</file>
-    <file>celtic_wool_grey</file>
-    <file>celtic_wool_light_blue</file>
-    <file>celtic_wool_magenta</file>
-    <file>celtic_wool_purple</file>
-    <file>celtic_wool_purple_another_world</file>
-    <file>celtic_wool_red</file>
-    <file>celtic_wool_white</file>
-    <file>celtic_wool_yellow</file>
-    <file>cool_montain_sport_red_wool</file>
-    <file>dynamic_diamond_wool</file>
-    <file>dynamic_warm_montain_wool</file>
-    <file>dynamic_warm_montain_yellow_wool</file>
-    <file>elegant_diamond_deep_blue_wool</file>
-    <file>elegant_diamond_green_wool</file>
-    <file>elegant_diamond_orange_wool</file>
-    <file>elegant_diamond_pink</file>
-    <file>elegant_diamond_purple</file>
-    <file>elegant_diamond_red_wool</file>
-    <file>elegant_diamond_white_wool</file>
-    <file>elegant_diamond_yellow_wool</file>
-    <file>elegant_diamon_blue_wool</file>
-    <file>empire_gray</file>
-    <file>empire_medieval_carpet_blue</file>
-    <file>empire_medieval_carpet_green</file>
-    <file>empire_medieval_carpet_red</file>
-    <file>empire_orange</file>
-    <file>empire_red</file>
-    <file>empire_yellow</file>
-    <file>exo_blue_wool</file>
-    <file>exo_cyan_wool</file>
-    <file>exo_orange_wool</file>
-    <file>exo_pink_wool</file>
-    <file>exo_purple_wool</file>
-    <file>luminaria_blue</file>
-    <file>luminaria_cream_wool</file>
-    <file>luminaria_green_wool</file>
-    <file>luminaria_pink_wool</file>
-    <file>luminaria_purple_wool</file>
-    <file>warmer_montain_wool</file>
-    <file>winter_montain_blue_wool</file>
-    <file>winter_montain_red_wool</file>
-  </dir>
-  <dir id="textures.blocks.ceramic">
-    <file>abandoned_hospital_floor</file>
-    <file>abandoned_room_floor</file>
-    <file>butcher_kitchen_floor</file>
-    <file>happy_morning_floor</file>
-    <file>hospital_floor</file>
-    <file>lea_decorative_wall</file>
-    <file>lea_decorative_wall_black_blue</file>
-    <file>lea_decorative_wall_black_magenta</file>
-    <file>lea_decorative_wall_black_orange</file>
-    <file>lea_decorative_wall_red</file>
-    <file>medieval_leadu_wall</file>
-    <file>morning_kitchen_floor</file>
-    <file>playing_purple_floor</file>
-    <file>taitud_vintage_ceramic_blue</file>
-    <file>taitud_vintage_ceramic_red</file>
-    <file>taitud_vintage_ceramic_yellow</file>
-    <file>toxinology_floor</file>
-	<file>wallblock_a_ceramic</file>
-	<file>wallblock_ag_ceramic</file>
-	<file>wallblock_b_ceramic</file>
-	<file>wallblock_bk_ceramic</file>
-	<file>wallblock_cpp_ceramic</file>
-	<file>wallblock_crm_ceramic</file>
-	<file>wallblock_r_ceramic</file>
-	<file>wallblock_w_ceramic</file>
-  </dir>
-  <dir id="textures.blocks.ceramic.big_black_block_floor">
-    <file>big_black_block_blue</file>
-    <file>big_black_block_cyan</file>
-    <file>big_black_block_green</file>
-    <file>big_black_block_magenta</file>
-    <file>big_black_block_orange</file>
-    <file>big_black_block_pink</file>
-    <file>big_black_block_purple</file>
-    <file>big_black_block_red</file>
-    <file>big_black_block_white</file>
-    <file>big_black_block_yellow</file>
-  </dir>
-  <dir id="textures.blocks.ceramic.big_white_block_floor">
-    <file>big_white_block_blue</file>
-    <file>big_white_block_cyan</file>
-    <file>big_white_block_green</file>
-    <file>big_white_block_magenta</file>
-    <file>big_white_block_orange</file>
-    <file>big_white_block_pastel_blue</file>
-    <file>big_white_block_pastel_green</file>
-    <file>big_white_block_pastel_red</file>
-    <file>big_white_block_pastel_yellow</file>
-    <file>big_white_block_pink</file>
-    <file>big_white_block_purple</file>
-    <file>big_white_block_red</file>
-    <file>big_white_block_yellow</file>
-  </dir>
-  <dir id="textures.blocks.ceramic.black_block_floor">
-    <file>black_block_blue</file>
-    <file>black_block_cyan</file>
-    <file>black_block_green</file>
-    <file>black_block_magenta</file>
-    <file>black_block_orange</file>
-    <file>black_block_pink</file>
-    <file>black_block_purple</file>
-    <file>black_block_red</file>
-    <file>black_block_white</file>
-    <file>black_block_yellow</file>
-  </dir>
-  <dir id="textures.blocks.ceramic.white_block_floor">
-    <file>white_block_blue</file>
-    <file>white_block_cyan</file>
-    <file>white_block_green</file>
-    <file>white_block_magenta</file>
-    <file>white_block_orange</file>
-    <file>white_block_pastel_blue</file>
-    <file>white_block_pastel_green</file>
-    <file>white_block_pastel_red</file>
-    <file>white_block_pastel_yellow</file>
-    <file>white_block_pink</file>
-    <file>white_block_purple</file>
-    <file>white_block_red</file>
-    <file>white_block_yellow</file>
-  </dir>
-  <dir id="textures.blocks.first">
-    <file>first_block</file>
-  </dir>
-  <dir id="textures.blocks.glass" />
-  <dir id="textures.blocks.glass.celtic">
-    <file>celtic_glass_another_world</file>
-    <file>celtic_glass_blue</file>
-    <file>celtic_glass_cream</file>
-    <file>celtic_glass_gold</file>
-    <file>celtic_glass_green</file>
-    <file>celtic_glass_grey</file>
-    <file>celtic_glass_light_blue</file>
-    <file>celtic_glass_purple</file>
-    <file>celtic_glass_purple_another_world</file>
-    <file>celtic_glass_red</file>
-    <file>celtic_glass_yellow</file>
-  </dir>
-  <dir id="textures.blocks.glass.frames_boarder">
-    <file>Wooden_Down_Frame</file>
-    <file>Wooden_Down_Single_Frame</file>
-    <file>Wooden_Full_Frame</file>
-    <file>Wooden_Left_Down_Corner_Frame</file>
-    <file>Wooden_Left_Frame</file>
-    <file>Wooden_Left_Top_Corner_Frame</file>
-    <file>Wooden_Middle_Single_Frame</file>
-    <file>Wooden_Right_Down_Corner_Frame</file>
-    <file>Wooden_Right_Frame</file>
-    <file>Wooden_Right_Top_Corner_Frame</file>
-    <file>Wooden_Top_Frame</file>
-    <file>Wooden_Top_single_Frame</file>
-  </dir>
-  <dir id="textures.blocks.glass.glass_color">
-    <file>Black_Glass</file>
-    <file>Clear_Glass</file>
-    <file>Cyan_Glass</file>
-    <file>Dark_Blue_Glass</file>
-    <file>Dark_Green_Glass</file>
-    <file>Dark_Purple_Glass</file>
-    <file>Green_Glass</file>
-    <file>Magenta_Glass</file>
-    <file>Orange_Glass</file>
-    <file>Pink_Glass</file>
-    <file>Purple_Glass</file>
-    <file>Red_Glass</file>
-    <file>White_Glass</file>
-    <file>Yellow_Glass</file>
-  </dir>
-  <dir id="textures.blocks.lujill_kanses.senaati">
-  <file>senaanti_rune_1</file>
-  <file>senaanti_rune_2</file>
-  <file>senaanti_rune_3</file>
-  <file>senaanti_rune_3_blue_moon</file>
-  <file>senaanti_rune_3_green_moon</file>
-  <file>senaanti_rune_3_orange_moon</file>
-  <file>senaanti_rune_3_red_moon</file>
-  <file>senaanti_tile_koonkip_1</file>
-  <file>senaanti_tile_koonkip_2</file>
-  <file>senaanti_tile_koonkip_3</file>
-  </dir>
-  <dir id="textures.blocks.lujill_kanses.kunkasie">
-  <file>kunkasie_rune</file>
-  <file>kunkasie_rune_2</file>
-  <file>kunkasie_summon_rune_0</file>
-  <file>kunkasie_tile</file>
-  <file>kunkasie_tile_2</file>
-  <file>kunkasie_tile_crimson_moon</file>
-  <file>kunkasie_tile_green_moon</file>
-  <file>kunkasie_tile_moon</file>
-  <file>kunkasie_tile_orange_moon</file>
-  <file>kunkasie_tile_purple_moon</file>
-  <file>kunkasie_wall_simbol</file>
-  <file>kunkasie_wall_simbol_decorated</file>
-  <file>kunkasie_zuupa</file>
-  <file>kunkasie_zuupa_green_moon</file>
-  <file>kunkasie_zuupa_moon_blue</file>
-  <file>kunkasie_zuupa_orange_moon</file>
-  <file>kunkasie_zuupa_red_moon</file>
-  </dir>
-  <dir id="textures.blocks.lujill_kanses.kuhuno">
-  <file>kuhuno_blue</file>
-  <file>kuhuno_gold</file>
-  <file>kuhuno_neon_cyan</file>
-  <file>kuhuno_neon_green</file>
-  <file>kuhuno_neon_pink</file>
-  <file>kuhuno_orange</file>
-  <file>kuhuno_pink</file>
-  <file>kuhuno_purple</file>
-  <file>kuhuno_red</file>
-  </dir>
-   <dir id="textures.blocks.lujill_kanses.fivhyna">
-  <file>fivhyna__green</file>
-  <file>fivhyna__puple</file>
-  <file>fivhyna__red</file>
-  <file>fivhyna__yellow</file>
-  </dir>
-  <dir id="textures.blocks.lujill_kanses.cleursardi">
-  <file>cleursardi__fusy_kounlik_001</file>
-  <file>cleursardi__fusy_kounlik_002</file>
-  <file>cleursardi__fusy_kounlik_003</file>
-  <file>cleursardi__kojisin</file>
-  <file>cleursardi__kojisin_blue</file>
-  <file>cleursardi__kojisin_orange</file>
-  <file>cleursardi__kojisin_pink</file>
-  <file>cleursardi__kojisin_purple</file>
-  <file>cleursardi__kojisin_red</file>
-  <file>cleursardi__kojisin_white</file>
-  <file>cleursardi__kojisin_yellow</file>
-  <file>cleursardi__koloji</file>
-  <file>cleursardi__koloji_blue</file>
-  <file>cleursardi__koloji_orange</file>
-  <file>cleursardi__koloji_pink</file>
-  <file>cleursardi__koloji_purple</file>
-  <file>cleursardi__koloji_white</file>
-  <file>cleursardi__koloji_yellow</file>
-  <file>clonexysis_tile_green</file>
-  <file>clonexysis_tile_lila</file>
-  <file>clonexysis_tile_original</file>
-  <file>clonexysis_tile_yellow</file>
-  </dir>
-  <dir id="textures.blocks.glass.nve">
-    <file>nve_blue</file>
-    <file>nve_cyan</file>
-    <file>nve_dark_blue</file>
-    <file>nve_black</file>
-    <file>nve_dark_orange</file>
-    <file>nve_dark_purple</file>
-    <file>nve_orange</file>
-    <file>nve_pink</file>
-    <file>nve_purple</file>
-    <file>nve_red</file>
-    <file>nve_yellow</file>
-	<file>nve_dark_green</file>
-    <file>nve_green</file>
-    <file>nve_white</file>
-  </dir>
+	<dir id="textures.blocks" />
+	<dir id="textures.blocks.biome_dirt">
+		<file>ashed_dirt</file>
+		<file>blue_dirt</file>
+		<file>dark_dirt</file>
+		<file>deepsolea_dirt</file>
+		<file>desert_dirt</file>
+		<file>dirt</file>
+		<file>fantasysolea_dirt</file>
+		<file>forest_dirt</file>
+		<file>green_dirt</file>
+		<file>mud_type_1</file>
+		<file>mud_type_2</file>
+		<file>normal_dirt</file>
+		<file>pink_dirt</file>
+		<file>poison_dirt</file>
+		<file>purple_dirt</file>
+		<file>valley_dirt</file>
+	</dir>
+	<dir id="textures.blocks.biome_grass">
+		<file>ashed_ashed_grass</file>
+		<file>ashed_red_grass</file>
+		<file>blue_ashed_grass</file>
+		<file>blue_purple_grass</file>
+		<file>blue_red_grass</file>
+		<file>dark_ashed_grass</file>
+		<file>dark_red_grass</file>
+		<file>desert_ashed_grass</file>
+		<file>desert_grass_grass</file>
+		<file>desert_red_grass</file>
+		<file>desert_valley_grass</file>
+		<file>dirty_grass_grass</file>
+		<file>dirty_red_grass</file>
+		<file>dirty_valley_grass</file>
+		<file>green_ashed_grass</file>
+		<file>green_red_grass</file>
+		<file>pink_ashed_grass</file>
+		<file>pink_cyan_grass</file>
+		<file>pink_red_grass</file>
+		<file>purple_red_grass</file>
+		<file>snowy_ashed_grass</file>
+		<file>snowy_blue_grass</file>
+		<file>snowy_dark_grass</file>
+		<file>snowy_green_grass</file>
+		<file>snowy_pink_grass</file>
+		<file>snowy_purple_grass</file>
+		<file>snowy_valley_grass</file>
+		<file>white_poison_grass</file>
+		<file>white_valley_grass</file>
+		<file>white_purple_grass</file>
+		<file>white_pink_grass</file>
+		<file>white_green_grass</file>
+		<file>white_blue_grass</file>
+		<file>white_ashed_grass</file>
+		<file>white_poison_grass_v2</file>
+		<file>white_normal_grass_v2</file>
+		<file>white_forest_grass_v2</file>
+		<file>white_fantasy_solea_grass_v2</file>
+		<file>white_desert_grass_v2</file>
+		<file>white_deepsolea_grass_v2</file>
+		<file>white_ashed_grass_v2</file>
+		<file>autum_yellow_ashed_grass</file>
+		<file>autum_yellow_blue_grass</file>
+		<file>autum_yellow_dark_grass</file>
+		<file>autum_yellow_green_grass</file>
+		<file>autum_yellow_pink_grass</file>
+		<file>autum_yellow_purple_grass</file>
+		<file>autum_yellow_valley_grass</file>
+		<file>black_ashes_ashed_grass</file>
+		<file>black_ashes_blue_grass</file>
+		<file>black_ashes_dark_grass</file>
+		<file>black_ashes_green_grass</file>
+		<file>black_ashes_pink_grass</file>
+		<file>black_ashes_purple_grass</file>
+		<file>black_ashes_valley_grass</file>
+		<file>dark_poison_valley_grass</file>
+		<file>dark_poison_purple_grass</file>
+		<file>dark_poison_pink_grass</file>
+		<file>dark_poison_green_grass</file>
+		<file>dark_poison_blue_grass</file>
+		<file>dark_poison_ashed_grass</file>
+		<file>deep_blue_valley_grass</file>
+		<file>deep_blue_purple_grass</file>
+		<file>deep_blue_pink_grass</file>
+		<file>deep_blue_green_grass</file>
+		<file>deep_blue_dark_grass</file>
+		<file>deep_blue_blue_grass</file>
+		<file>deep_blue_ashed_grass</file>
+		<file>forest_green_valley_grass</file>
+		<file>forest_green_purple_grass</file>
+		<file>forest_green_pink_grass</file>
+		<file>forest_green_green_grass</file>
+		<file>forest_green_dark_grass</file>
+		<file>forest_green_blue_grass</file>
+		<file>forest_green_ashed_grass</file>
+		<file>light_icey_valley_grass</file>
+		<file>light_icey_purple_grass</file>
+		<file>light_icey_pink_grass</file>
+		<file>light_icey_green_grass</file>
+		<file>light_icey_dark_grass</file>
+		<file>light_icey_blue_grass</file>
+		<file>light_icey_ashed_grass</file>
+		<file>normal_valley_grass</file>
+		<file>normal_purple_grass</file>
+		<file>normal_pink_grass</file>
+		<file>normal_green_grass</file>
+		<file>normal_dark_grass</file>
+		<file>normal_blue_grass</file>
+		<file>normal_ashed_grass</file>
+		<file>ocean_blue_valley_grass</file>
+		<file>ocean_blue_purple_grass</file>
+		<file>ocean_blue_pink_grass</file>
+		<file>ocean_blue_green_grass</file>
+		<file>ocean_blue_dark_grass</file>
+		<file>ocean_blue_blue_grass</file>
+		<file>ocean_blue_ashed_grass</file>
+		<file>orange_warm_valley_grass</file>
+		<file>orange_warm_purple_grass</file>
+		<file>orange_warm_pink_grass</file>
+		<file>orange_warm_green_grass</file>
+		<file>orange_warm_dark_grass</file>
+		<file>orange_warm_blue_grass</file>
+		<file>orange_warm_ashed_grass</file>
+		<file>purple_snow_valley_grass</file>
+		<file>purple_snow_purple_grass</file>
+		<file>purple_snow_pink_grass</file>
+		<file>purple_snow_green_grass</file>
+		<file>purple_snow_dark_grass</file>
+		<file>purple_snow_blue_grass</file>
+		<file>purple_snow_ashed_grass</file>
+		<file>red_sweet_valley_grass</file>
+		<file>red_sweet_purple_grass</file>
+		<file>red_sweet_pink_grass</file>
+		<file>red_sweet_green_grass</file>
+		<file>red_sweet_dark_grass</file>
+		<file>red_sweet_blue_grass</file>
+		<file>red_sweet_ashed_grass</file>
+		<file>red_wood_valley_grass</file>
+		<file>red_wood_purple_grass</file>
+		<file>red_wood_pink_grass</file>
+		<file>red_wood_green_grass</file>
+		<file>red_wood_dark_grass</file>
+		<file>red_wood_blue_grass</file>
+		<file>red_wood_ashed_grass</file>
+		<file>weird_grass_1_ashed_grass</file>
+		<file>weird_grass_1_blue_grass</file>
+		<file>weird_grass_1_dark_grass</file>
+		<file>weird_grass_1_green_grass</file>
+		<file>weird_grass_1_pink_grass</file>
+		<file>weird_grass_1_purple_grass</file>
+		<file>weird_grass_1_valley_grass</file>
+		<file>weird_grass_2_ashed_grass</file>
+		<file>weird_grass_2_blue_grass</file>
+		<file>weird_grass_2_dark_grass</file>
+		<file>weird_grass_2_green_grass</file>
+		<file>weird_grass_2_pink_grass</file>
+		<file>weird_grass_2_purple_grass</file>
+		<file>weird_grass_2_valley_grass</file>
+		<file>wheat_poison_grass_v2</file>
+		<file>wheat_normal_grass_v2</file>
+		<file>wheat_forest_grass_v2</file>
+		<file>wheat_fantasysolea_grass_v2</file>
+		<file>wheat_desert_grass_v2</file>
+		<file>wheat_deepsolea_grass_v2</file>
+		<file>wheat_ashed_grass_v2</file>
+		<file>red_poison_grass_v2</file>
+		<file>red_normal_grass_v2</file>
+		<file>red_forest_grass_v2</file>
+		<file>red_fantasysolea_grass_v2</file>
+		<file>red_desert_grass_v2</file>
+		<file>red_deepsolea_grass_v2</file>
+		<file>red_ashed_grass_v2</file>
+		<file>purple_poison_grass_v2</file>
+		<file>purple_normal_grass_v2</file>
+		<file>purple_forest_grass_v2</file>
+		<file>purple_fantasysolea_grass_v2</file>
+		<file>purple_desert_grass_v2</file>
+		<file>purple_deepsolea_grass_v2</file>
+		<file>purple_ashed_grass_v2</file>
+		<file>dark_purple_poison_grass_v2</file>
+		<file>dark_purple_deepsolea_grass_v2</file>
+		<file>dark_purple_normal_grass_v2</file>
+		<file>dark_purple_forest_grass_v2</file>
+		<file>dark_purple_fantasysolea_grass_v2</file>
+		<file>dark_purple_desert_grass_v2</file>
+		<file>dark_purple_ashed_grass_v2</file>
+		<file>pink_poison_grass_v2</file>
+		<file>pink_normal_grass_v2</file>
+		<file>pink_forest_grass_v2</file>
+		<file>pink_fantasysolea_grass_v2</file>
+		<file>pink_desert_grass_v2</file>
+		<file>pink_deepsolea_grass_v2</file>
+		<file>pink_ashed_grass_v2</file>
+		<file>orange_poison_grass_v2</file>
+		<file>orange_normal_grass_v2</file>
+		<file>orange_forest_grass_v2</file>
+		<file>orange_fantasysolea_grass_v2</file>
+		<file>orange_desert_grass_v2</file>
+		<file>orange_deepsolea_grass_v2</file>
+		<file>orange_ashed_grass_v2</file>
+		<file>magenta_poison_grass_v2</file>
+		<file>magenta_normal_grass_v2</file>
+		<file>magenta_forest_grass_v2</file>
+		<file>magenta_fantasysolea_grass_v2</file>
+		<file>magenta_desert_grass_v2</file>
+		<file>magenta_deepsolea_grass_v2</file>
+		<file>magenta_ashed_grass_v2</file>
+		<file>dark_blue_poison_grass_v2</file>
+		<file>dark_blue_normal_grass_v2</file>
+		<file>dark_blue_forest_grass_v2</file>
+		<file>dark_blue_fantasysolea_grass_v2</file>
+		<file>dark_blue_deepsolea_grass_v2</file>
+		<file>dark_blue_desert_grass_v2</file>
+		<file>dark_blue_ashed_grass_v2</file>
+		<file>cyan_forest_grass_v2</file>
+		<file>cyan_poison_grass_v2</file>
+		<file>cyan_normal_grass_v2</file>
+		<file>cyan_fantasysolea_grass_v2</file>
+		<file>cyan_desert_grass_v2</file>
+		<file>cyan_deepsolea_grass_v2</file>
+		<file>cyan_ashed_grass_v2</file>
+		<file>blue_poison_grass_v2</file>
+		<file>blue_normal_grass_v2</file>
+		<file>blue_forest_grass_v2</file>
+		<file>blue_fantasysolea_grass_v2</file>
+		<file>blue_desert_grass_v2</file>
+		<file>blue_deepsolea_grass_v2</file>
+		<file>blue_ashed_grass_v2</file>
+		<file>black_normal_grass_v2</file>
+		<file>black_poison_grass_v2</file>
+		<file>black_forest_grass_v2</file>
+		<file>black_desert_grass_v2</file>
+		<file>black_fantasysolea_grass_v2</file>
+		<file>black_deepsolea_grass_v2</file>
+		<file>black_ashed_grass_v2</file>
+	</dir>
+	<dir id="textures.blocks.biome_stone">
+		<file>blood_stone</file>
+		<file>desert_sand_stone</file>
+		<file>lavender_stone</file>
+		<file>mossy_green_stone</file>
+		<file>orange_stone</file>
+		<file>stone</file>
+		<file>underground_stone</file>
+		<file>underwater_stone</file>
+		<file>white_stone</file>
+	</dir>
+	<dir id="textures.blocks.biome_tree_leaves">
+		<file>autumn_leaves</file>
+		<file>birch_leaves</file>
+		<file>blue_leaves</file>
+		<file>forest_leaves</file>
+		<file>leaves</file>
+		<file>purple_leaves</file>
+		<file>red_leaves</file>
+		<file>snow_leaves</file>
+		<file>white_leaves</file>
+	</dir>
+	<dir id="textures.blocks.glass.glass_color">
+		<file>black_glass</file>
+		<file>clear_glass</file>
+		<file>cyan_glass</file>
+		<file>dark_blue_glass</file>
+		<file>dark_green_glass</file>
+		<file>dark_purple_glass</file>
+		<file>green_glass</file>
+		<file>magenta_glass</file>
+		<file>orange_glass</file>
+		<file>pink_glass</file>
+		<file>purple_glass</file>
+		<file>red_glass</file>
+		<file>yellow_glass</file>
+		<file>celtic_glass_another_world_pane</file>
+	</dir>
+	<dir id="textures.blocks.brick">
+		<file>alternative_brick</file>
+		<file>black_brick</file>
+		<file>blue_brick</file>
+		<file>decorative_sandstone_brick</file>
+		<file>green_brick</file>
+		<file>mossy_stone_brick</file>
+		<file>red_brick</file>
+		<file>sandstone_brick</file>
+		<file>snow_brick</file>
+		<file>stone_brick</file>
+	</dir>
+	<dir id="textures.blocks.carpet_wool">
+		<file>celtic_wool_another_world</file>
+		<file>celtic_wool_blue</file>
+		<file>celtic_wool_cream</file>
+		<file>celtic_wool_gold</file>
+		<file>celtic_wool_green</file>
+		<file>celtic_wool_grey</file>
+		<file>celtic_wool_light_blue</file>
+		<file>celtic_wool_magenta</file>
+		<file>celtic_wool_purple</file>
+		<file>celtic_wool_purple_another_world</file>
+		<file>celtic_wool_red</file>
+		<file>celtic_wool_white</file>
+		<file>celtic_wool_yellow</file>
+		<file>cool_montain_sport_red_wool</file>
+		<file>dynamic_diamond_wool</file>
+		<file>dynamic_warm_montain_wool</file>
+		<file>dynamic_warm_montain_yellow_wool</file>
+		<file>elegant_diamond_deep_blue_wool</file>
+		<file>elegant_diamond_green_wool</file>
+		<file>elegant_diamond_orange_wool</file>
+		<file>elegant_diamond_pink</file>
+		<file>elegant_diamond_purple</file>
+		<file>elegant_diamond_red_wool</file>
+		<file>elegant_diamond_white_wool</file>
+		<file>elegant_diamond_yellow_wool</file>
+		<file>elegant_diamon_blue_wool</file>
+		<file>empire_gray</file>
+		<file>empire_medieval_carpet_blue</file>
+		<file>empire_medieval_carpet_green</file>
+		<file>empire_medieval_carpet_red</file>
+		<file>empire_orange</file>
+		<file>empire_red</file>
+		<file>empire_yellow</file>
+		<file>exo_blue_wool</file>
+		<file>exo_cyan_wool</file>
+		<file>exo_orange_wool</file>
+		<file>exo_pink_wool</file>
+		<file>exo_purple_wool</file>
+		<file>luminaria_blue</file>
+		<file>luminaria_cream_wool</file>
+		<file>luminaria_green_wool</file>
+		<file>luminaria_pink_wool</file>
+		<file>luminaria_purple_wool</file>
+		<file>warmer_montain_wool</file>
+		<file>winter_montain_blue_wool</file>
+		<file>winter_montain_red_wool</file>
+	</dir>
+	<dir id="textures.blocks.ceramic">
+		<file>abandoned_hospital_floor</file>
+		<file>abandoned_room_floor</file>
+		<file>butcher_kitchen_floor</file>
+		<file>happy_morning_floor</file>
+		<file>hospital_floor</file>
+		<file>lea_decorative_wall</file>
+		<file>lea_decorative_wall_black_blue</file>
+		<file>lea_decorative_wall_black_magenta</file>
+		<file>lea_decorative_wall_black_orange</file>
+		<file>lea_decorative_wall_red</file>
+		<file>medieval_leadu_wall</file>
+		<file>morning_kitchen_floor</file>
+		<file>playing_purple_floor</file>
+		<file>taitud_vintage_ceramic_blue</file>
+		<file>taitud_vintage_ceramic_red</file>
+		<file>taitud_vintage_ceramic_yellow</file>
+		<file>toxinology_floor</file>
+		<file>wallblock_a_ceramic</file>
+		<file>wallblock_ag_ceramic</file>
+		<file>wallblock_b_ceramic</file>
+		<file>wallblock_bk_ceramic</file>
+		<file>wallblock_cpp_ceramic</file>
+		<file>wallblock_crm_ceramic</file>
+		<file>wallblock_r_ceramic</file>
+		<file>wallblock_w_ceramic</file>
+	</dir>
+	<dir id="textures.blocks.ceramic.big_black_block_floor">
+		<file>big_black_block_blue</file>
+		<file>big_black_block_cyan</file>
+		<file>big_black_block_green</file>
+		<file>big_black_block_magenta</file>
+		<file>big_black_block_orange</file>
+		<file>big_black_block_pink</file>
+		<file>big_black_block_purple</file>
+		<file>big_black_block_red</file>
+		<file>big_black_block_white</file>
+		<file>big_black_block_yellow</file>
+	</dir>
+	<dir id="textures.blocks.ceramic.big_white_block_floor">
+		<file>big_white_block_blue</file>
+		<file>big_white_block_cyan</file>
+		<file>big_white_block_green</file>
+		<file>big_white_block_magenta</file>
+		<file>big_white_block_orange</file>
+		<file>big_white_block_pastel_blue</file>
+		<file>big_white_block_pastel_green</file>
+		<file>big_white_block_pastel_red</file>
+		<file>big_white_block_pastel_yellow</file>
+		<file>big_white_block_pink</file>
+		<file>big_white_block_purple</file>
+		<file>big_white_block_red</file>
+		<file>big_white_block_yellow</file>
+	</dir>
+	<dir id="textures.blocks.ceramic.black_block_floor">
+		<file>black_block_blue</file>
+		<file>black_block_cyan</file>
+		<file>black_block_green</file>
+		<file>black_block_magenta</file>
+		<file>black_block_orange</file>
+		<file>black_block_pink</file>
+		<file>black_block_purple</file>
+		<file>black_block_red</file>
+		<file>black_block_white</file>
+		<file>black_block_yellow</file>
+	</dir>
+	<dir id="textures.blocks.ceramic.white_block_floor">
+		<file>white_block_blue</file>
+		<file>white_block_cyan</file>
+		<file>white_block_green</file>
+		<file>white_block_magenta</file>
+		<file>white_block_orange</file>
+		<file>white_block_pastel_blue</file>
+		<file>white_block_pastel_green</file>
+		<file>white_block_pastel_red</file>
+		<file>white_block_pastel_yellow</file>
+		<file>white_block_pink</file>
+		<file>white_block_purple</file>
+		<file>white_block_red</file>
+		<file>white_block_yellow</file>
+	</dir>
+	<dir id="textures.blocks.first">
+		<file>first_block</file>
+	</dir>
+	<dir id="textures.blocks.glass" />
+	<dir id="textures.blocks.glass.celtic">
+		<file>celtic_glass_another_world</file>
+		<file>celtic_glass_blue</file>
+		<file>celtic_glass_cream</file>
+		<file>celtic_glass_gold</file>
+		<file>celtic_glass_green</file>
+		<file>celtic_glass_grey</file>
+		<file>celtic_glass_light_blue</file>
+		<file>celtic_glass_purple</file>
+		<file>celtic_glass_purple_another_world</file>
+		<file>celtic_glass_red</file>
+		<file>celtic_glass_yellow</file>
+	</dir>
+	<dir id="textures.blocks.glass.frames_boarder">
+		<file>Wooden_Down_Frame</file>
+		<file>Wooden_Down_Single_Frame</file>
+		<file>Wooden_Full_Frame</file>
+		<file>Wooden_Left_Down_Corner_Frame</file>
+		<file>Wooden_Left_Frame</file>
+		<file>Wooden_Left_Top_Corner_Frame</file>
+		<file>Wooden_Middle_Single_Frame</file>
+		<file>Wooden_Right_Down_Corner_Frame</file>
+		<file>Wooden_Right_Frame</file>
+		<file>Wooden_Right_Top_Corner_Frame</file>
+		<file>Wooden_Top_Frame</file>
+		<file>Wooden_Top_single_Frame</file>
+	</dir>
+	<dir id="textures.blocks.glass.glass_color">
+		<file>Black_Glass</file>
+		<file>Clear_Glass</file>
+		<file>Cyan_Glass</file>
+		<file>Dark_Blue_Glass</file>
+		<file>Dark_Green_Glass</file>
+		<file>Dark_Purple_Glass</file>
+		<file>Green_Glass</file>
+		<file>Magenta_Glass</file>
+		<file>Orange_Glass</file>
+		<file>Pink_Glass</file>
+		<file>Purple_Glass</file>
+		<file>Red_Glass</file>
+		<file>White_Glass</file>
+		<file>Yellow_Glass</file>
+	</dir>
+	<dir id="textures.blocks.lujill_kanses.senaati">
+		<file>senaanti_rune_1</file>
+		<file>senaanti_rune_2</file>
+		<file>senaanti_rune_3</file>
+		<file>senaanti_rune_3_blue_moon</file>
+		<file>senaanti_rune_3_green_moon</file>
+		<file>senaanti_rune_3_orange_moon</file>
+		<file>senaanti_rune_3_red_moon</file>
+		<file>senaanti_tile_koonkip_1</file>
+		<file>senaanti_tile_koonkip_2</file>
+		<file>senaanti_tile_koonkip_3</file>
+	</dir>
+	<dir id="textures.blocks.lujill_kanses.kunkasie">
+		<file>kunkasie_rune</file>
+		<file>kunkasie_rune_2</file>
+		<file>kunkasie_summon_rune_0</file>
+		<file>kunkasie_tile</file>
+		<file>kunkasie_tile_2</file>
+		<file>kunkasie_tile_crimson_moon</file>
+		<file>kunkasie_tile_green_moon</file>
+		<file>kunkasie_tile_moon</file>
+		<file>kunkasie_tile_orange_moon</file>
+		<file>kunkasie_tile_purple_moon</file>
+		<file>kunkasie_wall_simbol</file>
+		<file>kunkasie_wall_simbol_decorated</file>
+		<file>kunkasie_zuupa</file>
+		<file>kunkasie_zuupa_green_moon</file>
+		<file>kunkasie_zuupa_moon_blue</file>
+		<file>kunkasie_zuupa_orange_moon</file>
+		<file>kunkasie_zuupa_red_moon</file>
+	</dir>
+	<dir id="textures.blocks.lujill_kanses.kuhuno">
+		<file>kuhuno_blue</file>
+		<file>kuhuno_gold</file>
+		<file>kuhuno_neon_cyan</file>
+		<file>kuhuno_neon_green</file>
+		<file>kuhuno_neon_pink</file>
+		<file>kuhuno_orange</file>
+		<file>kuhuno_pink</file>
+		<file>kuhuno_purple</file>
+		<file>kuhuno_red</file>
+	</dir>
+	<dir id="textures.blocks.lujill_kanses.fivhyna">
+		<file>fivhyna__green</file>
+		<file>fivhyna__puple</file>
+		<file>fivhyna__red</file>
+		<file>fivhyna__yellow</file>
+	</dir>
+	<dir id="textures.blocks.lujill_kanses.cleursardi">
+		<file>cleursardi__fusy_kounlik_001</file>
+		<file>cleursardi__fusy_kounlik_002</file>
+		<file>cleursardi__fusy_kounlik_003</file>
+		<file>cleursardi__kojisin</file>
+		<file>cleursardi__kojisin_blue</file>
+		<file>cleursardi__kojisin_orange</file>
+		<file>cleursardi__kojisin_pink</file>
+		<file>cleursardi__kojisin_purple</file>
+		<file>cleursardi__kojisin_red</file>
+		<file>cleursardi__kojisin_white</file>
+		<file>cleursardi__kojisin_yellow</file>
+		<file>cleursardi__koloji</file>
+		<file>cleursardi__koloji_blue</file>
+		<file>cleursardi__koloji_orange</file>
+		<file>cleursardi__koloji_pink</file>
+		<file>cleursardi__koloji_purple</file>
+		<file>cleursardi__koloji_white</file>
+		<file>cleursardi__koloji_yellow</file>
+		<file>clonexysis_tile_green</file>
+		<file>clonexysis_tile_lila</file>
+		<file>clonexysis_tile_original</file>
+		<file>clonexysis_tile_yellow</file>
+	</dir>
+	<dir id="textures.blocks.glass.nve">
+		<file>nve_blue</file>
+		<file>nve_cyan</file>
+		<file>nve_dark_blue</file>
+		<file>nve_black</file>
+		<file>nve_dark_orange</file>
+		<file>nve_dark_purple</file>
+		<file>nve_orange</file>
+		<file>nve_pink</file>
+		<file>nve_purple</file>
+		<file>nve_red</file>
+		<file>nve_yellow</file>
+		<file>nve_dark_green</file>
+		<file>nve_green</file>
+		<file>nve_white</file>
+	</dir>
 
-  <dir id="textures.blocks.glass.Simple Glass Full Frame Formated">
-    <file>Simple_Glass_Black</file>
-    <file>Simple_Glass_Blue</file>
-    <file>Simple_Glass_Clear</file>
-    <file>Simple_Glass_Cyan</file>
-    <file>Simple_Glass_Dark_Blue</file>
-    <file>Simple_Glass_Dark_Green</file>
-    <file>Simple_Glass_Dark_Purple</file>
-    <file>Simple_Glass_Green</file>
-    <file>Simple_Glass_Magenta</file>
-    <file>Simple_Glass_Orange</file>
-    <file>Simple_Glass_Pink</file>
-    <file>Simple_Glass_Purple</file>
-    <file>Simple_Glass_Red</file>
-    <file>Simple_Glass_White</file>
-    <file>Simple_Glass_Yellow</file>
-  </dir>
-  <dir id="textures.blocks.glass.Simple Glass Side Frames Formated" />
-  <dir id="textures.blocks.glass.simple_life_glass_frame">
-    <file>clear_simple_glass_frame</file>
-  </dir>
+	<dir id="textures.blocks.glass.Simple Glass Full Frame Formated">
+		<file>Simple_Glass_Black</file>
+		<file>Simple_Glass_Blue</file>
+		<file>Simple_Glass_Clear</file>
+		<file>Simple_Glass_Cyan</file>
+		<file>Simple_Glass_Dark_Blue</file>
+		<file>Simple_Glass_Dark_Green</file>
+		<file>Simple_Glass_Dark_Purple</file>
+		<file>Simple_Glass_Green</file>
+		<file>Simple_Glass_Magenta</file>
+		<file>Simple_Glass_Orange</file>
+		<file>Simple_Glass_Pink</file>
+		<file>Simple_Glass_Purple</file>
+		<file>Simple_Glass_Red</file>
+		<file>Simple_Glass_White</file>
+		<file>Simple_Glass_Yellow</file>
+	</dir>
+	<dir id="textures.blocks.glass.Simple Glass Side Frames Formated" />
+	<dir id="textures.blocks.glass.simple_life_glass_frame">
+		<file>clear_simple_glass_frame</file>
+	</dir>
 
-  <dir id="textures.blocks.glass.Wooden Elegant Frames Glass Formated">
-    <file>ElegantWooden_Down_Frame</file>
-    <file>ElegantWooden_Down_Left_Frame</file>
-    <file>ElegantWooden_Down_Right_Frame</file>
-    <file>ElegantWooden_Down_Single_Frame</file>
-    <file>ElegantWooden_Full_Frame</file>
-    <file>ElegantWooden_Horizontal_Middle_Single_Frame</file>
-    <file>ElegantWooden_Left_Frame</file>
-    <file>ElegantWooden_Left_Single_Frame</file>
-    <file>ElegantWooden_Middle_Frame</file>
-    <file>ElegantWooden_Right_Frame</file>
-    <file>ElegantWooden_Right_Single_Frame</file>
-    <file>ElegantWooden_Top_Frame</file>
-    <file>ElegantWooden_Top_Left_Frame</file>
-    <file>ElegantWooden_Top_Right_Frame</file>
-    <file>ElegantWooden_Top_Single_Frame</file>
-    <file>ElegantWooden_Vertical_Middle_Single_Frame</file>
-    <file>Elegant_Wooden_Full_Frame</file>
-  </dir>
-  <dir id="textures.blocks.glass.Wooden Elegant Frames Glass Formated.Black">
-    <file>BlackElegantWooden_Down_Frame</file>
-    <file>BlackElegantWooden_Down_Left_Frame</file>
-    <file>BlackElegantWooden_Down_Right_Frame</file>
-    <file>BlackElegantWooden_Down_Single_Frame</file>
-    <file>BlackElegantWooden_Full_Frame</file>
-    <file>BlackElegantWooden_Horizontal_Middle_Single_Frame</file>
-    <file>BlackElegantWooden_Left_Frame</file>
-    <file>BlackElegantWooden_Left_Single_Frame</file>
-    <file>BlackElegantWooden_Middle_Frame</file>
-    <file>BlackElegantWooden_Right_Frame</file>
-    <file>BlackElegantWooden_Right_Single_Frame</file>
-    <file>BlackElegantWooden_Top_Frame</file>
-    <file>BlackElegantWooden_Top_Left_Frame</file>
-    <file>BlackElegantWooden_Top_Right_Frame</file>
-    <file>BlackElegantWooden_Top_Single_Frame</file>
-    <file>BlackElegantWooden_Vertical_Middle_Single_Frame</file>
-    <file>Black_Elegant_Wooden_Full_Frame</file>
-  </dir>
-  <dir id="textures.blocks.glass.Wooden Elegant Frames Glass Formated.Clear">
-    <file>ClearElegantWooden_Down_Frame</file>
-    <file>ClearElegantWooden_Down_Left_Frame</file>
-    <file>ClearElegantWooden_Down_Right_Frame</file>
-    <file>ClearElegantWooden_Down_Single_Frame</file>
-    <file>ClearElegantWooden_Full_Frame</file>
-    <file>ClearElegantWooden_Horizontal_Middle_Single_Frame</file>
-    <file>ClearElegantWooden_Left_Frame</file>
-    <file>ClearElegantWooden_Left_Single_Frame</file>
-    <file>ClearElegantWooden_Middle_Frame</file>
-    <file>ClearElegantWooden_Right_Frame</file>
-    <file>ClearElegantWooden_Right_Single_Frame</file>
-    <file>ClearElegantWooden_Top_Frame</file>
-    <file>ClearElegantWooden_Top_Left_Frame</file>
-    <file>ClearElegantWooden_Top_Right_Frame</file>
-    <file>ClearElegantWooden_Top_Single_Frame</file>
-    <file>ClearElegantWooden_Vertical_Middle_Single_Frame</file>
-    <file>Clear_Elegant_Wooden_Full_Frame</file>
-  </dir>
-  <dir id="textures.blocks.glass.Wooden Elegant Frames Glass Formated.Dark Green">
-    <file>DarkGreenElegantWooden_Down_Frame</file>
-    <file>DarkGreenElegantWooden_Down_Left_Frame</file>
-    <file>DarkGreenElegantWooden_Down_Right_Frame</file>
-    <file>DarkGreenElegantWooden_Down_Single_Frame</file>
-    <file>DarkGreenElegantWooden_Full_Frame</file>
-    <file>DarkGreenElegantWooden_Horizontal_Middle_Single_Frame</file>
-    <file>DarkGreenElegantWooden_Left_Frame</file>
-    <file>DarkGreenElegantWooden_Left_Single_Frame</file>
-    <file>DarkGreenElegantWooden_Middle_Frame</file>
-    <file>DarkGreenElegantWooden_Right_Frame</file>
-    <file>DarkGreenElegantWooden_Right_Single_Frame</file>
-    <file>DarkGreenElegantWooden_Top_Frame</file>
-    <file>DarkGreenElegantWooden_Top_Left_Frame</file>
-    <file>DarkGreenElegantWooden_Top_Single_Frame</file>
-    <file>DarkGreenElegantWooden_Vertical_Middle_Single_Frame</file>
-    <file>DarkGreenElegant_Wooden_Top_Right_Frame</file>
-    <file>Dark_Green_Elegant_Wooden_Full_Frame</file>
-  </dir>
-  <dir id="textures.blocks.glass.Wooden Elegant Frames Glass Formated.Light Blue">
-    <file>LightBlueElegantWooden_Down_Frame</file>
-    <file>LightBlueElegantWooden_Down_Left_Frame</file>
-    <file>LightBlueElegantWooden_Down_Right_Frame</file>
-    <file>LightBlueElegantWooden_Down_Single_Frame</file>
-    <file>LightBlueElegantWooden_Full_Frame</file>
-    <file>LightBlueElegantWooden_Horizontal_Middle_Single_Frame</file>
-    <file>LightBlueElegantWooden_Left_Frame</file>
-    <file>LightBlueElegantWooden_Left_Single_Frame</file>
-    <file>LightBlueElegantWooden_Middle_Frame</file>
-    <file>LightBlueElegantWooden_Right_Frame</file>
-    <file>LightBlueElegantWooden_Right_Single_Frame</file>
-    <file>LightBlueElegantWooden_Top_Frame</file>
-    <file>LightBlueElegantWooden_Top_Left_Frame</file>
-    <file>LightBlueElegantWooden_Top_Right_Frame</file>
-    <file>LightBlueElegantWooden_Top_Single_Frame</file>
-    <file>LightBlueElegantWooden_Vertical_Middle_Single_Frame</file>
-    <file>Light_Blue_Elegant_Wooden_Full_Frame</file>
-  </dir>
-  <dir id="textures.blocks.nevo_evolution">
-    <file>bionic_flower_floor_aqua</file>
-    <file>bionic_flower_floor_blue</file>
-    <file>bionic_flower_floor_green</file>
-    <file>bionic_flower_floor_orange</file>
-    <file>bionic_flower_floor_purple</file>
-    <file>bionic_flower_floor_sun</file>
-    <file>bionic_flower_floor_white</file>
-    <file>galactic_leaves_floor_cyan</file>
-    <file>galactic_leaves_floor_green</file>
-    <file>galactic_leaves_floor_orange</file>
-    <file>galactic_leaves_floor_original</file>
-    <file>galactic_leaves_floor_purple</file>
-    <file>galactic_leaves_floor_red</file>
-    <file>galatic_leaves_floor_blue</file>
-    <file>machine_arrow_blue</file>
-    <file>machine_arrow_cyan</file>
-    <file>machine_arrow_green</file>
-    <file>machine_arrow_magenta</file>
-    <file>machine_arrow_orange</file>
-    <file>machine_arrow_purple</file>
-    <file>machine_arrow_red</file>
-    <file>machine_arrow_white</file>
-    <file>machine_arrow_yellow</file>
-  </dir>
-  <dir id="textures.blocks.nevo_evolution.bionic_stained">
-    <file>bionic_stained_blue</file>
-    <file>bionic_stained_cyan</file>
-    <file>bionic_stained_green</file>
-    <file>bionic_stained_orange</file>
-    <file>bionic_stained_pink</file>
-    <file>bionic_stained_purple</file>
-    <file>bionic_stained_red</file>
-    <file>bionic_stained_white</file>
-    <file>bionic_stained_yellow</file>
-  </dir>
-  <dir id="textures.blocks.nevo_evolution.nve_stained">
-    <file>nve_stained_blue</file>
-    <file>nve_stained_cyan</file>
-    <file>nve_stained_green</file>
-    <file>nve_stained_orange</file>
-    <file>nve_stained_pink</file>
-    <file>nve_stained_purple</file>
-    <file>nve_stained_red</file>
-    <file>nve_stained_white</file>
-    <file>nve_stained_yellow</file>
-	
-  </dir>
+	<dir id="textures.blocks.glass.Wooden Elegant Frames Glass Formated">
+		<file>ElegantWooden_Down_Frame</file>
+		<file>ElegantWooden_Down_Left_Frame</file>
+		<file>ElegantWooden_Down_Right_Frame</file>
+		<file>ElegantWooden_Down_Single_Frame</file>
+		<file>ElegantWooden_Full_Frame</file>
+		<file>ElegantWooden_Horizontal_Middle_Single_Frame</file>
+		<file>ElegantWooden_Left_Frame</file>
+		<file>ElegantWooden_Left_Single_Frame</file>
+		<file>ElegantWooden_Middle_Frame</file>
+		<file>ElegantWooden_Right_Frame</file>
+		<file>ElegantWooden_Right_Single_Frame</file>
+		<file>ElegantWooden_Top_Frame</file>
+		<file>ElegantWooden_Top_Left_Frame</file>
+		<file>ElegantWooden_Top_Right_Frame</file>
+		<file>ElegantWooden_Top_Single_Frame</file>
+		<file>ElegantWooden_Vertical_Middle_Single_Frame</file>
+		<file>Elegant_Wooden_Full_Frame</file>
+	</dir>
+	<dir id="textures.blocks.glass.Wooden Elegant Frames Glass Formated.Black">
+		<file>BlackElegantWooden_Down_Frame</file>
+		<file>BlackElegantWooden_Down_Left_Frame</file>
+		<file>BlackElegantWooden_Down_Right_Frame</file>
+		<file>BlackElegantWooden_Down_Single_Frame</file>
+		<file>BlackElegantWooden_Full_Frame</file>
+		<file>BlackElegantWooden_Horizontal_Middle_Single_Frame</file>
+		<file>BlackElegantWooden_Left_Frame</file>
+		<file>BlackElegantWooden_Left_Single_Frame</file>
+		<file>BlackElegantWooden_Middle_Frame</file>
+		<file>BlackElegantWooden_Right_Frame</file>
+		<file>BlackElegantWooden_Right_Single_Frame</file>
+		<file>BlackElegantWooden_Top_Frame</file>
+		<file>BlackElegantWooden_Top_Left_Frame</file>
+		<file>BlackElegantWooden_Top_Right_Frame</file>
+		<file>BlackElegantWooden_Top_Single_Frame</file>
+		<file>BlackElegantWooden_Vertical_Middle_Single_Frame</file>
+		<file>Black_Elegant_Wooden_Full_Frame</file>
+	</dir>
+	<dir id="textures.blocks.glass.Wooden Elegant Frames Glass Formated.Clear">
+		<file>ClearElegantWooden_Down_Frame</file>
+		<file>ClearElegantWooden_Down_Left_Frame</file>
+		<file>ClearElegantWooden_Down_Right_Frame</file>
+		<file>ClearElegantWooden_Down_Single_Frame</file>
+		<file>ClearElegantWooden_Full_Frame</file>
+		<file>ClearElegantWooden_Horizontal_Middle_Single_Frame</file>
+		<file>ClearElegantWooden_Left_Frame</file>
+		<file>ClearElegantWooden_Left_Single_Frame</file>
+		<file>ClearElegantWooden_Middle_Frame</file>
+		<file>ClearElegantWooden_Right_Frame</file>
+		<file>ClearElegantWooden_Right_Single_Frame</file>
+		<file>ClearElegantWooden_Top_Frame</file>
+		<file>ClearElegantWooden_Top_Left_Frame</file>
+		<file>ClearElegantWooden_Top_Right_Frame</file>
+		<file>ClearElegantWooden_Top_Single_Frame</file>
+		<file>ClearElegantWooden_Vertical_Middle_Single_Frame</file>
+		<file>Clear_Elegant_Wooden_Full_Frame</file>
+	</dir>
+	<dir id="textures.blocks.glass.Wooden Elegant Frames Glass Formated.Dark Green">
+		<file>DarkGreenElegantWooden_Down_Frame</file>
+		<file>DarkGreenElegantWooden_Down_Left_Frame</file>
+		<file>DarkGreenElegantWooden_Down_Right_Frame</file>
+		<file>DarkGreenElegantWooden_Down_Single_Frame</file>
+		<file>DarkGreenElegantWooden_Full_Frame</file>
+		<file>DarkGreenElegantWooden_Horizontal_Middle_Single_Frame</file>
+		<file>DarkGreenElegantWooden_Left_Frame</file>
+		<file>DarkGreenElegantWooden_Left_Single_Frame</file>
+		<file>DarkGreenElegantWooden_Middle_Frame</file>
+		<file>DarkGreenElegantWooden_Right_Frame</file>
+		<file>DarkGreenElegantWooden_Right_Single_Frame</file>
+		<file>DarkGreenElegantWooden_Top_Frame</file>
+		<file>DarkGreenElegantWooden_Top_Left_Frame</file>
+		<file>DarkGreenElegantWooden_Top_Single_Frame</file>
+		<file>DarkGreenElegantWooden_Vertical_Middle_Single_Frame</file>
+		<file>DarkGreenElegant_Wooden_Top_Right_Frame</file>
+		<file>Dark_Green_Elegant_Wooden_Full_Frame</file>
+	</dir>
+	<dir id="textures.blocks.glass.Wooden Elegant Frames Glass Formated.Light Blue">
+		<file>LightBlueElegantWooden_Down_Frame</file>
+		<file>LightBlueElegantWooden_Down_Left_Frame</file>
+		<file>LightBlueElegantWooden_Down_Right_Frame</file>
+		<file>LightBlueElegantWooden_Down_Single_Frame</file>
+		<file>LightBlueElegantWooden_Full_Frame</file>
+		<file>LightBlueElegantWooden_Horizontal_Middle_Single_Frame</file>
+		<file>LightBlueElegantWooden_Left_Frame</file>
+		<file>LightBlueElegantWooden_Left_Single_Frame</file>
+		<file>LightBlueElegantWooden_Middle_Frame</file>
+		<file>LightBlueElegantWooden_Right_Frame</file>
+		<file>LightBlueElegantWooden_Right_Single_Frame</file>
+		<file>LightBlueElegantWooden_Top_Frame</file>
+		<file>LightBlueElegantWooden_Top_Left_Frame</file>
+		<file>LightBlueElegantWooden_Top_Right_Frame</file>
+		<file>LightBlueElegantWooden_Top_Single_Frame</file>
+		<file>LightBlueElegantWooden_Vertical_Middle_Single_Frame</file>
+		<file>Light_Blue_Elegant_Wooden_Full_Frame</file>
+	</dir>
+	<dir id="textures.blocks.nevo_evolution">
+		<file>bionic_flower_floor_aqua</file>
+		<file>bionic_flower_floor_blue</file>
+		<file>bionic_flower_floor_green</file>
+		<file>bionic_flower_floor_orange</file>
+		<file>bionic_flower_floor_purple</file>
+		<file>bionic_flower_floor_sun</file>
+		<file>bionic_flower_floor_white</file>
+		<file>galactic_leaves_floor_cyan</file>
+		<file>galactic_leaves_floor_green</file>
+		<file>galactic_leaves_floor_orange</file>
+		<file>galactic_leaves_floor_original</file>
+		<file>galactic_leaves_floor_purple</file>
+		<file>galactic_leaves_floor_red</file>
+		<file>galatic_leaves_floor_blue</file>
+		<file>machine_arrow_blue</file>
+		<file>machine_arrow_cyan</file>
+		<file>machine_arrow_green</file>
+		<file>machine_arrow_magenta</file>
+		<file>machine_arrow_orange</file>
+		<file>machine_arrow_purple</file>
+		<file>machine_arrow_red</file>
+		<file>machine_arrow_white</file>
+		<file>machine_arrow_yellow</file>
+	</dir>
+	<dir id="textures.blocks.nevo_evolution.bionic_stained">
+		<file>bionic_stained_blue</file>
+		<file>bionic_stained_cyan</file>
+		<file>bionic_stained_green</file>
+		<file>bionic_stained_orange</file>
+		<file>bionic_stained_pink</file>
+		<file>bionic_stained_purple</file>
+		<file>bionic_stained_red</file>
+		<file>bionic_stained_white</file>
+		<file>bionic_stained_yellow</file>
+	</dir>
+	<dir id="textures.blocks.nevo_evolution.nve_stained">
+		<file>nve_stained_blue</file>
+		<file>nve_stained_cyan</file>
+		<file>nve_stained_green</file>
+		<file>nve_stained_orange</file>
+		<file>nve_stained_pink</file>
+		<file>nve_stained_purple</file>
+		<file>nve_stained_red</file>
+		<file>nve_stained_white</file>
+		<file>nve_stained_yellow</file>
 
-  <dir id="textures.blocks.nevo_evolution.nve_tch_tiles">
-    <file>nve_tch_tile_blue</file>
-    <file>nve_tch_tile_cyan</file>
-    <file>nve_tch_tile_green</file>
-    <file>nve_tch_tile_orange</file>
-    <file>nve_tch_tile_pink</file>
-    <file>nve_tch_tile_purple</file>
-    <file>nve_tch_tile_red</file>
-    <file>nve_tch_tile_white</file>
-    <file>nve_tch_tile_yellow</file>
-  </dir>
-  <dir id="textures.blocks.runes">
-    <file>alpa_chiseled</file>
-    <file>alpa_chiseled_neon_night</file>
-    <file>alpa_chiseled_stone</file>
-    <file>alpa_chiseled_sunset</file>
-    <file>alpa_decorative_wall</file>
-    <file>alpa_decorative_wall_neon_night</file>
-    <file>alpa_decorative_wall_stone</file>
-    <file>alpa_decorative_wall_sunset</file>
-    <file>another_world_rune</file>
-    <file>arka_chiseled</file>
-    <file>arka_chiseled_blue</file>
-    <file>arka_chiseled_gold</file>
-    <file>arka_chiseled_green</file>
-    <file>arka_chiseled_grey</file>
-    <file>arka_chiseled_red</file>
-    <file>arka_decorative_wall</file>
-    <file>arka_decorative_wall_blue</file>
-    <file>arka_decorative_wall_gold</file>
-    <file>arka_decorative_wall_green</file>
-    <file>arka_decorative_wall_grey</file>
-    <file>arka_decorative_wall_red</file>
-    <file>dark_temple_rune</file>
-    <file>giant_carnival_plant_rune</file>
-    <file>rabic_chiseled</file>
-    <file>rabic_chiseled_cave_aqua</file>
-    <file>rabic_chiseled_grey</file>
-    <file>rabic_chiseled_pink_pearl</file>
-    <file>rabic_chiseled_wall</file>
-    <file>rabic_chiseled_wall_cave_aqua</file>
-    <file>rabic_chiseled_wall_grey</file>
-    <file>rabic_chiseled_wall_pink_pearl</file>
-    <file>rabic_chiseled_wall_yellow</file>
-    <file>rabic_chiseled_yellow</file>
-    <file>rabic_rune</file>
-    <file>red_eel_rune</file>
-    <file>robot_rune</file>
-    <file>squid_rune</file>
-  </dir>
-  <dir id="textures.blocks.runes.celtic_tile">
-    <file>celtic_rune_tile</file>
-    <file>celtic_tile_another_world</file>
-    <file>celtic_tile_blue</file>
-    <file>celtic_tile_cream</file>
-    <file>celtic_tile_gold</file>
-    <file>celtic_tile_green</file>
-    <file>celtic_tile_grey</file>
-    <file>celtic_tile_lightblue</file>
-    <file>celtic_tile_magenta</file>
-    <file>celtic_tile_purple</file>
-    <file>celtic_tile_purple_another_world</file>
-    <file>celtic_tile_red</file>
-    <file>celtic_tile_white</file>
-    <file>celtic_tile_yellow</file>
-  </dir>
-  <dir id="textures.blocks.volcanic">
-    <file>lava_rock</file>
-    <file>magma_cracked_rock</file>
-    <file>magma_rock</file>
-    <file>magma_rock_alt</file>
-  </dir>
-  <dir id="textures.blocks.volcanic.lava">
-    <file>lava</file>
-    <file>moving lava</file>
-  </dir>
-  <dir id="textures.blocks.winter">
-    <file>hardened_ice</file>
-    <file>ice</file>
-    <file>snow</file>
-  </dir>
-  <dir id="textures.blocks.wood.floor">
-    <file>bamboo_floor_wood</file>
-    <file>beach_floor_wood</file>
-    <file>black_floor_wood</file>
-    <file>bloody_floor_wood</file>
-    <file>blue_floor_wood</file>
-    <file>cherry_floor_wood</file>
-    <file>dark_blue_floor_wood</file>
-    <file>dark_purple_floor_wood</file>
-    <file>dark_red_floor_wood</file>
-    <file>light_blue_floor_wood</file>
-    <file>lime_green_floor_wood</file>
-    <file>luxury_boat_floor_wood</file>
-    <file>magenta_floor_wood</file>
-    <file>mesquite_floor_wood</file>
-    <file>normal_floor_wood</file>
-    <file>old_broken_floor_wood</file>
-    <file>old_floor_wood</file>
-    <file>old_vintage_floor_wood</file>
-    <file>old_vintage_white_floor_wood</file>
-    <file>orange_floor_wood</file>
-    <file>pastel_green_floor_wood</file>
-    <file>pastel_orange_floor_wood</file>
-    <file>pastel_pink_floor_wood</file>
-    <file>pastel_purple_floor_wood</file>
-    <file>pastel_red_floor_wood</file>
-    <file>pastel_yellow_floor_wood</file>
-    <file>pink_floor_wood</file>
-    <file>purple_floor_wood</file>
-    <file>red_floor_wood</file>
-    <file>solea_floor_wood</file>
-    <file>white_floor_wood</file>
-    <file>yellow_floor_wood</file>
-  </dir>
-  <dir id="textures.blocks.wood.wall">
-    <file>bamboo_wall</file>
-    <file>beach_wall</file>
-    <file>black_wall</file>
-    <file>bloody_wall</file>
-    <file>blue_wall</file>
-    <file>cherry_wall</file>
-    <file>dark_blue_wall</file>
-    <file>dark_purple_wall</file>
-    <file>dark_red_wall</file>
-    <file>light_blue_wall</file>
-    <file>lime_green_wall</file>
-    <file>luxury_boat_wall</file>
-    <file>magenta_wall</file>
-    <file>medieval_lea_wall_wool</file>
-    <file>mesquite_wall</file>
-    <file>normal_wall</file>
-    <file>old_broken_wall</file>
-    <file>old_vintage_wall</file>
-    <file>old_vintage_white_wall</file>
-    <file>old_wall</file>
-    <file>orange_wall</file>
-    <file>pastel_green_wall</file>
-    <file>pastel_orange_wall</file>
-    <file>pastel_pink_wall</file>
-    <file>pastel_purple_wall</file>
-    <file>pastel_red_wall</file>
-    <file>pastel_yellow_wall</file>
-    <file>pink_wall</file>
-    <file>purple_wall</file>
-    <file>red_wall</file>
-    <file>solea_wall</file>
-    <file>white_wall</file>
-    <file>yellow_wall</file>
-  </dir>
-  <dir id="textures.items">
-    <file>first_item</file>
-  </dir>
-  
-  <dir id="textures.items.candies">
-    <file>ark_diet_soda</file>
-    <file>ark_light_soda</file>
-    <file>ark_soda</file>
-    <file>banana_bombon</file>
-    <file>blackberry_sweet</file>
-    <file>blueberry_sweet</file>
-    <file>blue_lolipop</file>
-    <file>candy_cane</file>
-    <file>cherry_sweet</file>
-    <file>chocolate_bar</file>
-    <file>chocolate_chip_cookie</file>
-    <file>chocolate_ice_cream</file>
-    <file>cool_blue_ice_cream</file>
-    <file>cool_green_ice_cream</file>
-    <file>cool_orange_ice_cream</file>
-    <file>cool_purple_ice_cream</file>
-    <file>cool_red_ice_cream</file>
-    <file>fruits_item</file>
-    <file>gingerbreadman</file>
-    <file>green_lolipop</file>
-    <file>lemon_sweet</file>
-    <file>orange_lolipop</file>
-    <file>pink_lolipop</file>
-    <file>purple_lolipop</file>
-    <file>rainbow_lolipop</file>
-    <file>random_lolipop</file>
-    <file>strawberry_ice_cream</file>
-    <file>white_chocolate_bar</file>
-    <file>yellow_lolipop</file>
-  </dir>
-  <dir id="textures.items.candies.mods">
-    <file>blue gummy slime egg</file>
-    <file>blue gummy slime monster</file>
-    <file>cheese slime egg</file>
-    <file>cheesee slime monster</file>
-    <file>ghost chumpy egg</file>
-    <file>ghostly chumpy mod</file>
-    <file>ghostly gummy rabbit egg</file>
-    <file>gummy rabbit egg</file>
-    <file>happy chumpy egg</file>
-    <file>happy chumpy mod</file>
-    <file>hypper chumpy egg</file>
-    <file>hypper chumpy mod</file>
-    <file>knight gummy bear egg</file>
-    <file>orange gummy slime egg</file>
-    <file>orange gummy slime monster</file>
-    <file>pink gummy slime egg</file>
-    <file>pink gummy slime monster</file>
-    <file>queen gummy slime egg</file>
-  </dir>
-  <dir id="textures.items.fast_food">
-    <file>arkea_drink_big_size</file>
-    <file>arkea_drink_regular_size</file>
-    <file>arkteshia_wine</file>
-    <file>ark_orange_wine</file>
-    <file>ark_shana_wine</file>
-    <file>ark_wine</file>
-    <file>blueberry_ice_cream_bowl</file>
-    <file>blue_jelly_full_pizza</file>
-    <file>blue_jelly_pizza</file>
-    <file>blue_strawberry_mix_ice_cream_bowl</file>
-    <file>brochettes</file>
-    <file>burger</file>
-    <file>chiken_tenders</file>
-    <file>chinesse_food</file>
-    <file>coffee</file>
-    <file>cooked_patty</file>
-    <file>cooked_roll_patty</file>
-    <file>deepseafood</file>
-    <file>french_fries</file>
-    <file>full_pizza</file>
-    <file>grape_ice_cream_bowl</file>
-    <file>hot_dog</file>
-    <file>jelly_full_pizza</file>
-    <file>jelly_pizza</file>
-    <file>lemon_ice_cream_bowl</file>
-    <file>mango_ice_cream_bowl</file>
-    <file>mixed_ramen</file>
-    <file>orange_blue_mix_ice_cream_bowl</file>
-    <file>orange_drink</file>
-    <file>orange_ice_cream_bowl</file>
-    <file>patty</file>
-    <file>pineapple_drink_big_size</file>
-    <file>pineapple_drink_regular_size</file>
-    <file>pizza</file>
-    <file>popcorn</file>
-    <file>ramen</file>
-    <file>random_food_item_gift</file>
-    <file>random_seed_gift</file>
-    <file>random_weapon_gift</file>
-    <file>rice</file>
-    <file>riceball</file>
-    <file>rich_rice</file>
-    <file>roll_patty</file>
-    <file>seafood</file>
-    <file>shana_drink</file>
-    <file>soda_drink_big_size</file>
-    <file>soda_drink_regular_size</file>
-    <file>springheart_drink_big_size</file>
-    <file>springheart_drink_regular_size</file>
-    <file>strawberry_green_mix_ice_cream_bowl</file>
-    <file>strawberry_ice_cream_bowl</file>
-    <file>tea</file>
-    <file>teshia_drink</file>
-    <file>vanilla_ice_cream_bowl</file>
-    <file>wine_drink</file>
-  </dir>
-  <dir id="textures.items.food">
-    <file>apple</file>
-    <file>apple_jam_jar</file>
-    <file>arika_pumpkin</file>
-    <file>ashed_bread</file>
-    <file>banana</file>
-    <file>barley</file>
-    <file>blackberry</file>
-    <file>blackberry_jam_jar</file>
-    <file>blueberry</file>
-    <file>blueberry_jam_jar</file>
-    <file>blue_fish</file>
-    <file>border_bread</file>
-    <file>bread</file>
-    <file>brocoli</file>
-    <file>brown_mushroom</file>
-    <file>carrot</file>
-    <file>chicken</file>
-    <file>chicken_thigh</file>
-    <file>cooked_beef_meat</file>
-    <file>cooked_chiken</file>
-    <file>cooked_turkey</file>
-    <file>cooked_turkey_copy</file>
-    <file>cow_meat</file>
-    <file>cow_milk</file>
-    <file>cutted_apple</file>
-    <file>cutted_banana</file>
-    <file>cutted_carrot</file>
-    <file>cutted_mushroom</file>
-    <file>cutted_onion</file>
-    <file>cutted_pear</file>
-    <file>cutted_pineapple</file>
-    <file>cutted_pumpkin</file>
-    <file>cutted_strawberry</file>
-    <file>cutted_turnip</file>
-    <file>cutted_watermelon</file>
-    <file>decomposed_shana</file>
-    <file>desert_octopus_tentacle</file>
-    <file>fish</file>
-    <file>fish_fillet</file>
-    <file>goldem_turkey</file>
-    <file>golden_cooked_turkey</file>
-    <file>green_fish</file>
-    <file>kakurna_pumpkin</file>
-    <file>light_octopus_tentacle</file>
-    <file>light_teshia</file>
-    <file>lima_slides</file>
-    <file>limon_jam_jar</file>
-    <file>limon_slides</file>
-    <file>maicy_mushroom</file>
-    <file>maicy_posioned_mushroom</file>
-    <file>mango</file>
-    <file>mango_slides</file>
-    <file>mysterious_blue_bread</file>
-    <file>mysterious_gold_bread</file>
-    <file>mysterious_pumpkin_type_1</file>
-    <file>mysterious_pumpkin_type_2</file>
-    <file>mysterious_pumpkin_type_3</file>
-    <file>mysterious_red_bread</file>
-    <file>octopus_tentacle</file>
-    <file>onion</file>
-    <file>orange</file>
-    <file>orange_fish</file>
-    <file>orange_slides</file>
-    <file>pear</file>
-    <file>pineapple</file>
-    <file>poisoned_teshia</file>
-    <file>poisoning_mushroom</file>
-    <file>poison_cow_meat</file>
-    <file>pre_hotdog</file>
-    <file>pumpkin</file>
-    <file>purple_fish</file>
-    <file>red_fish</file>
-    <file>red_musroom</file>
-    <file>shana</file>
-    <file>slide_of_bread</file>
-    <file>strawberry</file>
-    <file>strawberry_jam_jar</file>
-    <file>teshia</file>
-    <file>tupia</file>
-    <file>turnip</file>
-    <file>water_melon</file>
-    <file>wheat</file>
-    <file>yellow_fish</file>
-  </dir>
-  <dir id="textures.items.seeds">
-    <file>blue_bany_eculcary</file>
-    <file>forest_eculcary</file>
-    <file>mysterious_eculcary</file>
-    <file>poison_eculcary</file>
-    <file>seeds</file>
-    <file>vocanic_eculcary</file>
-    <file>vulcora_eculcary</file>
-  </dir>
+	</dir>
 
-<dir id="textures.blocks.gold_taya">
-<file>black_tile_block </file>
-<file>blue_fine_tile_block </file>
-<file>brown_fine_tile_block </file>
-<file>cyan_tile_block </file>
-<file>daugash_tile_block </file>
-<file>daukou_tile_block </file>
-<file>dautash_tile_block </file>
-<file>fantasy_solea_fine_tile_block </file>
-<file>fusy_fine_tile_block </file>
-<file>ganka_gold_deco_chisel </file>
-<file>ganka_gold_deco_wall </file>
-<file>ganka_gold_fine_deco_wall </file>
-<file>ganka_gold_floor_tile </file>
-<file>ganka_gold_korha_deco_chisel </file>
-<file>ganka_gold_korha_deco_wall </file>
-<file>ganka_gold_korha_floor_tile </file>
-<file>ganka_gold_prisma_dungeon_floor_tile </file>
-<file>ganka_gold_yani_wall </file>
-<file>gold_taya_athemyst_fine_tile_block </file>
-<file>gold_taya_clay_fine_tile_block </file>
-<file>gold_taya_copper_fine_tile_block </file>
-<file>gold_taya_deco_copper_tile </file>
-<file>gold_taya_deco_fine_tile_block </file>
-<file>gold_taya_deco_iron_tile </file>
-<file>gold_taya_deco_korha_tile </file>
-<file>gold_taya_deco_tile </file>
-<file>gold_taya_deco_wall_block </file>
-<file>gold_taya_diamon_fine_tile_block </file>
-<file>gold_taya_emerald_fine_tile_block </file>
-<file>gold_taya_iron_fine_tile_block </file>
-<file>gold_taya_pink_sparkle_fine_tile_block </file>
-<file>gold_taya_ruby_fine_tile_block </file>
-<file>gold_taya_sapphire_fine_tile_block </file>
-<file>gold_taya_white_clay_fine_tile_block </file>
-<file>green_fine_tile_block </file>
-<file>lime_green_fine_tile_block </file>
-<file>mint_fine_tile_block </file>
-<file>modern_fine_tile_block </file>
-<file>orange_fine_tile_block </file>
-<file>pink_fine_tile_block </file>
-<file>purple_fine_tile_block </file>
-<file>red_fine_tile_block </file>
-<file>sunset_fine_tile_block </file>
-<file>touichi_fine_tile_block </file>
-<file>white_fine_tile_block </file>
-<file>yellow_fine_tile_block </file>
-</dir>
+	<dir id="textures.blocks.nevo_evolution.nve_tch_tiles">
+		<file>nve_tch_tile_blue</file>
+		<file>nve_tch_tile_cyan</file>
+		<file>nve_tch_tile_green</file>
+		<file>nve_tch_tile_orange</file>
+		<file>nve_tch_tile_pink</file>
+		<file>nve_tch_tile_purple</file>
+		<file>nve_tch_tile_red</file>
+		<file>nve_tch_tile_white</file>
+		<file>nve_tch_tile_yellow</file>
+	</dir>
+	<dir id="textures.blocks.runes">
+		<file>alpa_chiseled</file>
+		<file>alpa_chiseled_neon_night</file>
+		<file>alpa_chiseled_stone</file>
+		<file>alpa_chiseled_sunset</file>
+		<file>alpa_decorative_wall</file>
+		<file>alpa_decorative_wall_neon_night</file>
+		<file>alpa_decorative_wall_stone</file>
+		<file>alpa_decorative_wall_sunset</file>
+		<file>another_world_rune</file>
+		<file>arka_chiseled</file>
+		<file>arka_chiseled_blue</file>
+		<file>arka_chiseled_gold</file>
+		<file>arka_chiseled_green</file>
+		<file>arka_chiseled_grey</file>
+		<file>arka_chiseled_red</file>
+		<file>arka_decorative_wall</file>
+		<file>arka_decorative_wall_blue</file>
+		<file>arka_decorative_wall_gold</file>
+		<file>arka_decorative_wall_green</file>
+		<file>arka_decorative_wall_grey</file>
+		<file>arka_decorative_wall_red</file>
+		<file>dark_temple_rune</file>
+		<file>giant_carnival_plant_rune</file>
+		<file>rabic_chiseled</file>
+		<file>rabic_chiseled_cave_aqua</file>
+		<file>rabic_chiseled_grey</file>
+		<file>rabic_chiseled_pink_pearl</file>
+		<file>rabic_chiseled_wall</file>
+		<file>rabic_chiseled_wall_cave_aqua</file>
+		<file>rabic_chiseled_wall_grey</file>
+		<file>rabic_chiseled_wall_pink_pearl</file>
+		<file>rabic_chiseled_wall_yellow</file>
+		<file>rabic_chiseled_yellow</file>
+		<file>rabic_rune</file>
+		<file>red_eel_rune</file>
+		<file>robot_rune</file>
+		<file>squid_rune</file>
+	</dir>
+	<dir id="textures.blocks.runes.celtic_tile">
+		<file>celtic_rune_tile</file>
+		<file>celtic_tile_another_world</file>
+		<file>celtic_tile_blue</file>
+		<file>celtic_tile_cream</file>
+		<file>celtic_tile_gold</file>
+		<file>celtic_tile_green</file>
+		<file>celtic_tile_grey</file>
+		<file>celtic_tile_lightblue</file>
+		<file>celtic_tile_magenta</file>
+		<file>celtic_tile_purple</file>
+		<file>celtic_tile_purple_another_world</file>
+		<file>celtic_tile_red</file>
+		<file>celtic_tile_white</file>
+		<file>celtic_tile_yellow</file>
+	</dir>
+	<dir id="textures.blocks.volcanic">
+		<file>lava_rock</file>
+		<file>magma_cracked_rock</file>
+		<file>magma_rock</file>
+		<file>magma_rock_alt</file>
+	</dir>
+	<dir id="textures.blocks.volcanic.lava">
+		<file>lava</file>
+		<file>moving lava</file>
+	</dir>
+	<dir id="textures.blocks.winter">
+		<file>hardened_ice</file>
+		<file>ice</file>
+		<file>snow</file>
+	</dir>
+	<dir id="textures.blocks.wood.floor">
+		<file>bamboo_floor_wood</file>
+		<file>beach_floor_wood</file>
+		<file>black_floor_wood</file>
+		<file>bloody_floor_wood</file>
+		<file>blue_floor_wood</file>
+		<file>cherry_floor_wood</file>
+		<file>dark_blue_floor_wood</file>
+		<file>dark_purple_floor_wood</file>
+		<file>dark_red_floor_wood</file>
+		<file>light_blue_floor_wood</file>
+		<file>lime_green_floor_wood</file>
+		<file>luxury_boat_floor_wood</file>
+		<file>magenta_floor_wood</file>
+		<file>mesquite_floor_wood</file>
+		<file>normal_floor_wood</file>
+		<file>old_broken_floor_wood</file>
+		<file>old_floor_wood</file>
+		<file>old_vintage_floor_wood</file>
+		<file>old_vintage_white_floor_wood</file>
+		<file>orange_floor_wood</file>
+		<file>pastel_green_floor_wood</file>
+		<file>pastel_orange_floor_wood</file>
+		<file>pastel_pink_floor_wood</file>
+		<file>pastel_purple_floor_wood</file>
+		<file>pastel_red_floor_wood</file>
+		<file>pastel_yellow_floor_wood</file>
+		<file>pink_floor_wood</file>
+		<file>purple_floor_wood</file>
+		<file>red_floor_wood</file>
+		<file>solea_floor_wood</file>
+		<file>white_floor_wood</file>
+		<file>yellow_floor_wood</file>
+	</dir>
+	<dir id="textures.blocks.wood.wall">
+		<file>bamboo_wall</file>
+		<file>beach_wall</file>
+		<file>black_wall</file>
+		<file>bloody_wall</file>
+		<file>blue_wall</file>
+		<file>cherry_wall</file>
+		<file>dark_blue_wall</file>
+		<file>dark_purple_wall</file>
+		<file>dark_red_wall</file>
+		<file>light_blue_wall</file>
+		<file>lime_green_wall</file>
+		<file>luxury_boat_wall</file>
+		<file>magenta_wall</file>
+		<file>medieval_lea_wall_wool</file>
+		<file>mesquite_wall</file>
+		<file>normal_wall</file>
+		<file>old_broken_wall</file>
+		<file>old_vintage_wall</file>
+		<file>old_vintage_white_wall</file>
+		<file>old_wall</file>
+		<file>orange_wall</file>
+		<file>pastel_green_wall</file>
+		<file>pastel_orange_wall</file>
+		<file>pastel_pink_wall</file>
+		<file>pastel_purple_wall</file>
+		<file>pastel_red_wall</file>
+		<file>pastel_yellow_wall</file>
+		<file>pink_wall</file>
+		<file>purple_wall</file>
+		<file>red_wall</file>
+		<file>solea_wall</file>
+		<file>white_wall</file>
+		<file>yellow_wall</file>
+	</dir>
+	<dir id="textures.items">
+		<file>first_item</file>
+	</dir>
 
-<dir id="textures.blocks.tuvu_cleik">
-<file>ara_autumn </file>
-<file>ara_crystal </file>
-<file>ara_lunfa </file>
-<file>ara_lunfa_moon </file>
-<file>ara_sinsa </file>
-<file>ara_stone </file>
-<file>ara_stone_aqua </file>
-<file>ara_vahier </file>
-<file>ara_winter </file>
-<file>tuvu_cleik </file>
-<file>tuvu_cleik_gold </file>
-<file>tuvu_cleik_green </file>
-<file>tuvu_cleik_orange </file>
-<file>tuvu_cleik_purple </file>
-<file>tuvu_cleik_red </file>
-</dir>
+	<dir id="textures.items.candies">
+		<file>ark_diet_soda</file>
+		<file>ark_light_soda</file>
+		<file>ark_soda</file>
+		<file>banana_bombon</file>
+		<file>blackberry_sweet</file>
+		<file>blueberry_sweet</file>
+		<file>blue_lolipop</file>
+		<file>candy_cane</file>
+		<file>cherry_sweet</file>
+		<file>chocolate_bar</file>
+		<file>chocolate_chip_cookie</file>
+		<file>chocolate_ice_cream</file>
+		<file>cool_blue_ice_cream</file>
+		<file>cool_green_ice_cream</file>
+		<file>cool_orange_ice_cream</file>
+		<file>cool_purple_ice_cream</file>
+		<file>cool_red_ice_cream</file>
+		<file>fruits_item</file>
+		<file>gingerbreadman</file>
+		<file>green_lolipop</file>
+		<file>lemon_sweet</file>
+		<file>orange_lolipop</file>
+		<file>pink_lolipop</file>
+		<file>purple_lolipop</file>
+		<file>rainbow_lolipop</file>
+		<file>random_lolipop</file>
+		<file>strawberry_ice_cream</file>
+		<file>white_chocolate_bar</file>
+		<file>yellow_lolipop</file>
+	</dir>
+	<dir id="textures.items.candies.mods">
+		<file>blue gummy slime egg</file>
+		<file>blue gummy slime monster</file>
+		<file>cheese slime egg</file>
+		<file>cheesee slime monster</file>
+		<file>ghost chumpy egg</file>
+		<file>ghostly chumpy mod</file>
+		<file>ghostly gummy rabbit egg</file>
+		<file>gummy rabbit egg</file>
+		<file>happy chumpy egg</file>
+		<file>happy chumpy mod</file>
+		<file>hypper chumpy egg</file>
+		<file>hypper chumpy mod</file>
+		<file>knight gummy bear egg</file>
+		<file>orange gummy slime egg</file>
+		<file>orange gummy slime monster</file>
+		<file>pink gummy slime egg</file>
+		<file>pink gummy slime monster</file>
+		<file>queen gummy slime egg</file>
+	</dir>
+	<dir id="textures.items.fast_food">
+		<file>arkea_drink_big_size</file>
+		<file>arkea_drink_regular_size</file>
+		<file>arkteshia_wine</file>
+		<file>ark_orange_wine</file>
+		<file>ark_shana_wine</file>
+		<file>ark_wine</file>
+		<file>blueberry_ice_cream_bowl</file>
+		<file>blue_jelly_full_pizza</file>
+		<file>blue_jelly_pizza</file>
+		<file>blue_strawberry_mix_ice_cream_bowl</file>
+		<file>brochettes</file>
+		<file>burger</file>
+		<file>chiken_tenders</file>
+		<file>chinesse_food</file>
+		<file>coffee</file>
+		<file>cooked_patty</file>
+		<file>cooked_roll_patty</file>
+		<file>deepseafood</file>
+		<file>french_fries</file>
+		<file>full_pizza</file>
+		<file>grape_ice_cream_bowl</file>
+		<file>hot_dog</file>
+		<file>jelly_full_pizza</file>
+		<file>jelly_pizza</file>
+		<file>lemon_ice_cream_bowl</file>
+		<file>mango_ice_cream_bowl</file>
+		<file>mixed_ramen</file>
+		<file>orange_blue_mix_ice_cream_bowl</file>
+		<file>orange_drink</file>
+		<file>orange_ice_cream_bowl</file>
+		<file>patty</file>
+		<file>pineapple_drink_big_size</file>
+		<file>pineapple_drink_regular_size</file>
+		<file>pizza</file>
+		<file>popcorn</file>
+		<file>ramen</file>
+		<file>random_food_item_gift</file>
+		<file>random_seed_gift</file>
+		<file>random_weapon_gift</file>
+		<file>rice</file>
+		<file>riceball</file>
+		<file>rich_rice</file>
+		<file>roll_patty</file>
+		<file>seafood</file>
+		<file>shana_drink</file>
+		<file>soda_drink_big_size</file>
+		<file>soda_drink_regular_size</file>
+		<file>springheart_drink_big_size</file>
+		<file>springheart_drink_regular_size</file>
+		<file>strawberry_green_mix_ice_cream_bowl</file>
+		<file>strawberry_ice_cream_bowl</file>
+		<file>tea</file>
+		<file>teshia_drink</file>
+		<file>vanilla_ice_cream_bowl</file>
+		<file>wine_drink</file>
+	</dir>
+	<dir id="textures.items.food">
+		<file>apple</file>
+		<file>apple_jam_jar</file>
+		<file>arika_pumpkin</file>
+		<file>ashed_bread</file>
+		<file>banana</file>
+		<file>barley</file>
+		<file>blackberry</file>
+		<file>blackberry_jam_jar</file>
+		<file>blueberry</file>
+		<file>blueberry_jam_jar</file>
+		<file>blue_fish</file>
+		<file>border_bread</file>
+		<file>bread</file>
+		<file>brocoli</file>
+		<file>brown_mushroom</file>
+		<file>carrot</file>
+		<file>chicken</file>
+		<file>chicken_thigh</file>
+		<file>cooked_beef_meat</file>
+		<file>cooked_chiken</file>
+		<file>cooked_turkey</file>
+		<file>cooked_turkey_copy</file>
+		<file>cow_meat</file>
+		<file>cow_milk</file>
+		<file>cutted_apple</file>
+		<file>cutted_banana</file>
+		<file>cutted_carrot</file>
+		<file>cutted_mushroom</file>
+		<file>cutted_onion</file>
+		<file>cutted_pear</file>
+		<file>cutted_pineapple</file>
+		<file>cutted_pumpkin</file>
+		<file>cutted_strawberry</file>
+		<file>cutted_turnip</file>
+		<file>cutted_watermelon</file>
+		<file>decomposed_shana</file>
+		<file>desert_octopus_tentacle</file>
+		<file>fish</file>
+		<file>fish_fillet</file>
+		<file>goldem_turkey</file>
+		<file>golden_cooked_turkey</file>
+		<file>green_fish</file>
+		<file>kakurna_pumpkin</file>
+		<file>light_octopus_tentacle</file>
+		<file>light_teshia</file>
+		<file>lima_slides</file>
+		<file>limon_jam_jar</file>
+		<file>limon_slides</file>
+		<file>maicy_mushroom</file>
+		<file>maicy_posioned_mushroom</file>
+		<file>mango</file>
+		<file>mango_slides</file>
+		<file>mysterious_blue_bread</file>
+		<file>mysterious_gold_bread</file>
+		<file>mysterious_pumpkin_type_1</file>
+		<file>mysterious_pumpkin_type_2</file>
+		<file>mysterious_pumpkin_type_3</file>
+		<file>mysterious_red_bread</file>
+		<file>octopus_tentacle</file>
+		<file>onion</file>
+		<file>orange</file>
+		<file>orange_fish</file>
+		<file>orange_slides</file>
+		<file>pear</file>
+		<file>pineapple</file>
+		<file>poisoned_teshia</file>
+		<file>poisoning_mushroom</file>
+		<file>poison_cow_meat</file>
+		<file>pre_hotdog</file>
+		<file>pumpkin</file>
+		<file>purple_fish</file>
+		<file>red_fish</file>
+		<file>red_musroom</file>
+		<file>shana</file>
+		<file>slide_of_bread</file>
+		<file>strawberry</file>
+		<file>strawberry_jam_jar</file>
+		<file>teshia</file>
+		<file>tupia</file>
+		<file>turnip</file>
+		<file>water_melon</file>
+		<file>wheat</file>
+		<file>yellow_fish</file>
+	</dir>
+	<dir id="textures.items.seeds">
+		<file>blue_bany_eculcary</file>
+		<file>forest_eculcary</file>
+		<file>mysterious_eculcary</file>
+		<file>poison_eculcary</file>
+		<file>seeds</file>
+		<file>vocanic_eculcary</file>
+		<file>vulcora_eculcary</file>
+	</dir>
 
-<dir id="textures.blocks.srindintaria">
-<file>srindintaria_rune </file>
-<file>srindintaria_rune_2 </file>
-<file>srindintaria_rune_2_blue </file>
-<file>srindintaria_rune_2_bluestone </file>
-<file>srindintaria_rune_2_green </file>
-<file>srindintaria_rune_2_orange </file>
-<file>srindintaria_rune_2_purple </file>
-<file>srindintaria_rune_2_red </file>
-<file>srindintaria_rune_2_sandstone </file>
-<file>srindintaria_rune_2_solea_coral </file>
-<file>srindintaria_rune_blue_moon_gem </file>
-<file>srindintaria_rune_red_moon_gem </file>
-<file>srindintaria_rune__green_gem </file>
-<file>srindintaria_rune__orange_moon_gem </file>
-<file>srindintaria_rune__purple_moon_gem </file>
-<file>srindintaria_rune__purpula_gem </file>
-<file>srindintaria_wall_deep_dessert_stone </file>
-<file>srindintaria_wall_deep_snow_cavestone </file>
-<file>srindintaria_wall_deep_solea_stone </file>
-<file>srindintaria_wall_forest_stone </file>
-<file>srindintaria_wall_redstone </file>
-<file>srindintaria_wall_sandstone </file>
-<file>srindintaria_wall_stone </file>
-</dir>
+	<dir id="textures.blocks.gold_taya">
+		<file>black_tile_block </file>
+		<file>blue_fine_tile_block </file>
+		<file>brown_fine_tile_block </file>
+		<file>cyan_tile_block </file>
+		<file>daugash_tile_block </file>
+		<file>daukou_tile_block </file>
+		<file>dautash_tile_block </file>
+		<file>fantasy_solea_fine_tile_block </file>
+		<file>fusy_fine_tile_block </file>
+		<file>ganka_gold_deco_chisel </file>
+		<file>ganka_gold_deco_wall </file>
+		<file>ganka_gold_fine_deco_wall </file>
+		<file>ganka_gold_floor_tile </file>
+		<file>ganka_gold_korha_deco_chisel </file>
+		<file>ganka_gold_korha_deco_wall </file>
+		<file>ganka_gold_korha_floor_tile </file>
+		<file>ganka_gold_prisma_dungeon_floor_tile </file>
+		<file>ganka_gold_yani_wall </file>
+		<file>gold_taya_athemyst_fine_tile_block </file>
+		<file>gold_taya_clay_fine_tile_block </file>
+		<file>gold_taya_copper_fine_tile_block </file>
+		<file>gold_taya_deco_copper_tile </file>
+		<file>gold_taya_deco_fine_tile_block </file>
+		<file>gold_taya_deco_iron_tile </file>
+		<file>gold_taya_deco_korha_tile </file>
+		<file>gold_taya_deco_tile </file>
+		<file>gold_taya_deco_wall_block </file>
+		<file>gold_taya_diamon_fine_tile_block </file>
+		<file>gold_taya_emerald_fine_tile_block </file>
+		<file>gold_taya_iron_fine_tile_block </file>
+		<file>gold_taya_pink_sparkle_fine_tile_block </file>
+		<file>gold_taya_ruby_fine_tile_block </file>
+		<file>gold_taya_sapphire_fine_tile_block </file>
+		<file>gold_taya_white_clay_fine_tile_block </file>
+		<file>green_fine_tile_block </file>
+		<file>lime_green_fine_tile_block </file>
+		<file>mint_fine_tile_block </file>
+		<file>modern_fine_tile_block </file>
+		<file>orange_fine_tile_block </file>
+		<file>pink_fine_tile_block </file>
+		<file>purple_fine_tile_block </file>
+		<file>red_fine_tile_block </file>
+		<file>sunset_fine_tile_block </file>
+		<file>touichi_fine_tile_block </file>
+		<file>white_fine_tile_block </file>
+		<file>yellow_fine_tile_block </file>
+	</dir>
 
-<dir id="textures.blocks.simple_life">
-<file>black_tile_type_1 </file>
-<file>black_tile_type_2 </file>
-<file>blue_tile_type_1 </file>
-<file>blue_tile_type_2 </file>
-<file>blue_tile_type_3 </file>
-<file>brown_tile_type_1 </file>
-<file>brown_tile_type_2 </file>
-<file>brown_tile_type_3 </file>
-<file>cyan_tile_type_1 </file>
-<file>cyan_tile_type_2 </file>
-<file>cyan_tile_type_3 </file>
-<file>dark_blue_tile_type_1 </file>
-<file>dark_blue_tile_type_2 </file>
-<file>dark_blue_tile_type_3 </file>
-<file>dark_green_tile_type_1 </file>
-<file>dark_green_tile_type_2 </file>
-<file>dark_green_tile_type_3 </file>
-<file>green_tile_type_1 </file>
-<file>green_tile_type_2 </file>
-<file>green_tile_type_3 </file>
-<file>grey_tile_type_1 </file>
-<file>grey_tile_type_2 </file>
-<file>grey_tile_type_3 </file>
-<file>lial_tile_type_3 </file>
-<file>lila_tile_type_1 </file>
-<file>lila_tile_type_2 </file>
-<file>lime_green_tile_type_1 </file>
-<file>lime_green_tile_type_2 </file>
-<file>lime_green_tile_type_3 </file>
-<file>orange_tile_type_1 </file>
-<file>orange_tile_type_2 </file>
-<file>orange_tile_type_3 </file>
-<file>pink_tile_type_1 </file>
-<file>pink_tile_type_2 </file>
-<file>pink_tile_type_3 </file>
-<file>ppink_tile_type_1 </file>
-<file>ppink_tile_type_2 </file>
-<file>ppink_tile_type_3 </file>
-<file>purple_tile_type_1 </file>
-<file>purple_tile_type_2 </file>
-<file>purple_tile_type_3 </file>
-<file>red_tile_type_1 </file>
-<file>red_tile_type_2 </file>
-<file>red_tile_type_3 </file>
-<file>white_tile_type_2 </file>
-<file>white_tile_type_3 </file>
-<file>yelllow_tile_type_2 </file>
-<file>yellow_tile_type_1 </file>
-<file>yellow_tile_type_3 </file>
-</dir>
+	<dir id="textures.blocks.tuvu_cleik">
+		<file>ara_autumn </file>
+		<file>ara_crystal </file>
+		<file>ara_lunfa </file>
+		<file>ara_lunfa_moon </file>
+		<file>ara_sinsa </file>
+		<file>ara_stone </file>
+		<file>ara_stone_aqua </file>
+		<file>ara_vahier </file>
+		<file>ara_winter </file>
+		<file>tuvu_cleik </file>
+		<file>tuvu_cleik_gold </file>
+		<file>tuvu_cleik_green </file>
+		<file>tuvu_cleik_orange </file>
+		<file>tuvu_cleik_purple </file>
+		<file>tuvu_cleik_red </file>
+	</dir>
 
-<dir id="textures.blocks.mokoiv">
-<file>mokoiv_blue </file>
-<file>mokoiv_bluedu </file>
-<file>mokoiv_gold </file>
-<file>mokoiv_green </file>
-<file>mokoiv_orange </file>
-<file>mokoiv_purple </file>
-<file>mokoiv_red </file>
-<file>mokoiv_wall_type_1_blue </file>
-<file>mokoiv_wall_type_1_bluedu </file>
-<file>mokoiv_wall_type_1_gold </file>
-<file>mokoiv_wall_type_1_green </file>
-<file>mokoiv_wall_type_1_orange </file>
-<file>mokoiv_wall_type_1_red </file>
-<file>mokoiv_wall_type_2_blue </file>
-<file>mokoiv_wall_type_2_bluedu </file>
-<file>mokoiv_wall_type_2_gold </file>
-<file>mokoiv_wall_type_2_green </file>
-</dir>
+	<dir id="textures.blocks.srindintaria">
+		<file>srindintaria_rune </file>
+		<file>srindintaria_rune_2 </file>
+		<file>srindintaria_rune_2_blue </file>
+		<file>srindintaria_rune_2_bluestone </file>
+		<file>srindintaria_rune_2_green </file>
+		<file>srindintaria_rune_2_orange </file>
+		<file>srindintaria_rune_2_purple </file>
+		<file>srindintaria_rune_2_red </file>
+		<file>srindintaria_rune_2_sandstone </file>
+		<file>srindintaria_rune_2_solea_coral </file>
+		<file>srindintaria_rune_blue_moon_gem </file>
+		<file>srindintaria_rune_red_moon_gem </file>
+		<file>srindintaria_rune__green_gem </file>
+		<file>srindintaria_rune__orange_moon_gem </file>
+		<file>srindintaria_rune__purple_moon_gem </file>
+		<file>srindintaria_rune__purpula_gem </file>
+		<file>srindintaria_wall_deep_dessert_stone </file>
+		<file>srindintaria_wall_deep_snow_cavestone </file>
+		<file>srindintaria_wall_deep_solea_stone </file>
+		<file>srindintaria_wall_forest_stone </file>
+		<file>srindintaria_wall_redstone </file>
+		<file>srindintaria_wall_sandstone </file>
+		<file>srindintaria_wall_stone </file>
+	</dir>
 
-<dir id="textures.blocks.ice_deco">
-<file>akio_cracked_ice_block </file>
-<file>akio_hardened_cracked_ice_block </file>
-<file>akio_hardened_ice_block </file>
-<file>akio_ice_floor </file>
-<file>clevikinkki </file>
-<file>clevikinkki_akio </file>
-<file>clevikinkki_akio_tile </file>
-<file>clevikinkki_sunset </file>
-<file>clevikinkki_sunset_tile </file>
-<file>clevikinkki_sunset_wall </file>
-<file>clevikinkki_tile </file>
-<file>clevikinkki_wall </file>
-<file>clevikjaih_akio_deco_wall </file>
-<file>clevikjaih_deco_wall </file>
-<file>clevikjaih_sunset_deco_wall </file>
-<file>ice_floor </file>
-<file>sunset_cracked_ice_block </file>
-<file>sunset_hardened_cracked_ice_block </file>
-<file>sunset_hardened_ice_block </file>
-<file>sunset_ice_block </file>
-<file>sunset_ice_floor </file>
-</dir>
+	<dir id="textures.blocks.simple_life">
+		<file>black_tile_type_1 </file>
+		<file>black_tile_type_2 </file>
+		<file>blue_tile_type_1 </file>
+		<file>blue_tile_type_2 </file>
+		<file>blue_tile_type_3 </file>
+		<file>brown_tile_type_1 </file>
+		<file>brown_tile_type_2 </file>
+		<file>brown_tile_type_3 </file>
+		<file>cyan_tile_type_1 </file>
+		<file>cyan_tile_type_2 </file>
+		<file>cyan_tile_type_3 </file>
+		<file>dark_blue_tile_type_1 </file>
+		<file>dark_blue_tile_type_2 </file>
+		<file>dark_blue_tile_type_3 </file>
+		<file>dark_green_tile_type_1 </file>
+		<file>dark_green_tile_type_2 </file>
+		<file>dark_green_tile_type_3 </file>
+		<file>green_tile_type_1 </file>
+		<file>green_tile_type_2 </file>
+		<file>green_tile_type_3 </file>
+		<file>grey_tile_type_1 </file>
+		<file>grey_tile_type_2 </file>
+		<file>grey_tile_type_3 </file>
+		<file>lial_tile_type_3 </file>
+		<file>lila_tile_type_1 </file>
+		<file>lila_tile_type_2 </file>
+		<file>lime_green_tile_type_1 </file>
+		<file>lime_green_tile_type_2 </file>
+		<file>lime_green_tile_type_3 </file>
+		<file>orange_tile_type_1 </file>
+		<file>orange_tile_type_2 </file>
+		<file>orange_tile_type_3 </file>
+		<file>pink_tile_type_1 </file>
+		<file>pink_tile_type_2 </file>
+		<file>pink_tile_type_3 </file>
+		<file>ppink_tile_type_1 </file>
+		<file>ppink_tile_type_2 </file>
+		<file>ppink_tile_type_3 </file>
+		<file>purple_tile_type_1 </file>
+		<file>purple_tile_type_2 </file>
+		<file>purple_tile_type_3 </file>
+		<file>red_tile_type_1 </file>
+		<file>red_tile_type_2 </file>
+		<file>red_tile_type_3 </file>
+		<file>white_tile_type_2 </file>
+		<file>white_tile_type_3 </file>
+		<file>yelllow_tile_type_2 </file>
+		<file>yellow_tile_type_1 </file>
+		<file>yellow_tile_type_3 </file>
+	</dir>
 
-<dir id="textures.blocks.simple_glass_full_frame">
-<file>simple_glass_black </file>
-<file>simple_glass_blue </file>
-<file>simple_glass_clear </file>
-<file>simple_glass_cyan </file>
-<file>simple_glass_dark_blue </file>
-<file>simple_glass_dark_green </file>
-<file>simple_glass_dark_purple </file>
-<file>simple_glass_green </file>
-<file>simple_glass_magenta </file>
-<file>simple_glass_orange </file>
-<file>simple_glass_pink </file>
-<file>simple_glass_purple </file>
-<file>simple_glass_red </file>
-<file>simple_glass_white </file>
-<file>simple_glass_yellow </file>
-</dir>
+	<dir id="textures.blocks.mokoiv">
+		<file>mokoiv_blue </file>
+		<file>mokoiv_bluedu </file>
+		<file>mokoiv_gold </file>
+		<file>mokoiv_green </file>
+		<file>mokoiv_orange </file>
+		<file>mokoiv_purple </file>
+		<file>mokoiv_red </file>
+		<file>mokoiv_wall_type_1_blue </file>
+		<file>mokoiv_wall_type_1_bluedu </file>
+		<file>mokoiv_wall_type_1_gold </file>
+		<file>mokoiv_wall_type_1_green </file>
+		<file>mokoiv_wall_type_1_orange </file>
+		<file>mokoiv_wall_type_1_red </file>
+		<file>mokoiv_wall_type_2_blue </file>
+		<file>mokoiv_wall_type_2_bluedu </file>
+		<file>mokoiv_wall_type_2_gold </file>
+		<file>mokoiv_wall_type_2_green </file>
+	</dir>
+<!--Start here-->
+	<dir id="textures.blocks.ice_deco">
+		<file>akio_cracked_ice_block </file>
+		<file>akio_hardened_cracked_ice_block </file>
+		<file>akio_hardened_ice_block </file>
+		<file>akio_ice_floor </file>
+		<file>clevikinkki </file>
+		<file>clevikinkki_akio </file>
+		<file>clevikinkki_akio_tile </file>
+		<file>clevikinkki_sunset </file>
+		<file>clevikinkki_sunset_tile </file>
+		<file>clevikinkki_sunset_wall </file>
+		<file>clevikinkki_tile </file>
+		<file>clevikinkki_wall </file>
+		<file>clevikjaih_akio_deco_wall </file>
+		<file>clevikjaih_deco_wall </file>
+		<file>clevikjaih_sunset_deco_wall </file>
+		<file>ice_floor </file>
+		<file>sunset_cracked_ice_block </file>
+		<file>sunset_hardened_cracked_ice_block </file>
+		<file>sunset_hardened_ice_block </file>
+		<file>sunset_ice_block </file>
+		<file>sunset_ice_floor </file>
+	</dir>
 
-<dir id="textures.blocks.city_blocks">
-<file>cut_lines_x1_0 </file>
-<file>cut_lines_x1_1 </file>
-<file>cut_lines_y1_0 </file>
-<file>cut_lines_y1_1 </file>
-<file>cut_lines_z1_0 </file>
-<file>cut_lines_z1_1 </file>
-<file>middle_line_0 </file>
-<file>middle_line_1 </file>
-<file>x1_yellow_ray_0 </file>
-<file>x1_yellow_ray_1 </file>
-<file>y1_yellow_ray_0 </file>
-<file>y1_yellow_ray_1 </file>
-</dir> 
+	<dir id="textures.blocks.simple_glass_full_frame">
+		<file>simple_glass_black </file>
+		<file>simple_glass_blue </file>
+		<file>simple_glass_clear </file>
+		<file>simple_glass_cyan </file>
+		<file>simple_glass_dark_blue </file>
+		<file>simple_glass_dark_green </file>
+		<file>simple_glass_dark_purple </file>
+		<file>simple_glass_green </file>
+		<file>simple_glass_magenta </file>
+		<file>simple_glass_orange </file>
+		<file>simple_glass_pink </file>
+		<file>simple_glass_purple </file>
+		<file>simple_glass_red </file>
+		<file>simple_glass_white </file>
+		<file>simple_glass_yellow </file>
+	</dir>
 
-<dir id="textures.blocks.artifical_grass">
-<file>artificial_ashed_grass </file>
-<file>artificial_blue_grass </file>
-<file>artificial_cyan_grass </file>
-<file>artificial_farm_grass </file>
-<file>artificial_grass </file>
-<file>artificial_lively_blue_grass </file>
-<file>artificial_magenta_grass </file>
-<file>artificial_orange_grass </file>
-<file>artificial_pink_grass </file>
-<file>artificial_purple_grass </file>
-<file>artificial_red_grass </file>
-<file>artificial_valley_grass </file>
-<file>artificial_violet_grass </file>
-</dir>
+	<dir id="textures.blocks.city_blocks">
+		<file>cut_lines_x1_0 </file>
+		<file>cut_lines_x1_1 </file>
+		<file>cut_lines_y1_0 </file>
+		<file>cut_lines_y1_1 </file>
+		<file>cut_lines_z1_0 </file>
+		<file>cut_lines_z1_1 </file>
+		<file>middle_line_0 </file>
+		<file>middle_line_1 </file>
+		<file>x1_yellow_ray_0 </file>
+		<file>x1_yellow_ray_1 </file>
+		<file>y1_yellow_ray_0 </file>
+		<file>y1_yellow_ray_1 </file>
+	</dir> 
 
-<dir id="textures.blocks.gan_deco">
-<file>gan_deco_black </file>
-<file>gan_deco_blue </file>
-<file>gan_deco_green </file>
-<file>gan_deco_magenta </file>
-<file>gan_deco_orange </file>
-<file>gan_deco_purple </file>
-<file>gan_deco_red </file>
-<file>gan_deco_white </file>
-<file>gan_deco_white_black_frame </file>
-</dir>
-<dir id="textures.blocks.aga">
-<file>tile_ag_aga </file>
-<file>tile_a_aga </file>
-<file>tile_bk_aga </file>
-<file>tile_b_aga </file>
-<file>tile_cpp_aga </file>
-<file>tile_crm_aga </file>
-<file>tile_r_aga </file>
-<file>tile_w_aga </file>
-<file>wallblock_ag_aga </file>
-<file>wallblock_a_aga </file>
-<file>wallblock_bk_aga </file>
-<file>wallblock_b_aga </file>
-<file>wallblock_cpp_aga </file>
-<file>wallblock_crm_aga </file>
-<file>wallblock_r_aga </file>
-<file>wallblock_w_aga </file>
-</dir>
-<dir id="textures.blocks.ancient">
-<file>rune_2ag_acient </file>
-<file>rune_2a_acient </file>
-<file>rune_2bk_acient </file>
-<file>rune_2b_acient </file>
-<file>rune_2cpp_acient </file>
-<file>rune_2crm_acient </file>
-<file>rune_2r_acient </file>
-<file>rune_2w_acient </file>
-<file>rune_ag_acient </file>
-<file>rune_a_acient </file>
-<file>rune_bk_acient </file>
-<file>rune_b_acient </file>
-<file>rune_cpp_acient </file>
-<file>rune_crm_acient </file>
-<file>rune_r_acient </file>
-<file>rune_w_acient </file>
-</dir>
+	<dir id="textures.blocks.artifical_grass">
+		<file>artificial_ashed_grass </file>
+		<file>artificial_blue_grass </file>
+		<file>artificial_cyan_grass </file>
+		<file>artificial_farm_grass </file>
+		<file>artificial_grass </file>
+		<file>artificial_lively_blue_grass </file>
+		<file>artificial_magenta_grass </file>
+		<file>artificial_orange_grass </file>
+		<file>artificial_pink_grass </file>
+		<file>artificial_purple_grass </file>
+		<file>artificial_red_grass </file>
+		<file>artificial_valley_grass </file>
+		<file>artificial_violet_grass </file>
+	</dir>
 
-<dir id="textures.blocks.castle">
-<file>brick_ag_castle </file>
-<file>brick_a_castle </file>
-<file>brick_bk_castle </file>
-<file>brick_b_castle </file>
-<file>brick_cpp_castle </file>
-<file>brick_crm_castle </file>
-<file>brick_red_castle </file>
-<file>brick_w_castle </file>
-</dir>
-<dir id="textures.blocks.castle.castlefloor">
-<file>floor_ag_castle </file>
-<file>floor_a_castle </file>
-<file>floor_bk_castle </file>
-<file>floor_b_castle </file>
-<file>floor_cpp_castle </file>
-<file>floor_crm_castle </file>
-<file>floor_r_castle </file>
-<file>floor_w_castle </file>
-</dir>
-<dir id="textures.blocks.castle.darkbrick">
-<file>darkbrick_ag_castle </file>
-<file>darkbrick_a_castle </file>
-<file>darkbrick_bk_castle </file>
-<file>darkbrick_b_castle </file>
-<file>darkbrick_cpp_castle </file>
-<file>darkbrick_crm_castle </file>
-<file>darkbrick_r_castle </file>
-<file>darkbrick_w_castle </file>
-</dir>
-<dir id="textures.blocks.castle.floor">
-<file>floorbrick_ag_castle </file>
-<file>floorbrick_a_castle </file>
-<file>floorbrick_bk_castle </file>
-<file>floorbrick_b_castle </file>
-<file>floorbrick_cpp_castle </file>
-<file>floorbrick_crm_castle </file>
-<file>floorbrick_red_castle </file>
-<file>floorbrick_w_castle </file>
-</dir>
+	<dir id="textures.blocks.gan_deco">
+		<file>gan_deco_black </file>
+		<file>gan_deco_blue </file>
+		<file>gan_deco_green </file>
+		<file>gan_deco_magenta </file>
+		<file>gan_deco_orange </file>
+		<file>gan_deco_purple </file>
+		<file>gan_deco_red </file>
+		<file>gan_deco_white </file>
+		<file>gan_deco_white_black_frame </file>
+	</dir>
+	<dir id="textures.blocks.aga">
+		<file>tile_ag_aga </file>
+		<file>tile_a_aga </file>
+		<file>tile_bk_aga </file>
+		<file>tile_b_aga </file>
+		<file>tile_cpp_aga </file>
+		<file>tile_crm_aga </file>
+		<file>tile_r_aga </file>
+		<file>tile_w_aga </file>
+		<file>wallblock_ag_aga </file>
+		<file>wallblock_a_aga </file>
+		<file>wallblock_bk_aga </file>
+		<file>wallblock_b_aga </file>
+		<file>wallblock_cpp_aga </file>
+		<file>wallblock_crm_aga </file>
+		<file>wallblock_r_aga </file>
+		<file>wallblock_w_aga </file>
+	</dir>
+	<dir id="textures.blocks.ancient">
+		<file>rune_2ag_acient </file>
+		<file>rune_2a_acient </file>
+		<file>rune_2bk_acient </file>
+		<file>rune_2b_acient </file>
+		<file>rune_2cpp_acient </file>
+		<file>rune_2crm_acient </file>
+		<file>rune_2r_acient </file>
+		<file>rune_2w_acient </file>
+		<file>rune_ag_acient </file>
+		<file>rune_a_acient </file>
+		<file>rune_bk_acient </file>
+		<file>rune_b_acient </file>
+		<file>rune_cpp_acient </file>
+		<file>rune_crm_acient </file>
+		<file>rune_r_acient </file>
+		<file>rune_w_acient </file>
+	</dir>
 
-<dir id="textures.blocks.castle.stairedfloor">
-<file>block_ag_stairedfloor </file>
-<file>block_a_stairedfloor </file>
-<file>block_bk_stairedfloor </file>
-<file>block_b_stairedfloor </file>
-<file>block_cpp_stairedfloor </file>
-<file>block_crm_stairedfloor </file>
-<file>block_r_stairedfloor </file>
-<file>block_w_stairedfloor </file>
-</dir>
-<dir id="textures.blocks.castle.tile">
-<file>tile_ag_castle </file>
-<file>tile_a_castle </file>
-<file>tile_bk_castle </file>
-<file>tile_b_castle </file>
-<file>tile_cpp_castle </file>
-<file>tile_crm_castle </file>
-<file>tile_r_castle </file>
-<file>tile_w_castle </file>
-</dir>
-<dir id="textures.blocks.castle.unifloor">
-<file>unifloor_ag_tile </file>
-<file>unifloor_a_tile </file>
-<file>unifloor_bk_tile </file>
-<file>unifloor_b_tile </file>
-<file>unifloor_cpp_tile </file>
-<file>unifloor_crm_tile </file>
-<file>unifloor_r_tile </file>
-<file>unifloor_w_tile </file>
-</dir>
+	<dir id="textures.blocks.castle">
+		<file>brick_ag_castle </file>
+		<file>brick_a_castle </file>
+		<file>brick_bk_castle </file>
+		<file>brick_b_castle </file>
+		<file>brick_cpp_castle </file>
+		<file>brick_crm_castle </file>
+		<file>brick_red_castle </file>
+		<file>brick_w_castle </file>
+	</dir>
+	<dir id="textures.blocks.castle.castlefloor">
+		<file>floor_ag_castle </file>
+		<file>floor_a_castle </file>
+		<file>floor_bk_castle </file>
+		<file>floor_b_castle </file>
+		<file>floor_cpp_castle </file>
+		<file>floor_crm_castle </file>
+		<file>floor_r_castle </file>
+		<file>floor_w_castle </file>
+	</dir>
+	<dir id="textures.blocks.castle.darkbrick">
+		<file>darkbrick_ag_castle </file>
+		<file>darkbrick_a_castle </file>
+		<file>darkbrick_bk_castle </file>
+		<file>darkbrick_b_castle </file>
+		<file>darkbrick_cpp_castle </file>
+		<file>darkbrick_crm_castle </file>
+		<file>darkbrick_r_castle </file>
+		<file>darkbrick_w_castle </file>
+	</dir>
+	<dir id="textures.blocks.castle.floor">
+		<file>floorbrick_ag_castle </file>
+		<file>floorbrick_a_castle </file>
+		<file>floorbrick_bk_castle </file>
+		<file>floorbrick_b_castle </file>
+		<file>floorbrick_cpp_castle </file>
+		<file>floorbrick_crm_castle </file>
+		<file>floorbrick_red_castle </file>
+		<file>floorbrick_w_castle </file>
+	</dir>
 
-<dir id="textures.blocks.castle.multifloordown">
-<file>multitiledown_ag_tile </file>
-<file>multitiledown_a_tile </file>
-<file>multitiledown_bk_tile </file>
-<file>multitiledown_b_tile </file>
-<file>multitiledown_cpp_tile </file>
-<file>multitiledown_crm_tile </file>
-<file>multitiledown_r_tile </file>
-<file>multitiledown_w_tile </file>
-</dir>
-<dir id="textures.blocks.castle.multifloortop">
-<file>multifloor top_crm_tile </file>
-<file>multifloortop_ag_tile </file>
-<file>multifloortop_a_tile </file>
-<file>multifloortop_bk_tile </file>
-<file>multifloortop_b_tile </file>
-<file>multifloortop_cpp_tile </file>
-<file>multifloortop_r_tile </file>
-<file>multifloortop_w_tile </file>
-</dir>
-<dir id="textures.blocks.floor">
-<file>floor_ag_tile </file>
-<file>floor_a_tile </file>
-<file>floor_bk_tile </file>
-<file>floor_b_tile </file>
-<file>floor_cpp_tile </file>
-<file>floor_crm_tile </file>
-<file>floor_r_tile </file>
-<file>floor_w_tile </file>
-</dir>
+	<dir id="textures.blocks.castle.stairedfloor">
+		<file>block_ag_stairedfloor </file>
+		<file>block_a_stairedfloor </file>
+		<file>block_bk_stairedfloor </file>
+		<file>block_b_stairedfloor </file>
+		<file>block_cpp_stairedfloor </file>
+		<file>block_crm_stairedfloor </file>
+		<file>block_r_stairedfloor </file>
+		<file>block_w_stairedfloor </file>
+	</dir>
+	<dir id="textures.blocks.castle.tile">
+		<file>tile_ag_castle </file>
+		<file>tile_a_castle </file>
+		<file>tile_bk_castle </file>
+		<file>tile_b_castle </file>
+		<file>tile_cpp_castle </file>
+		<file>tile_crm_castle </file>
+		<file>tile_r_castle </file>
+		<file>tile_w_castle </file>
+	</dir>
+	<dir id="textures.blocks.castle.unifloor">
+		<file>unifloor_ag_tile </file>
+		<file>unifloor_a_tile </file>
+		<file>unifloor_bk_tile </file>
+		<file>unifloor_b_tile </file>
+		<file>unifloor_cpp_tile </file>
+		<file>unifloor_crm_tile </file>
+		<file>unifloor_r_tile </file>
+		<file>unifloor_w_tile </file>
+	</dir>
 
-<dir id="textures.blocks.floor2">
-<file>floor2_ag_brick </file>
-<file>floor2_a_brick </file>
-<file>floor2_bk_brick </file>
-<file>floor2_b_brick </file>
-<file>floor2_cpp_brick </file>
-<file>floor2_crm_brick </file>
-<file>floor2_r_brick </file>
-<file>floor2_w_brick </file>
-</dir>
+	<dir id="textures.blocks.castle.multifloordown">
+		<file>multitiledown_ag_tile </file>
+		<file>multitiledown_a_tile </file>
+		<file>multitiledown_bk_tile </file>
+		<file>multitiledown_b_tile </file>
+		<file>multitiledown_cpp_tile </file>
+		<file>multitiledown_crm_tile </file>
+		<file>multitiledown_r_tile </file>
+		<file>multitiledown_w_tile </file>
+	</dir>
+	<dir id="textures.blocks.castle.multifloortop">
+		<file>multifloor top_crm_tile </file>
+		<file>multifloortop_ag_tile </file>
+		<file>multifloortop_a_tile </file>
+		<file>multifloortop_bk_tile </file>
+		<file>multifloortop_b_tile </file>
+		<file>multifloortop_cpp_tile </file>
+		<file>multifloortop_r_tile </file>
+		<file>multifloortop_w_tile </file>
+	</dir>
+	<dir id="textures.blocks.floor">
+		<file>floor_ag_tile </file>
+		<file>floor_a_tile </file>
+		<file>floor_bk_tile </file>
+		<file>floor_b_tile </file>
+		<file>floor_cpp_tile </file>
+		<file>floor_crm_tile </file>
+		<file>floor_r_tile </file>
+		<file>floor_w_tile </file>
+	</dir>
 
-<dir id="textures.blocks.flower">
-<file>rune_ag_flower </file>
-<file>rune_a_flower </file>
-<file>rune_bk_flower </file>
-<file>rune_b_flower </file>
-<file>rune_cpp_flower </file>
-<file>rune_crm_flower </file>
-<file>rune_r_flower </file>
-<file>rune_w_flower </file>
-</dir>
+	<dir id="textures.blocks.floor2">
+		<file>floor2_ag_brick </file>
+		<file>floor2_a_brick </file>
+		<file>floor2_bk_brick </file>
+		<file>floor2_b_brick </file>
+		<file>floor2_cpp_brick </file>
+		<file>floor2_crm_brick </file>
+		<file>floor2_r_brick </file>
+		<file>floor2_w_brick </file>
+	</dir>
 
-<dir id="textures.blocks.gemrune">
-<file>gemrune_ag_puzzle </file>
-<file>gemrune_a_puzzle </file>
-<file>gemrune_bk_puzzle </file>
-<file>gemrune_b_puzzle </file>
-<file>gemrune_cpp_puzzle </file>
-<file>gemrune_crm_puzzle </file>
-<file>gemrune_r_puzzle </file>
-<file>gemrune_w_puzzle </file>
-</dir>
+	<dir id="textures.blocks.flower">
+		<file>rune_ag_flower </file>
+		<file>rune_a_flower </file>
+		<file>rune_bk_flower </file>
+		<file>rune_b_flower </file>
+		<file>rune_cpp_flower </file>
+		<file>rune_crm_flower </file>
+		<file>rune_r_flower </file>
+		<file>rune_w_flower </file>
+	</dir>
 
-<dir id="textures.blocks.emptyrune">
-<file>emptyrune_a_puzzle </file>
-<file>emptyrune_bk_puzzle </file>
-<file>emptyrune_b_puzzle </file>
-<file>emptyrune_cpp_puzzle </file>
-<file>emptyrune_crm_puzzle </file>
-<file>emptyrune_r_puzzle </file>
-<file>emptyrune_w_puzzle </file>
-<file>emptyrune_ag_puzzle </file>
-</dir>
+	<dir id="textures.blocks.gemrune">
+		<file>gemrune_ag_puzzle </file>
+		<file>gemrune_a_puzzle </file>
+		<file>gemrune_bk_puzzle </file>
+		<file>gemrune_b_puzzle </file>
+		<file>gemrune_cpp_puzzle </file>
+		<file>gemrune_crm_puzzle </file>
+		<file>gemrune_r_puzzle </file>
+		<file>gemrune_w_puzzle </file>
+	</dir>
 
-<dir id="textures.blocks.hiddenstar">
-<file>rune_ag_hiddenstar </file>
-<file>rune_a_hiddenstar </file>
-<file>rune_bk_hiddenstar </file>
-<file>rune_b_hiddenstar </file>
-<file>rune_cpp_hiddenstar </file>
-<file>rune_crm_hiddenstar </file>
-<file>rune_r_hiddenstar </file>
-<file>rune_w_hiddenstar </file>
-</dir>
+	<dir id="textures.blocks.emptyrune">
+		<file>emptyrune_a_puzzle </file>
+		<file>emptyrune_bk_puzzle </file>
+		<file>emptyrune_b_puzzle </file>
+		<file>emptyrune_cpp_puzzle </file>
+		<file>emptyrune_crm_puzzle </file>
+		<file>emptyrune_r_puzzle </file>
+		<file>emptyrune_w_puzzle </file>
+		<file>emptyrune_ag_puzzle </file>
+	</dir>
 
-<dir id="textures.blocks.secret">
-<file>rune_ag_secret </file>
-<file>rune_a_secret </file>
-<file>rune_bk_secret </file>
-<file>rune_b_secret </file>
-<file>rune_cpp_secret </file>
-<file>rune_crm_secret </file>
-<file>rune_r_secret </file>
-<file>rune_w_secret </file>
-</dir>
+	<dir id="textures.blocks.hiddenstar">
+		<file>rune_ag_hiddenstar </file>
+		<file>rune_a_hiddenstar </file>
+		<file>rune_bk_hiddenstar </file>
+		<file>rune_b_hiddenstar </file>
+		<file>rune_cpp_hiddenstar </file>
+		<file>rune_crm_hiddenstar </file>
+		<file>rune_r_hiddenstar </file>
+		<file>rune_w_hiddenstar </file>
+	</dir>
 
-<dir id="textures.blocks.stairedwall">
-<file>stairedwall_ag_block </file>
-<file>stairedwall_a_block </file>
-<file>stairedwall_bk_block </file>
-<file>stairedwall_b_block </file>
-<file>stairedwall_cpp_block </file>
-<file>stairedwall_crm_block </file>
-<file>stairedwall_r_block </file>
-<file>stairedwall_w_block </file>
-</dir>
-<dir id="textures.blocks.tears">
-<file>rune_ag_tears </file>
-<file>rune_a_tears </file>
-<file>rune_bk_tears </file>
-<file>rune_b_tears </file>
-<file>rune_cpp_tears </file>
-<file>rune_crm_tears </file>
-<file>rune_r_tears </file>
-<file>rune_w_tears </file>
-</dir>
-<dir id="textures.blocks.tears2">
-<file>rune2_ag_tears </file>
-<file>rune2_a_tears </file>
-<file>rune2_bk_tears </file>
-<file>rune2_b_tears </file>
-<file>rune2_cpp_tears </file>
-<file>rune2_crm_tears </file>
-<file>rune2_r_tears </file>
-<file>rune2_w_tears </file>
-</dir>
-<dir id="textures.blocks.tears3">
-<file>rune3_ag_tear </file>
-<file>rune3_a_tear </file>
-<file>rune3_bk_tear </file>
-<file>rune3_b_tear </file>
-<file>rune3_cpp_tear </file>
-<file>rune3_crm_tear </file>
-<file>rune3_r_tear </file>
-<file>rune3_w_tear </file>
-</dir>
-<dir id="textures.blocks.temple">
-<file>rune_ag_temple2 </file>
-<file>rune_a_temple2 </file>
-<file>rune_bk_temple2 </file>
-<file>rune_b_temple2 </file>
-<file>rune_cpp_temple2 </file>
-<file>rune_crm_temple2 </file>
-<file>rune_r_temple2 </file>
-<file>rune_w_temple2 </file>
-<file>temple_ag_tile </file>
-<file>temple_a_tile </file>
-<file>temple_bk_tile </file>
-<file>temple_b_tile </file>
-<file>temple_cpp_tile </file>
-<file>temple_crm_tile </file>
-<file>temple_r_tile </file>
-<file>temple_w_tile </file>
-</dir>
+	<dir id="textures.blocks.secret">
+		<file>rune_ag_secret </file>
+		<file>rune_a_secret </file>
+		<file>rune_bk_secret </file>
+		<file>rune_b_secret </file>
+		<file>rune_cpp_secret </file>
+		<file>rune_crm_secret </file>
+		<file>rune_r_secret </file>
+		<file>rune_w_secret </file>
+	</dir>
 
-<dir id="textures.blocks.temple_mark">
-<file>rune1_ag_temple </file>
-<file>rune1_a_temple </file>
-<file>rune1_bk_temple </file>
-<file>rune1_b_temple </file>
-<file>rune1_cpp_temple </file>
-<file>rune1_crm_temple </file>
-<file>rune1_r_temple </file>
-<file>rune1_w_temple </file>
-</dir>
+	<dir id="textures.blocks.stairedwall">
+		<file>stairedwall_ag_block </file>
+		<file>stairedwall_a_block </file>
+		<file>stairedwall_bk_block </file>
+		<file>stairedwall_b_block </file>
+		<file>stairedwall_cpp_block </file>
+		<file>stairedwall_crm_block </file>
+		<file>stairedwall_r_block </file>
+		<file>stairedwall_w_block </file>
+	</dir>
+	<dir id="textures.blocks.tears">
+		<file>rune_ag_tears </file>
+		<file>rune_a_tears </file>
+		<file>rune_bk_tears </file>
+		<file>rune_b_tears </file>
+		<file>rune_cpp_tears </file>
+		<file>rune_crm_tears </file>
+		<file>rune_r_tears </file>
+		<file>rune_w_tears </file>
+	</dir>
+	<dir id="textures.blocks.tears2">
+		<file>rune2_ag_tears </file>
+		<file>rune2_a_tears </file>
+		<file>rune2_bk_tears </file>
+		<file>rune2_b_tears </file>
+		<file>rune2_cpp_tears </file>
+		<file>rune2_crm_tears </file>
+		<file>rune2_r_tears </file>
+		<file>rune2_w_tears </file>
+	</dir>
+	<dir id="textures.blocks.tears3">
+		<file>rune3_ag_tear </file>
+		<file>rune3_a_tear </file>
+		<file>rune3_bk_tear </file>
+		<file>rune3_b_tear </file>
+		<file>rune3_cpp_tear </file>
+		<file>rune3_crm_tear </file>
+		<file>rune3_r_tear </file>
+		<file>rune3_w_tear </file>
+	</dir>
+	<dir id="textures.blocks.temple">
+		<file>rune_ag_temple2 </file>
+		<file>rune_a_temple2 </file>
+		<file>rune_bk_temple2 </file>
+		<file>rune_b_temple2 </file>
+		<file>rune_cpp_temple2 </file>
+		<file>rune_crm_temple2 </file>
+		<file>rune_r_temple2 </file>
+		<file>rune_w_temple2 </file>
+		<file>temple_ag_tile </file>
+		<file>temple_a_tile </file>
+		<file>temple_bk_tile </file>
+		<file>temple_b_tile </file>
+		<file>temple_cpp_tile </file>
+		<file>temple_crm_tile </file>
+		<file>temple_r_tile </file>
+		<file>temple_w_tile </file>
+	</dir>
 
-<dir id="textures.blocks.tetri.floor">
-<file>floor_ag_tetri </file>
-<file>floor_a_tetri </file>
-<file>floor_bk_tetri </file>
-<file>floor_b_tetri </file>
-<file>floor_cpp_tetri </file>
-<file>floor_crm_tetri </file>
-<file>floor_r_tetri </file>
-<file>floor_w_tetri </file>
-</dir>
+	<dir id="textures.blocks.temple_mark">
+		<file>rune1_ag_temple </file>
+		<file>rune1_a_temple </file>
+		<file>rune1_bk_temple </file>
+		<file>rune1_b_temple </file>
+		<file>rune1_cpp_temple </file>
+		<file>rune1_crm_temple </file>
+		<file>rune1_r_temple </file>
+		<file>rune1_w_temple </file>
+	</dir>
 
-<dir id="textures.blocks.tetri.tetriblock">
-<file>block_ag_tetri </file>
-<file>block_a_tetri </file>
-<file>block_bk_tetri </file>
-<file>block_b_tetri </file>
-<file>block_cpp_tetri </file>
-<file>block_crm_tetri </file>
-<file>block_r_tetri </file>
-<file>block_w_tetri </file>
-</dir>
+	<dir id="textures.blocks.tetri.floor">
+		<file>floor_ag_tetri </file>
+		<file>floor_a_tetri </file>
+		<file>floor_bk_tetri </file>
+		<file>floor_b_tetri </file>
+		<file>floor_cpp_tetri </file>
+		<file>floor_crm_tetri </file>
+		<file>floor_r_tetri </file>
+		<file>floor_w_tetri </file>
+	</dir>
 
-<dir id="textures.blocks.tna">
-<file>wall_ag_tna </file>
-<file>wall_a_tna </file>
-<file>wall_bk_tna </file>
-<file>wall_b_tna </file>
-<file>wall_cpp_tna </file>
-<file>wall_crm_tna </file>
-<file>wall_r_tna </file>
-<file>wall_w_tna </file>
-</dir>
-<dir id="textures.blocks.tree">
-<file>rune_ag_tree </file>
-<file>rune_a_tree </file>
-<file>rune_bk_tree </file>
-<file>rune_b_tree </file>
-<file>rune_cpp_tree </file>
-<file>rune_crm_tree </file>
-<file>rune_r_tree </file>
-<file>rune_w_tree </file>
-</dir>
-<dir id="textures.blocks.mountain">
-<file>rune_ag_montain </file>
-<file>rune_a_montain </file>
-<file>rune_bk_montain </file>
-<file>rune_b_montain </file>
-<file>rune_cpp_montain </file>
-<file>rune_crm_montain </file>
-<file>rune_r_montain </file>
-<file>rune_w_montain </file>
-</dir>
-<dir id="textures.blocks.water">
-<file>rune_ag_water </file>
-<file>rune_a_water </file>
-<file>rune_bk_water </file>
-<file>rune_b_water </file>
-<file>rune_cpp_water </file>
-<file>rune_crm_water </file>
-<file>rune_r_water </file>
-<file>rune_w_water </file>
-</dir>
+	<dir id="textures.blocks.tetri.tetriblock">
+		<file>block_ag_tetri </file>
+		<file>block_a_tetri </file>
+		<file>block_bk_tetri </file>
+		<file>block_b_tetri </file>
+		<file>block_cpp_tetri </file>
+		<file>block_crm_tetri </file>
+		<file>block_r_tetri </file>
+		<file>block_w_tetri </file>
+	</dir>
+
+	<dir id="textures.blocks.tna">
+		<file>wall_ag_tna </file>
+		<file>wall_a_tna </file>
+		<file>wall_bk_tna </file>
+		<file>wall_b_tna </file>
+		<file>wall_cpp_tna </file>
+		<file>wall_crm_tna </file>
+		<file>wall_r_tna </file>
+		<file>wall_w_tna </file>
+	</dir>
+	<dir id="textures.blocks.tree">
+		<file>rune_ag_tree </file>
+		<file>rune_a_tree </file>
+		<file>rune_bk_tree </file>
+		<file>rune_b_tree </file>
+		<file>rune_cpp_tree </file>
+		<file>rune_crm_tree </file>
+		<file>rune_r_tree </file>
+		<file>rune_w_tree </file>
+	</dir>
+	<dir id="textures.blocks.mountain">
+		<file>rune_ag_montain </file>
+		<file>rune_a_montain </file>
+		<file>rune_bk_montain </file>
+		<file>rune_b_montain </file>
+		<file>rune_cpp_montain </file>
+		<file>rune_crm_montain </file>
+		<file>rune_r_montain </file>
+		<file>rune_w_montain </file>
+	</dir>
+	<dir id="textures.blocks.water">
+		<file>rune_ag_water </file>
+		<file>rune_a_water </file>
+		<file>rune_bk_water </file>
+		<file>rune_b_water </file>
+		<file>rune_cpp_water </file>
+		<file>rune_crm_water </file>
+		<file>rune_r_water </file>
+		<file>rune_w_water </file>
+	</dir>
 </directories>

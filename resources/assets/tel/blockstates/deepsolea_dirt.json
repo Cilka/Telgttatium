@@ -4,7 +4,8 @@
         "model": "tel:deepsolea_dirt"
     },
     "variants": {
-        "normal": [{}],
-        "inventory": [{}]
+        "inventory": [{}],
+		"snowy=false,variant=dirt": { "model": "tel:deepsolea_dirt" },
+		"snowy=true,variant=dirt": { "model": "tel:deepsolea_dirt" }
     }  
 }

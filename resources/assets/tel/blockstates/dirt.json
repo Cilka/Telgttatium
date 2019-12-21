@@ -3,8 +3,9 @@
     "defaults": {
         "model": "tel:dirt"
     },
-    "variants": {
-        "normal": [{}],
+    "variants": {        
+        "snowy=false,variant=dirt": { "model": "tel:dirt" },
+		"snowy=true,variant=dirt": { "model": "tel:dirt"},
         "inventory": [{}]
     }  
 }
