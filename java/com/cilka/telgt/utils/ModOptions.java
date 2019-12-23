@@ -10,6 +10,7 @@ public class ModOptions {
     private BlockRenderLayer Layer;
     private boolean dropSelf;
     private boolean framed;
+    private boolean ignoreSimularity;
     public boolean canDropSelf() {
         return dropSelf;
     }
@@ -23,6 +24,19 @@ public class ModOptions {
         Material = material;
         Sound = sound;
         Layer = layer;
+        ignoreSimularity = false;
+    }
+
+    public ModOptions(Material material, SoundType sound, BlockRenderLayer layer, Boolean ignoreSimularity){
+        Material = material;
+        Sound = sound;
+        Layer = layer;
+        this.ignoreSimularity = ignoreSimularity;
+    }
+
+    public boolean canIgnoreSimilarity()
+    {
+        return ignoreSimularity;
     }
 
     public net.minecraft.block.material.Material getMaterial() {

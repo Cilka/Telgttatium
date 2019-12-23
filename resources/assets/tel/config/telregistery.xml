@@ -61,47 +61,47 @@
 					<blocks>
 						<block>
 							<name>celtic_glass_another_world</name>
-							<type>block</type>
+							<type>glass</type>
 						</block>
 						<block>
 							<name>celtic_glass_blue</name>
-							<type>block</type>
+							<type>glass</type>
 						</block>
 						<block>
 							<name>celtic_glass_cream</name>
-							<type>block</type>
+							<type>glass</type>
 						</block>
 						<block>
 							<name>celtic_glass_gold</name>
-							<type>block</type>
+							<type>glass</type>
 						</block>
 						<block>
 							<name>celtic_glass_green</name>
-							<type>block</type>
+							<type>glass</type>
 						</block>
 						<block>
 							<name>celtic_glass_grey</name>
-							<type>block</type>
+							<type>glass</type>
 						</block>
 						<block>
 							<name>celtic_glass_light_blue</name>
-							<type>block</type>
+							<type>glass</type>
 						</block>
 						<block>
 							<name>celtic_glass_purple</name>
-							<type>block</type>
+							<type>glass</type>
 						</block>
 						<block>
 							<name>celtic_glass_purple_another_world</name>
-							<type>block</type>
+							<type>glass</type>
 						</block>
 						<block>
 							<name>celtic_glass_red</name>
-							<type>block</type>
+							<type>glass</type>
 						</block>
 						<block>
 							<name>celtic_glass_yellow</name>
-							<type>block</type>
+							<type>glass</type>
 						</block>
 					</blocks>
 
@@ -1394,55 +1394,55 @@
 					<blocks>
 						<block>
 							<name>black_glass</name>
-							<type>block</type>
+							<type>glass</type>
 						</block>
 						<block>
 							<name>clear_glass</name>
-							<type>block</type>
+							<type>glass</type>
 						</block>
 						<block>
 							<name>cyan_glass</name>
-							<type>block</type>
+							<type>glass</type>
 						</block>
 						<block>
 							<name>dark_blue_glass</name>
-							<type>block</type>
+							<type>glass</type>
 						</block>
 						<block>
 							<name>dark_green_glass</name>
-							<type>block</type>
+							<type>glass</type>
 						</block>
 						<block>
 							<name>dark_purple_glass</name>
-							<type>block</type>
+							<type>glass</type>
 						</block>
 						<block>
 							<name>green_glass</name>
-							<type>block</type>
+							<type>glass</type>
 						</block>
 						<block>
 							<name>magenta_glass</name>
-							<type>block</type>
+							<type>glass</type>
 						</block>
 						<block>
 							<name>orange_glass</name>
-							<type>block</type>
+							<type>glass</type>
 						</block>
 						<block>
 							<name>pink_glass</name>
-							<type>block</type>
+							<type>glass</type>
 						</block>
 						<block>
 							<name>purple_glass</name>
-							<type>block</type>
+							<type>glass</type>
 						</block>
 						<block>
 							<name>red_glass</name>
-							<type>block</type>
+							<type>glass</type>
 						</block>
 						<block>
 							<name>yellow_glass</name>
-							<type>block</type>
+							<type>glass</type>
 						</block>
 					</blocks>
 
@@ -2645,59 +2645,59 @@
 					<blocks>
 						<block>
 							<name>nve_blue</name>
-							<type>block</type>
+							<type>glass</type>
 						</block>
 						<block>
 							<name>nve_cyan</name>
-							<type>block</type>
+							<type>glass</type>
 						</block>
 						<block>
 							<name>nve_dark_blue</name>
-							<type>block</type>
+							<type>glass</type>
 						</block>
 						<block>
 							<name>nve_black</name>
-							<type>block</type>
+							<type>glass</type>
 						</block>
 						<block>
 							<name>nve_dark_orange</name>
-							<type>block</type>
+							<type>glass</type>
 						</block>
 						<block>
 							<name>nve_dark_purple</name>
-							<type>block</type>
+							<type>glass</type>
 						</block>
 						<block>
 							<name>nve_orange</name>
-							<type>block</type>
+							<type>glass</type>
 						</block>
 						<block>
 							<name>nve_pink</name>
-							<type>block</type>
+							<type>glass</type>
 						</block>
 						<block>
 							<name>nve_purple</name>
-							<type>block</type>
+							<type>glass</type>
 						</block>
 						<block>
 							<name>nve_red</name>
-							<type>block</type>
+							<type>glass</type>
 						</block>
 						<block>
 							<name>nve_yellow</name>
-							<type>block</type>
+							<type>glass</type>
 						</block>
 						<block>
 							<name>nve_dark_green</name>
-							<type>block</type>
+							<type>glass</type>
 						</block>
 						<block>
 							<name>nve_green</name>
-							<type>block</type>
+							<type>glass</type>
 						</block>
 						<block>
 							<name>nve_white</name>
-							<type>block</type>
+							<type>glass</type>
 						</block>
 					</blocks>
 

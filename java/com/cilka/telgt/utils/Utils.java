@@ -17,9 +17,9 @@ import javax.annotation.Nonnull;
 import javax.xml.parsers.SAXParser;
 import javax.xml.parsers.SAXParserFactory;
 
-import java.lang.reflect.Field;
+import java.io.*;
+import java.net.URISyntaxException;
 import java.util.*;
-import java.util.stream.Collectors;
 
 public class Utils {
 
@@ -37,6 +37,10 @@ public class Utils {
 	public static Map<String, Block> blocks = new HashMap<>();
 	public static Map<String, Item> items = new HashMap<>();
 	public static Map<String, CreativeTabs> tabs =  new HashMap<>();
+	public static Map<String,Set<String>> blocksInTab = new HashMap<>();
+	private static int blockLoadNumber = 1;
+	private static Map<String, Integer> blockOrderFromFile = new HashMap<>();
+	private static Set<String> blockOrder = new HashSet<>();
 	public static void Generate(String modId)
 	{
 		try {
@@ -50,33 +54,67 @@ public class Utils {
             for (String key: handler.getTabs().keySet()) {
                Map<String, Section> sections =handler.getTabs().get(key).getSections();
 				List<Map<String,Block>> sectionBlocks = new ArrayList<>();
+				Set<String> tabBlocks = new HashSet<String>();
                 for ( String sectionKey : sections.keySet()) {
+                    tabBlocks.addAll(sections.get(sectionKey).getBlocks().keySet());
                     sectionBlocks.add(translateBlocks(sections.get(sectionKey).getBlocks()
 							,modOptions.get(sections.get(sectionKey).getDefaultOption())
 							,handler.getTabs().get(key).getIcon()));
 
                 }
+                blocksInTab.put(key, tabBlocks);
                 translateTabs (modId, handler.getTabs().get(key));
-                blocks.putAll(setCreativeTabs(tabs.get(key), sectionBlocks));
+                blocks.putAll(finalizeBlocks(tabs.get(key), sectionBlocks));
 
             }
-
+         //   finalizeLoadOrder(blockOrderFromFile);
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
 	}
-	private static Map<String,Block>  setCreativeTabs(CreativeTabs tab,List<Map<String,Block>> blocks)
+
+	private static Map<String,Block> finalizeBlocks(CreativeTabs tab, List<Map<String,Block>> blocks)
 	{
 	    Map<String, Block> flat = new HashMap<>();
 	    for(Map<String,Block> f :  blocks) {
 
             for (Block b :f.values()) {
                 b.setCreativeTab(tab);
-            }
-            flat.putAll(f);
+              //  determinBlockOrder(b.getLocalizedName());
+
+            }  flat.putAll(f);
         }
 		return flat;
 	}
+	private static void determinBlockOrder(String blockName)
+    {
+        if(blockOrderFromFile.containsKey(blockName))
+        {
+            return;
+
+        }
+   //Write to file
+
+        ProcessBuilder builder =  new ProcessBuilder("java","Test");
+        try {
+            builder.directory (new File(Utils.class.getResource("/assets/tel/config").toURI()));
+            Process process = builder.start();
+            OutputStream stdin = process.getOutputStream();
+            BufferedWriter writer = new BufferedWriter(new OutputStreamWriter(stdin));
+
+            writer.write(blockName+ ":" + blockLoadNumber);
+            writer.flush();
+            writer.close();
+            blockOrderFromFile.put(blockName, blockLoadNumber++);
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+
+
+      // BlockLoad(name, blockLoadNumber++);
+    }
+
+
 	private static void translateTabs(String modId, Tab tab)
     {
         tabs.put(tab.getName(), new CreativeTabs(modId + "." + tab.getName()) {
@@ -86,6 +124,39 @@ public class Utils {
                 return blocks.containsKey(tab.getIcon()) ? new ItemStack(blocks.get(tab.getIcon())) : new ItemStack(items.get(tab.getIcon()));
             }
         });
+    }
+    public static void printBlocksInTab()
+    {
+        blocksInTab.forEach((k,v) -> {
+                    System.out.println(k);
+                    v.forEach( block -> System.out.println("\t"+block));
+                    System.out.println();
+                }
+                );
+    }
+    private static void populateLoadOrder(Map<String,Integer> map, String resource)
+    {
+       InputStream blockOrder =  Utils.class.getResourceAsStream(resource);
+       try{
+           BufferedReader reader = new BufferedReader (new InputStreamReader(blockOrder));
+           if(blockOrder != null)
+           {
+               String s;
+               while((s = reader.readLine()) != null)
+               {
+                  String [] kv =  s.split(":");
+                map.put(kv[0], Integer.parseInt(kv[1]));
+               }
+           }
+       } catch (IOException e) {
+           e.printStackTrace();
+       } finally{
+           try {
+               blockOrder.close();
+           } catch (IOException e) {
+               e.printStackTrace();
+           }
+       }
     }
 	private static Map<String, Block> translateBlocks(Map<String, Map<String,Object>> raw, ModOptions defaults, String tab){
 	    Map<String, Block> temp = new HashMap<>();
@@ -127,15 +198,23 @@ public class Utils {
                             return null;
                         }
                     }.setRegistryName(Main.MODID,key).setTranslationKey(key);
+                    break;
                 }
                 case "lava":{
                     b = new BaseStaticLiquid(Material.LAVA).setRegistryName(Main.MODID,key).setTranslationKey(key).setHardness(100.0F).setLightLevel(1.0F);
+                    break;
                 }
                 case "ice":{
                     b = new BlockIce().setRegistryName(Main.MODID,key).setTranslationKey(key);
+                    break;
                 }
                 case "snow":{
                     b = new BaseBlockSnow().setRegistryName(Main.MODID,key).setTranslationKey(key);
+                    break;
+                }
+                case "glass":{
+                    b = new BaseBlock(key, new ModOptions(defaults.getMaterial(), defaults.getSound(), defaults.getLayer(), true));
+                    break;
                 }
             }
             temp.put(key, b);
