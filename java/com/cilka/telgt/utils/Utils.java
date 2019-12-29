@@ -186,18 +186,7 @@ public class Utils {
                     break;
                 }
                 case "leaves":{
-                    b = new BlockLeaves() {
-                        @Override
-                        public BlockPlanks.EnumType getWoodType(int meta) {
-                            return null;
-                        }
-
-                        @Nonnull
-                        @Override
-                        public List<ItemStack> onSheared(@Nonnull ItemStack item, IBlockAccess world, BlockPos pos, int fortune) {
-                            return null;
-                        }
-                    }.setRegistryName(Main.MODID,key).setTranslationKey(key);
+                    b = new BaseLeaf().setRegistryName(Main.MODID,key).setTranslationKey(key);
                     break;
                 }
                 case "lava":{
