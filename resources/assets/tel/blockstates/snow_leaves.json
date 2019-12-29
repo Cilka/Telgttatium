@@ -6,6 +6,7 @@
     "variants": {
         "normal": [{}],
         "inventory": [{}],		
-		"check_decay=false,decayable=false": {"model": "tel:snow_leaves"}
+		"check_decay=false,decayable=false": {"model": "tel:snow_leaves"},
+		"check_decay=true,decayable=false": {"model": "tel:snow_leaves"}
     }  
 }

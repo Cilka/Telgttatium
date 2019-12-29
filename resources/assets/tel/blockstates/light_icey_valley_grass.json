@@ -16,6 +16,7 @@
 	{"model":"tel:light_icey_valley_grass", "y":180},
 	{"model":"tel:light_icey_valley_grass", "y":270}
 	],
+	"snowy=true": [{}], 
 	"inventory": [{}]
 	}
 }

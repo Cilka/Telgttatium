@@ -4135,39 +4135,39 @@
 					<blocks>
 						<block>
 							<name>gan_deco_black</name>
-							<type>grass</type>
+							<type>block</type>
 						</block>
 						<block>
 							<name>gan_deco_blue</name>
-							<type>grass</type>
+							<type>block</type>
 						</block>
 						<block>
 							<name>gan_deco_green</name>
-							<type>grass</type>
+							<type>block</type>
 						</block>
 						<block>
 							<name>gan_deco_magenta</name>
-							<type>grass</type>
+							<type>block</type>
 						</block>
 						<block>
 							<name>gan_deco_orange</name>
-							<type>grass</type>
+							<type>block</type>
 						</block>
 						<block>
 							<name>gan_deco_purple</name>
-							<type>grass</type>
+							<type>block</type>
 						</block>
 						<block>
 							<name>gan_deco_red</name>
-							<type>grass</type>
+							<type>block</type>
 						</block>
 						<block>
 							<name>gan_deco_white</name>
-							<type>grass</type>
+							<type>block</type>
 						</block>
 						<block>
 							<name>gan_deco_white_black_frame</name>
-							<type>grass</type>
+							<type>block</type>
 						</block>
 					</blocks>
 

@@ -10,6 +10,7 @@
 	{"model":"tel:dark_poison_valley_grass", "y":180},
 	{"model":"tel:dark_poison_valley_grass", "y":270}
 	],
+	"snowy=true": [{}], 
 	"inventory": [{}]
 	}
 }

@@ -6,7 +6,8 @@
     "variants": {
         "normal": [{}],
         "inventory": [{}],
-		"check_decay=false,decayable=false": {"model": "tel:blue_leaves"}
+		"check_decay=false,decayable=false": {"model": "tel:blue_leaves"},
+		"check_decay=true,decayable=false": {"model": "tel:blue_leaves"}
 
     }  
 }

@@ -4,7 +4,10 @@ import com.cilka.telgt.Main;
 import net.minecraft.block.BlockDirt;
 import net.minecraft.block.material.Material;
 import net.minecraft.block.state.IBlockState;
+import net.minecraft.creativetab.CreativeTabs;
+import net.minecraft.item.ItemStack;
 import net.minecraft.util.EnumFacing;
+import net.minecraft.util.NonNullList;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.world.IBlockAccess;
 import net.minecraftforge.common.EnumPlantType;
@@ -24,7 +27,22 @@ public class BaseDirt extends BlockDirt {
                 plantType == EnumPlantType.Crop
                 ? true : plantType == EnumPlantType.Beach? isNearWater(world,pos): super.canSustainPlant(state,world,pos,direction,plantable);
     }
+    public IBlockState getStateFromMeta(int meta)
+    {
+        return this.getDefaultState().withProperty(VARIANT, BlockDirt.DirtType.byMetadata(meta));
+    }
 
+    /**
+     * Convert the BlockState into the correct metadata value
+     */
+    public int getMetaFromState(IBlockState state)
+    {
+        return 0;
+    }
+    public void getSubBlocks(CreativeTabs itemIn, NonNullList<ItemStack> items)
+    {
+        items.add(new ItemStack(this, 1));
+    }
     private boolean isNearWater(IBlockAccess world, BlockPos pos)
     {
         return (world.getBlockState(pos.east()).getMaterial() == Material.WATER ||

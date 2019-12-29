@@ -11,6 +11,7 @@
 	{"model":"tel:purple_red_grass", "y":270}
 	],
 	"snowy=true": {"model":"tel:snowy_purple_grass"},
+	"snowy=true": [{}], 
 	"inventory": [{}]
 	}
 }

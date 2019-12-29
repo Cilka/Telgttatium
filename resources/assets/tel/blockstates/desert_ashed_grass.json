@@ -11,6 +11,7 @@
 	{"model":"tel:desert_ashed_grass", "y":270}
 	],
 	"snowy=true": {"model":"tel:snowy_desert_grass"},
+	"snowy=true": [{}], 
 	"inventory": [{}]
 	}
 }

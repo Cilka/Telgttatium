@@ -11,6 +11,7 @@
 	{"model":"tel:orange_warm_dark_grass", "y":270}
 	],
 	
+	"snowy=true": [{}], 
 	"inventory": [{}]
 	}
 }
