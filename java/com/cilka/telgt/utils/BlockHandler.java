@@ -12,8 +12,10 @@ import java.util.Map;
 public class BlockHandler extends DefaultHandler {
     private String name;
     private String type;
+    private int id;
     private boolean isName;
     private boolean isType;
+    private boolean isId;
     private DefaultHandler parent;
     private XMLReader reader;
     private Map<String, Map<String,Object>> blocks;
@@ -37,6 +39,9 @@ public class BlockHandler extends DefaultHandler {
         else if(qName.equalsIgnoreCase("type")) {
             isType = true;
         }
+        else if(qName.equalsIgnoreCase("id")){
+            isId =  true;
+        }
     }
     @Override
     public void characters(char ch[], int start, int length) throws SAXException {
@@ -49,6 +54,11 @@ public class BlockHandler extends DefaultHandler {
             type = new String(ch, start, length);
             isType =false;
         }
+        if(isId){
+            id = Integer.parseInt(new String(ch, start, length));
+            isId = false;
+        }
+
 
     }
     @Override
@@ -59,6 +69,7 @@ public class BlockHandler extends DefaultHandler {
         if(qName.equalsIgnoreCase("block"))
         {
             Map<String, Object> fields = new HashMap<String,Object>();
+            fields.put("id", id);
             fields.put("name", name);
             fields.put("type", type);
             blocks.put(name, fields);

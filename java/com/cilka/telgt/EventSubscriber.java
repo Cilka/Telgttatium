@@ -27,9 +27,10 @@ public final class EventSubscriber {
 			}
 		}
  */
-		for(String s : Utils.blocks.keySet())
+		for(int i : Utils.blockOrder.keySet())
 		{
-			event.getRegistry().register(ConvertToItemBlock(Utils.blocks.get(s)));
+			event.getRegistry().register(ConvertToItemBlock(Utils.blocks.get(Utils.blockOrder.get(i))));
+
 		}
 	}
 	
@@ -50,8 +51,8 @@ public final class EventSubscriber {
 			}
 		}
 */
-		for(String s : Utils.blocks.keySet() ){
-			event.getRegistry().register(Utils.blocks.get(s));
+		for(int i : Utils.blockOrder.keySet() ){
+			event.getRegistry().register(Utils.blocks.get(Utils.blockOrder.get(i)));
 
 		}
 	

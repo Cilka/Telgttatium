@@ -1,0 +1,6 @@
+{
+   "parent": "block/cube_all",
+   "textures": {
+       "all": "tel:blocks/ore/emerald_ore_final_step"
+   }
+}

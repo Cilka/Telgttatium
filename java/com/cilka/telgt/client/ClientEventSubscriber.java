@@ -42,10 +42,10 @@ public final class ClientEventSubscriber {
 				}
 			}*/
 
-
-	  		for(String s : Utils.blocks.keySet())
+	  		for(int i : Utils.blockOrder.keySet())
 			{
-				registerModel(Item.getItemFromBlock(Utils.blocks.get(s)));
+				System.out.println(Utils.blockOrder.get(i) +" : <id>" + i +"</id>");
+				registerModel(Item.getItemFromBlock(Utils.blocks.get(Utils.blockOrder.get(i))));
 			}
 
 	  }

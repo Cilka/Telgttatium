@@ -38,9 +38,8 @@ public class Utils {
 	public static Map<String, Item> items = new HashMap<>();
 	public static Map<String, CreativeTabs> tabs =  new HashMap<>();
 	public static Map<String,Set<String>> blocksInTab = new HashMap<>();
-	private static int blockLoadNumber = 1;
-	private static Map<String, Integer> blockOrderFromFile = new HashMap<>();
-	private static Set<String> blockOrder = new HashSet<>();
+	private static Map<Integer, String> blockOrderFromFile = new HashMap<>();
+	public static Map<Integer,String> blockOrder = new TreeMap<>();
 	public static void Generate(String modId)
 	{
 		try {
@@ -67,6 +66,7 @@ public class Utils {
                 blocks.putAll(finalizeBlocks(tabs.get(key), sectionBlocks));
 
             }
+            blockOrder = new TreeMap<>(blockOrderFromFile);
          //   finalizeLoadOrder(blockOrderFromFile);
 		} catch (Exception e) {
 			e.printStackTrace();
@@ -83,36 +83,10 @@ public class Utils {
               //  determinBlockOrder(b.getLocalizedName());
 
             }  flat.putAll(f);
+
         }
 		return flat;
 	}
-	private static void determinBlockOrder(String blockName)
-    {
-        if(blockOrderFromFile.containsKey(blockName))
-        {
-            return;
-
-        }
-   //Write to file
-
-        ProcessBuilder builder =  new ProcessBuilder("java","Test");
-        try {
-            builder.directory (new File(Utils.class.getResource("/assets/tel/config").toURI()));
-            Process process = builder.start();
-            OutputStream stdin = process.getOutputStream();
-            BufferedWriter writer = new BufferedWriter(new OutputStreamWriter(stdin));
-
-            writer.write(blockName+ ":" + blockLoadNumber);
-            writer.flush();
-            writer.close();
-            blockOrderFromFile.put(blockName, blockLoadNumber++);
-        } catch (Exception e) {
-            e.printStackTrace();
-        }
-
-
-      // BlockLoad(name, blockLoadNumber++);
-    }
 
 
 	private static void translateTabs(String modId, Tab tab)
@@ -206,6 +180,7 @@ public class Utils {
                     break;
                 }
             }
+            blockOrderFromFile.put((int)raw.get(key).get("id"),key);
             temp.put(key, b);
 
         }
