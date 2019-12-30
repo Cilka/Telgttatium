@@ -2,16 +2,17 @@ package com.cilka.telgt.utils;
 
 import com.cilka.telgt.Main;
 import com.cilka.telgt.block.*;
+import com.cilka.telgt.item.BasePickaxe;
 import net.minecraft.block.*;
 import net.minecraft.block.material.Material;
 import net.minecraft.creativetab.CreativeTabs;
-import net.minecraft.item.Item;
-import net.minecraft.item.ItemStack;
+import net.minecraft.item.*;
 import net.minecraft.util.BlockRenderLayer;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.world.IBlockAccess;
 import net.minecraftforge.fml.relauncher.Side;
 import net.minecraftforge.fml.relauncher.SideOnly;
+import scala.xml.dtd.impl.Base;
 
 import javax.annotation.Nonnull;
 import javax.xml.parsers.SAXParser;
@@ -37,9 +38,11 @@ public class Utils {
 	public static Map<String, Block> blocks = new HashMap<>();
 	public static Map<String, Item> items = new HashMap<>();
 	public static Map<String, CreativeTabs> tabs =  new HashMap<>();
-	public static Map<String,Set<String>> blocksInTab = new HashMap<>();
 	private static Map<Integer, String> blockOrderFromFile = new HashMap<>();
+	private static  Map<Integer, String> itemOrderFromFile =  new HashMap<>();
+
 	public static Map<Integer,String> blockOrder = new TreeMap<>();
+	public static Map<Integer,String> itemOrder = new TreeMap<>();
 	public static void Generate(String modId)
 	{
 		try {
@@ -53,20 +56,24 @@ public class Utils {
             for (String key: handler.getTabs().keySet()) {
                Map<String, Section> sections =handler.getTabs().get(key).getSections();
 				List<Map<String,Block>> sectionBlocks = new ArrayList<>();
-				Set<String> tabBlocks = new HashSet<String>();
+				List<Map<String,Item>> sectionItems = new ArrayList<>();
                 for ( String sectionKey : sections.keySet()) {
-                    tabBlocks.addAll(sections.get(sectionKey).getBlocks().keySet());
-                    sectionBlocks.add(translateBlocks(sections.get(sectionKey).getBlocks()
-							,modOptions.get(sections.get(sectionKey).getDefaultOption())
-							,handler.getTabs().get(key).getIcon()));
+                    if(sections.get(sectionKey).getBlocks() != null && sections.get(sectionKey).getBlocks().size() > 0 ) {
+                        sectionBlocks.add(translateBlocks(sections.get(sectionKey).getBlocks()
+                                , modOptions.get(sections.get(sectionKey).getDefaultOption())));
+                    }
+                    else if(sections.get(sectionKey).getItems() != null && sections.get(sectionKey).getItems().size() > 0 ){
+                        sectionItems.add(translateItems(sections.get(sectionKey).getItems()));
+                    }
 
                 }
-                blocksInTab.put(key, tabBlocks);
                 translateTabs (modId, handler.getTabs().get(key));
                 blocks.putAll(finalizeBlocks(tabs.get(key), sectionBlocks));
+                items.putAll(finalizeItems(tabs.get(key), sectionItems));
 
             }
             blockOrder = new TreeMap<>(blockOrderFromFile);
+            itemOrder =  new TreeMap<>(itemOrderFromFile);
          //   finalizeLoadOrder(blockOrderFromFile);
 		} catch (Exception e) {
 			e.printStackTrace();
@@ -80,14 +87,25 @@ public class Utils {
 
             for (Block b :f.values()) {
                 b.setCreativeTab(tab);
-              //  determinBlockOrder(b.getLocalizedName());
 
             }  flat.putAll(f);
 
         }
 		return flat;
 	}
+	private static Map<String,Item> finalizeItems(CreativeTabs tab, List<Map<String,Item>> items)
+    {
+        Map<String, Item> flat = new HashMap<>();
+        for(Map<String,Item> f :  items) {
 
+            for (Item i :f.values()) {
+                i.setCreativeTab(tab);
+
+            }  flat.putAll(f);
+
+        }
+        return flat;
+    }
 
 	private static void translateTabs(String modId, Tab tab)
     {
@@ -99,15 +117,7 @@ public class Utils {
             }
         });
     }
-    public static void printBlocksInTab()
-    {
-        blocksInTab.forEach((k,v) -> {
-                    System.out.println(k);
-                    v.forEach( block -> System.out.println("\t"+block));
-                    System.out.println();
-                }
-                );
-    }
+
     private static void populateLoadOrder(Map<String,Integer> map, String resource)
     {
        InputStream blockOrder =  Utils.class.getResourceAsStream(resource);
@@ -132,7 +142,7 @@ public class Utils {
            }
        }
     }
-	private static Map<String, Block> translateBlocks(Map<String, Map<String,Object>> raw, ModOptions defaults, String tab){
+	private static Map<String, Block> translateBlocks(Map<String, Map<String,Object>> raw, ModOptions defaults){
 	    Map<String, Block> temp = new HashMap<>();
 		for(String key : raw.keySet())
         {
@@ -186,49 +196,38 @@ public class Utils {
         }
 		return temp;
     }
-	private static Map <String,ModOptions> translateModOptions(Map<String, Map<String,Object>> raw)
+    private static Map<String,Item> translateItems(Map<String, Map<String,Object>> raw)
     {
-        HashMap<String,ModOptions> processed =  new HashMap();
-        for (String key: raw.keySet()) {
-            try {
-                System.out.println("default type: " + key + " material: " +raw.get(key).get("material") + " sound: " +raw.get(key).get("sound") + " renderLayer: " + raw.get(key).get("renderLayer"));
-                processed.put(key,new ModOptions(
-                        translateMaterial(raw.get(key).get("material").toString()),
-                        translateSoundType(raw.get(key).get("sound").toString()),
-                        translateBlockRenderLayer(raw.get(key).get("renderLayer").toString())));
-            } catch (IllegalAccessException e) {
-                e.printStackTrace();
+        Map <String, Item> temp = new HashMap<>();
+        for(String key : raw.keySet())
+        {
+
+            Item i = null;
+            switch(raw.get(key).get("type").toString()){
+                case "item" :{
+                 i = new Item().setRegistryName(Main.MODID,key).setTranslationKey(key);
+                 break;
+                }
+                case "food": {
+                    //todo: fill out the xml portion later
+                    i = new ItemFood(3,3,false).setRegistryName(Main.MODID,key).setTranslationKey(key);
+                    break;
+                }
+                case "pickaxe":{
+                    //todo: make a way to use custom ToolMaterials.
+                    i = new BasePickaxe(Item.ToolMaterial.DIAMOND).setRegistryName(Main.MODID,key).setTranslationKey(key);
+                    break;
+                }
+                case "sword":{
+                    //todo: see pickaxe
+                    i = new ItemSword(Item.ToolMaterial.DIAMOND).setRegistryName(Main.MODID,key).setTranslationKey(key);
+                    break;
+                }
             }
-
-
+            itemOrderFromFile.put((int)raw.get(key).get("id"),key);
+            temp.put(key, i);
         }
-        return processed;
+        return temp;
     }
-    private static Material translateMaterial(String material) throws IllegalAccessException {
-        Material m = (Material) Arrays.stream(Material.class.getFields())
-                .filter( f-> f.getName().equalsIgnoreCase(material))
-                .findFirst()
-                .get()
-                .get(Material.class.getFields());
 
-        return m;
-    }
-    private static SoundType translateSoundType(String sound) throws IllegalAccessException {
-        SoundType m = (SoundType) Arrays.stream(SoundType.class.getFields())
-                .filter( f-> f.getName().equalsIgnoreCase(sound))
-                .findFirst()
-                .get()
-                .get(SoundType.class.getFields());
-
-        return m;
-    }
-    private static BlockRenderLayer translateBlockRenderLayer(String renderLayer) throws IllegalAccessException {
-        BlockRenderLayer m = (BlockRenderLayer) Arrays.stream(BlockRenderLayer.class.getFields())
-                .filter( f-> f.getName().equalsIgnoreCase(renderLayer))
-                .findFirst()
-                .get()
-                .get(BlockRenderLayer.class.getFields());
-
-        return m;
-    }
 }

@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "tel:items/desert_octopus_tentacle"
+    "layer0": "tel:items/food/desert_octopus_tentacle"
   }
 }

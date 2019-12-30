@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "tel:items/rice"
+    "layer0": "tel:items/fast_food/rice"
   }
 }

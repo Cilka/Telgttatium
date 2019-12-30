@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "tel:items/golden_cooked_turkey"
+    "layer0": "tel:items/food/golden_cooked_turkey"
   }
 }

@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "tel:items/teshia_drink"
+    "layer0": "tel:items/fast_food/teshia_drink"
   }
 }

@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "tel:items/ark_orange_wine"
+    "layer0": "tel:items/fast_food/ark_orange_wine"
   }
 }

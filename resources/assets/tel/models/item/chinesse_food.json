@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "tel:items/chinesse_food"
+    "layer0": "tel:items/fast_food/chinesse_food"
   }
 }

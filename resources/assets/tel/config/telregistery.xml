@@ -8,7 +8,6 @@
 			<blockRenderLayer>translucent</blockRenderLayer>
 		</default>
 		<default>
-			<id>1066</id>
 			<name>stone</name>
 			<material>rock</material>
 			<soundType>stone</soundType>
@@ -27,7 +26,6 @@
 			<blockRenderLayer>translucent</blockRenderLayer>
 		</default>
 		<default>
-			<id>1025</id>
 			<name>leaves</name>
 			<material>leaves</material>
 			<soundType>plant</soundType>
@@ -46,7 +44,6 @@
 			<blockRenderLayer>solid</blockRenderLayer>
 		</default>
 		<default>
-			<id>1019</id>
 			<name>ice</name>
 			<material>ice</material>
 			<soundType>glass</soundType>
@@ -1497,7 +1494,6 @@
 
 				</section>
 				<section>
-					<id>1025</id>
 					<name>leaves</name>
 					<defaultOption>leaves</defaultOption>
 					<blocks>
@@ -1702,114 +1698,484 @@
 						</block>
 					</blocks>
 				</section>
-				
-                                <section>
-                                        <name>ore</name>
-                                        <defaultOption>stone</defaultOption>
-                                        <blocks>
-                                                <block>
-														<id>1231</id>
-                                                        <name>athemyst_ore</name>
-                                                        <type>block</type>
-                                                </block>
-                                                <block>
-														<id>1232</id>
-                                                        <name>athemyst_ore_final_step</name>
-                                                        <type>block</type>
-                                                </block>
-                                                <block>
-														<id>1233</id>
-                                                        <name>copper_ore</name>
-                                                        <type>block</type>
-                                                </block>
-                                                <block>
-													<id>1234</id>
-                                                        <name>copper_ore_final_step</name>
-                                                        <type>block</type>
-                                                </block>
-                                                <block>
-												<id>1235</id>
-                                                        <name>darto_ore</name>
-                                                        <type>block</type>
-                                                </block>
-                                                <block>
-												<id>1236</id>
-                                                        <name>darto_ore_final_step</name>
-                                                        <type>block</type>
-                                                </block>
-                                                <block>
-												<id>1237</id>
-                                                        <name>diamon_ore</name>
-                                                        <type>block</type>
-                                                </block>
-                                                <block>
-												<id>1238</id>
-                                                        <name>diamon_ore_final_step</name>
-                                                        <type>block</type>
-                                                </block>
-                                                <block>
-												<id>1239</id>
-                                                        <name>emerald_ore</name>
-                                                        <type>block</type>
-                                                </block>
-                                                <block>
-														<id>1240</id>
-                                                        <name>emerald_ore_final_step</name>
-                                                        <type>block</type>
-                                                </block>
-                                                <block>
-												<id>1241</id>
-                                                        <name>gold_ore</name>
-                                                        <type>block</type>
-                                                </block>
-                                                <block>
-												<id>1242</id>
-                                                        <name>gold_ore_final_step</name>
-                                                        <type>block</type>
-                                                </block>
-                                                <block>
-												<id>1243</id>
-                                                        <name>iron_ore</name>
-                                                        <type>block</type>
-                                                </block>
-                                                <block>
-												<id>1244</id>
-                                                        <name>iron_ore_final_step</name>
-                                                        <type>block</type>
-                                                </block>
-                                                <block>
-												<id>1245</id>
-                                                        <name>pink_sparkle_ore</name>
-                                                        <type>block</type>
-                                                </block>
-                                                <block>
-												<id>1246</id>
-                                                        <name>pink_sparkle_ore_final_step</name>
-                                                        <type>block</type>
-                                                </block>
-                                                <block>
-												<id>1247</id>
-                                                        <name>ruby_ore</name>
-                                                        <type>block</type>
-                                                </block>
-                                                <block>
-												<id>1248</id>
-                                                        <name>ruby_ore_final_step</name>
-                                                        <type>block</type>
-                                                </block>
-                                                <block>
-												<id>1249</id>
-                                                        <name>saphirre_ore</name>
-                                                        <type>block</type>
-                                                </block>
-                                                <block>
-												<id>1250</id>
-                                                        <name>saphirre_ore_final_step</name>
-                                                        <type>block</type>
-                                                </block>
-                                        </blocks>
 
-                                </section>
+				<section>
+					<name>ore</name>
+					<defaultOption>stone</defaultOption>
+					<blocks>
+						<block>
+							<id>1231</id>
+							<name>athemyst_ore</name>
+							<type>block</type>
+						</block>
+						<block>
+							<id>1232</id>
+							<name>athemyst_ore_final_step</name>
+							<type>block</type>
+						</block>
+						<block>
+							<id>1233</id>
+							<name>copper_ore</name>
+							<type>block</type>
+						</block>
+						<block>
+							<id>1234</id>
+							<name>copper_ore_final_step</name>
+							<type>block</type>
+						</block>
+						<block>
+							<id>1235</id>
+							<name>darto_ore</name>
+							<type>block</type>
+						</block>
+						<block>
+							<id>1236</id>
+							<name>darto_ore_final_step</name>
+							<type>block</type>
+						</block>
+						<block>
+							<id>1237</id>
+							<name>diamon_ore</name>
+							<type>block</type>
+						</block>
+						<block>
+							<id>1238</id>
+							<name>diamon_ore_final_step</name>
+							<type>block</type>
+						</block>
+						<block>
+							<id>1239</id>
+							<name>emerald_ore</name>
+							<type>block</type>
+						</block>
+						<block>
+							<id>1240</id>
+							<name>emerald_ore_final_step</name>
+							<type>block</type>
+						</block>
+						<block>
+							<id>1241</id>
+							<name>gold_ore</name>
+							<type>block</type>
+						</block>
+						<block>
+							<id>1242</id>
+							<name>gold_ore_final_step</name>
+							<type>block</type>
+						</block>
+						<block>
+							<id>1243</id>
+							<name>iron_ore</name>
+							<type>block</type>
+						</block>
+						<block>
+							<id>1244</id>
+							<name>iron_ore_final_step</name>
+							<type>block</type>
+						</block>
+						<block>
+							<id>1245</id>
+							<name>pink_sparkle_ore</name>
+							<type>block</type>
+						</block>
+						<block>
+							<id>1246</id>
+							<name>pink_sparkle_ore_final_step</name>
+							<type>block</type>
+						</block>
+						<block>
+							<id>1247</id>
+							<name>ruby_ore</name>
+							<type>block</type>
+						</block>
+						<block>
+							<id>1248</id>
+							<name>ruby_ore_final_step</name>
+							<type>block</type>
+						</block>
+						<block>
+							<id>1249</id>
+							<name>saphirre_ore</name>
+							<type>block</type>
+						</block>
+						<block>
+							<id>1250</id>
+							<name>saphirre_ore_final_step</name>
+							<type>block</type>
+						</block>
+						<block>
+							<id>1251</id>
+							<name>clay_ore</name>
+							<type>block</type>
+						</block>
+					</blocks>
+
+				</section>
+				<section>
+					<name>deco_ores</name>
+					<defaultOption>stone</defaultOption>
+				
+<blocks>
+<block>
+<id>1252</id>
+<name>athemyst_block</name>
+<type>block</type>
+</block>
+<block>
+<id>1253</id>
+<name>clay_block</name>
+<type>block</type>
+</block>
+<block>
+<id>1254</id>
+<name>clay_tile</name>
+<type>block</type>
+</block>
+<block>
+<id>1255</id>
+<name>copper_block</name>
+<type>block</type>
+</block>
+<block>
+<id>1256</id>
+<name>darto_block</name>
+<type>block</type>
+</block>
+<block>
+<id>1257</id>
+<name>diamond_block</name>
+<type>block</type>
+</block>
+<block>
+<id>1258</id>
+<name>emerald_block</name>
+<type>block</type>
+</block>
+<block>
+<id>1259</id>
+<name>gold_block</name>
+<type>block</type>
+</block>
+<block>
+<id>1260</id>
+<name>iron_block_deco_wall</name>
+<type>block</type>
+</block>
+<block>
+<id>1261</id>
+<name>iron_block_deco_wall_type_2</name>
+<type>block</type>
+</block>
+<block>
+<id>1262</id>
+<name>iron_block_type_1</name>
+<type>block</type>
+</block>
+<block>
+<id>1263</id>
+<name>pink_sparkles_block</name>
+<type>block</type>
+</block>
+<block>
+<id>1264</id>
+<name>ruby_block</name>
+<type>block</type>
+</block>
+<block>
+<id>1265</id>
+<name>sapphire_block</name>
+<type>block</type>
+</block>
+</blocks>
+
+				</section>
+				<section>
+					<name>ingots</name>
+					<defaultOption/>
+					<items>
+
+						<item>
+
+							<id>1</id>
+
+							<name>athemyst</name>
+
+							<type>item</type>
+
+						</item>
+
+						<item>
+
+							<id>2</id>
+
+							<name>black_diamond</name>
+
+							<type>item</type>
+
+						</item>
+
+						<item>
+
+							<id>3</id>
+
+							<name>black_diamond_piece</name>
+
+							<type>item</type>
+
+						</item>
+
+						<item>
+
+							<id>4</id>
+
+							<name>bluemoon</name>
+
+							<type>item</type>
+
+						</item>
+
+						<item>
+
+							<id>5</id>
+
+							<name>blue_moon_stone</name>
+
+							<type>item</type>
+
+						</item>
+
+						<item>
+
+							<id>6</id>
+
+							<name>clay</name>
+
+							<type>item</type>
+
+						</item>
+
+						<item>
+
+							<id>7</id>
+
+							<name>clay_ingot</name>
+
+							<type>item</type>
+
+						</item>
+
+						<item>
+
+							<id>8</id>
+
+							<name>coal</name>
+
+							<type>item</type>
+
+						</item>
+
+						<item>
+
+							<id>9</id>
+
+							<name>copper_ingot</name>
+
+							<type>item</type>
+
+						</item>
+
+						<item>
+
+							<id>10</id>
+
+							<name>darto</name>
+
+							<type>item</type>
+
+						</item>
+
+						<item>
+
+							<id>11</id>
+
+							<name>diamond</name>
+
+							<type>item</type>
+
+						</item>
+
+						<item>
+
+							<id>12</id>
+
+							<name>diamond_ingot</name>
+
+							<type>item</type>
+
+						</item>
+
+						<item>
+
+							<id>13</id>
+
+							<name>emerald</name>
+
+							<type>item</type>
+
+						</item>
+
+						<item>
+
+							<id>14</id>
+
+							<name>gold_ingot</name>
+
+							<type>item</type>
+
+						</item>
+
+						<item>
+
+							<id>15</id>
+
+							<name>haloki_moon</name>
+
+							<type>item</type>
+
+						</item>
+
+						<item>
+
+							<id>16</id>
+
+							<name>iron_ingot</name>
+
+							<type>item</type>
+
+						</item>
+
+						<item>
+
+							<id>17</id>
+
+							<name>korha</name>
+
+							<type>item</type>
+
+						</item>
+
+						<item>
+
+							<id>18</id>
+
+							<name>nightmare_moon_stone</name>
+
+							<type>item</type>
+
+						</item>
+
+						<item>
+
+							<id>19</id>
+
+							<name>orange_moon_stone</name>
+
+							<type>item</type>
+
+						</item>
+
+						<item>
+
+							<id>20</id>
+
+							<name>pink_sparkles</name>
+
+							<type>item</type>
+
+						</item>
+
+						<item>
+
+							<id>21</id>
+
+							<name>purple_moon_stone</name>
+
+							<type>item</type>
+
+						</item>
+
+						<item>
+
+							<id>22</id>
+
+							<name>ruby</name>
+
+							<type>item</type>
+
+						</item>
+
+						<item>
+
+							<id>23</id>
+
+							<name>saphirre</name>
+
+							<type>item</type>
+
+						</item>
+
+						<item>
+
+							<id>24</id>
+
+							<name>scarlet_moon_stone</name>
+
+							<type>item</type>
+
+						</item>
+
+						<item>
+
+							<id>25</id>
+
+							<name>starmoon</name>
+
+							<type>item</type>
+
+						</item>
+
+						<item>
+
+							<id>26</id>
+
+							<name>unfinished_athemyst</name>
+
+							<type>item</type>
+
+						</item>
+
+						<item>
+
+							<id>27</id>
+
+							<name>unfinished_pink_sparkle</name>
+
+							<type>item</type>
+
+						</item>
+
+						<item>
+
+							<id>28</id>
+
+							<name>unpolished_darto</name>
+
+							<type>item</type>
+
+						</item>
+					</items>
+
+				</section>
 			</sections>
 		</tab>
 		<tab>
@@ -6847,5 +7213,2035 @@
 				</section>
 			</sections>
 		</tab>
+		<tab>
+			<name>candy</name>
+			<icon>candy_cane</icon>
+			<sections>		
+				<section>
+					<name>main</name>
+					<defaultOption/>
+					<items>
+
+						<item>
+
+							<id>29</id>
+
+							<name>ark_diet_soda</name>
+
+							<type>food</type>
+
+						</item>
+
+						<item>
+
+							<id>30</id>
+
+							<name>ark_light_soda</name>
+
+							<type>food</type>
+
+						</item>
+
+						<item>
+
+							<id>31</id>
+
+							<name>ark_soda</name>
+
+							<type>food</type>
+
+						</item>
+
+						<item>
+
+							<id>32</id>
+
+							<name>banana_bombon</name>
+
+							<type>food</type>
+
+						</item>
+
+						<item>
+
+							<id>33</id>
+
+							<name>blackberry_sweet</name>
+
+							<type>food</type>
+
+						</item>
+
+						<item>
+
+							<id>34</id>
+
+							<name>blueberry_sweet</name>
+
+							<type>food</type>
+
+						</item>
+
+						<item>
+
+							<id>35</id>
+
+							<name>blue_lolipop</name>
+
+							<type>food</type>
+
+						</item>
+
+						<item>
+
+							<id>36</id>
+
+							<name>candy_cane</name>
+
+							<type>food</type>
+
+						</item>
+
+						<item>
+
+							<id>37</id>
+
+							<name>cherry_sweet</name>
+
+							<type>food</type>
+
+						</item>
+
+						<item>
+
+							<id>38</id>
+
+							<name>chocolate_bar</name>
+
+							<type>food</type>
+
+						</item>
+
+						<item>
+
+							<id>39</id>
+
+							<name>chocolate_chip_cookie</name>
+
+							<type>food</type>
+
+						</item>
+
+						<item>
+
+							<id>40</id>
+
+							<name>chocolate_ice_cream</name>
+
+							<type>food</type>
+
+						</item>
+
+						<item>
+
+							<id>41</id>
+
+							<name>cool_blue_ice_cream</name>
+
+							<type>food</type>
+
+						</item>
+
+						<item>
+
+							<id>42</id>
+
+							<name>cool_green_ice_cream</name>
+
+							<type>food</type>
+
+						</item>
+
+						<item>
+
+							<id>43</id>
+
+							<name>cool_orange_ice_cream</name>
+
+							<type>food</type>
+
+						</item>
+
+						<item>
+
+							<id>44</id>
+
+							<name>cool_purple_ice_cream</name>
+
+							<type>food</type>
+
+						</item>
+
+						<item>
+
+							<id>45</id>
+
+							<name>cool_red_ice_cream</name>
+
+							<type>food</type>
+
+						</item>
+
+						<item>
+
+							<id>46</id>
+
+							<name>fruits_item</name>
+
+							<type>food</type>
+
+						</item>
+
+						<item>
+
+							<id>47</id>
+
+							<name>gingerbreadman</name>
+
+							<type>food</type>
+
+						</item>
+
+						<item>
+
+							<id>48</id>
+
+							<name>green_lolipop</name>
+
+							<type>food</type>
+
+						</item>
+
+						<item>
+
+							<id>49</id>
+
+							<name>lemon_sweet</name>
+
+							<type>food</type>
+
+						</item>
+
+						<item>
+
+							<id>50</id>
+
+							<name>orange_lolipop</name>
+
+							<type>food</type>
+
+						</item>
+
+						<item>
+
+							<id>51</id>
+
+							<name>pink_lolipop</name>
+
+							<type>food</type>
+
+						</item>
+
+						<item>
+
+							<id>52</id>
+
+							<name>purple_lolipop</name>
+
+							<type>food</type>
+
+						</item>
+
+						<item>
+
+							<id>53</id>
+
+							<name>rainbow_lolipop</name>
+
+							<type>food</type>
+
+						</item>
+
+						<item>
+
+							<id>54</id>
+
+							<name>random_lolipop</name>
+
+							<type>food</type>
+
+						</item>
+
+						<item>
+
+							<id>55</id>
+
+							<name>strawberry_ice_cream</name>
+
+							<type>food</type>
+
+						</item>
+
+						<item>
+
+							<id>56</id>
+
+							<name>white_chocolate_bar</name>
+
+							<type>food</type>
+
+						</item>
+
+						<item>
+
+							<id>57</id>
+
+							<name>yellow_lolipop</name>
+
+							<type>food</type>
+
+						</item>
+					</items>
+				</section>
+			</sections>
+		</tab>
 	</tabs>
+
+	<tab>
+		<name>fast_food</name>
+		<icon>blue_jelly_full_pizza</icon>
+		<sections>		
+			<section>
+				<name>main</name>
+				<defaultOption/>
+				<items>
+
+					<item>
+
+						<id>58</id>
+
+						<name>arkea_drink_big_size</name>
+
+						<type>food</type>
+
+					</item>
+
+					<item>
+
+						<id>59</id>
+
+						<name>arkea_drink_regular_size</name>
+
+						<type>food</type>
+
+					</item>
+
+					<item>
+
+						<id>60</id>
+
+						<name>arkteshia_wine</name>
+
+						<type>food</type>
+
+					</item>
+
+					<item>
+
+						<id>61</id>
+
+						<name>ark_orange_wine</name>
+
+						<type>food</type>
+
+					</item>
+
+					<item>
+
+						<id>62</id>
+
+						<name>ark_shana_wine</name>
+
+						<type>food</type>
+
+					</item>
+
+					<item>
+
+						<id>63</id>
+
+						<name>ark_wine</name>
+
+						<type>food</type>
+
+					</item>
+
+					<item>
+
+						<id>64</id>
+
+						<name>blueberry_ice_cream_bowl</name>
+
+						<type>food</type>
+
+					</item>
+
+					<item>
+
+						<id>65</id>
+
+						<name>blue_jelly_full_pizza</name>
+
+						<type>food</type>
+
+					</item>
+
+					<item>
+
+						<id>66</id>
+
+						<name>blue_jelly_pizza</name>
+
+						<type>food</type>
+
+					</item>
+
+					<item>
+
+						<id>67</id>
+
+						<name>blue_strawberry_mix_ice_cream_bowl</name>
+
+						<type>food</type>
+
+					</item>
+
+					<item>
+
+						<id>68</id>
+
+						<name>brochettes</name>
+
+						<type>food</type>
+
+					</item>
+
+					<item>
+
+						<id>69</id>
+
+						<name>burger</name>
+
+						<type>food</type>
+
+					</item>
+
+					<item>
+
+						<id>70</id>
+
+						<name>chiken_tenders</name>
+
+						<type>food</type>
+
+					</item>
+
+					<item>
+
+						<id>71</id>
+
+						<name>chinesse_food</name>
+
+						<type>food</type>
+
+					</item>
+
+					<item>
+
+						<id>72</id>
+
+						<name>coffee</name>
+
+						<type>food</type>
+
+					</item>
+
+					<item>
+
+						<id>73</id>
+
+						<name>cooked_patty</name>
+
+						<type>food</type>
+
+					</item>
+
+					<item>
+
+						<id>74</id>
+
+						<name>cooked_roll_patty</name>
+
+						<type>food</type>
+
+					</item>
+
+					<item>
+
+						<id>75</id>
+
+						<name>deepseafood</name>
+
+						<type>food</type>
+
+					</item>
+
+					<item>
+
+						<id>76</id>
+
+						<name>french_fries</name>
+
+						<type>food</type>
+
+					</item>
+
+					<item>
+
+						<id>77</id>
+
+						<name>full_pizza</name>
+
+						<type>food</type>
+
+					</item>
+
+					<item>
+
+						<id>78</id>
+
+						<name>grape_ice_cream_bowl</name>
+
+						<type>food</type>
+
+					</item>
+
+					<item>
+
+						<id>79</id>
+
+						<name>hot_dog</name>
+
+						<type>food</type>
+
+					</item>
+
+					<item>
+
+						<id>80</id>
+
+						<name>jelly_full_pizza</name>
+
+						<type>food</type>
+
+					</item>
+
+					<item>
+
+						<id>81</id>
+
+						<name>jelly_pizza</name>
+
+						<type>food</type>
+
+					</item>
+
+					<item>
+
+						<id>82</id>
+
+						<name>lemon_ice_cream_bowl</name>
+
+						<type>food</type>
+
+					</item>
+
+					<item>
+
+						<id>83</id>
+
+						<name>mango_ice_cream_bowl</name>
+
+						<type>food</type>
+
+					</item>
+
+					<item>
+
+						<id>84</id>
+
+						<name>mixed_ramen</name>
+
+						<type>food</type>
+
+					</item>
+
+					<item>
+
+						<id>85</id>
+
+						<name>orange_blue_mix_ice_cream_bowl</name>
+
+						<type>food</type>
+
+					</item>
+
+					<item>
+
+						<id>86</id>
+
+						<name>orange_drink</name>
+
+						<type>food</type>
+
+					</item>
+
+					<item>
+
+						<id>87</id>
+
+						<name>orange_ice_cream_bowl</name>
+
+						<type>food</type>
+
+					</item>
+
+					<item>
+
+						<id>88</id>
+
+						<name>patty</name>
+
+						<type>food</type>
+
+					</item>
+
+					<item>
+
+						<id>89</id>
+
+						<name>pineapple_drink_big_size</name>
+
+						<type>food</type>
+
+					</item>
+
+					<item>
+
+						<id>90</id>
+
+						<name>pineapple_drink_regular_size</name>
+
+						<type>food</type>
+
+					</item>
+
+					<item>
+
+						<id>91</id>
+
+						<name>pizza</name>
+
+						<type>food</type>
+
+					</item>
+
+					<item>
+
+						<id>92</id>
+
+						<name>popcorn</name>
+
+						<type>food</type>
+
+					</item>
+
+					<item>
+
+						<id>93</id>
+
+						<name>ramen</name>
+
+						<type>food</type>
+
+					</item>
+
+					<item>
+
+						<id>94</id>
+
+						<name>rice</name>
+
+						<type>food</type>
+
+					</item>
+
+					<item>
+
+						<id>95</id>
+
+						<name>riceball</name>
+
+						<type>food</type>
+
+					</item>
+
+					<item>
+
+						<id>96</id>
+
+						<name>rich_rice</name>
+
+						<type>food</type>
+
+					</item>
+
+					<item>
+
+						<id>97</id>
+
+						<name>roll_patty</name>
+
+						<type>food</type>
+
+					</item>
+
+					<item>
+
+						<id>98</id>
+
+						<name>seafood</name>
+
+						<type>food</type>
+
+					</item>
+
+					<item>
+
+						<id>99</id>
+
+						<name>shana_drink</name>
+
+						<type>food</type>
+
+					</item>
+
+					<item>
+
+						<id>100</id>
+
+						<name>soda_drink_big_size</name>
+
+						<type>food</type>
+
+					</item>
+
+					<item>
+
+						<id>101</id>
+
+						<name>soda_drink_regular_size</name>
+
+						<type>food</type>
+
+					</item>
+
+					<item>
+
+						<id>102</id>
+
+						<name>springheart_drink_big_size</name>
+
+						<type>food</type>
+
+					</item>
+
+					<item>
+
+						<id>103</id>
+
+						<name>springheart_drink_regular_size</name>
+
+						<type>food</type>
+
+					</item>
+
+					<item>
+
+						<id>104</id>
+
+						<name>strawberry_green_mix_ice_cream_bowl</name>
+
+						<type>food</type>
+
+					</item>
+
+					<item>
+
+						<id>105</id>
+
+						<name>strawberry_ice_cream_bowl</name>
+
+						<type>food</type>
+
+					</item>
+
+					<item>
+
+						<id>106</id>
+
+						<name>tea</name>
+
+						<type>food</type>
+
+					</item>
+
+					<item>
+
+						<id>107</id>
+
+						<name>teshia_drink</name>
+
+						<type>food</type>
+
+					</item>
+
+					<item>
+
+						<id>108</id>
+
+						<name>vanilla_ice_cream_bowl</name>
+
+						<type>food</type>
+
+					</item>
+
+					<item>
+
+						<id>109</id>
+
+						<name>wine_drink</name>
+
+						<type>food</type>
+
+					</item>
+				</items>
+			</section>
+			<section>
+				<name>gifts</name>
+				<defaultOption/>
+				<items>
+
+					<item>
+
+						<id>110</id>
+
+						<name>random_food_item_gift</name>
+
+						<type>item</type>
+
+					</item>
+
+					<item>
+
+						<id>111</id>
+
+						<name>random_seed_gift</name>
+
+						<type>item</type>
+
+					</item>
+
+					<item>
+
+						<id>112</id>
+
+						<name>random_weapon_gift</name>
+
+						<type>item</type>
+
+					</item>
+				</items>
+
+			</section>
+		</sections>
+	</tab>
+	<tab>
+		<name>food</name>
+		<icon>apple</icon>
+		<sections>		
+			<section>
+				<name>main</name>
+				<defaultOption/>
+				<items>
+
+					<item>
+
+						<id>113</id>
+
+						<name>apple</name>
+
+						<type>food</type>
+
+					</item>
+
+					<item>
+
+						<id>114</id>
+
+						<name>apple_jam_jar</name>
+
+						<type>food</type>
+
+					</item>
+
+					<item>
+
+						<id>115</id>
+
+						<name>arika_pumpkin</name>
+
+						<type>food</type>
+
+					</item>
+
+					<item>
+
+						<id>116</id>
+
+						<name>ashed_bread</name>
+
+						<type>food</type>
+
+					</item>
+
+					<item>
+
+						<id>117</id>
+
+						<name>banana</name>
+
+						<type>food</type>
+
+					</item>
+
+					<item>
+
+						<id>118</id>
+
+						<name>barley</name>
+
+						<type>food</type>
+
+					</item>
+
+					<item>
+
+						<id>119</id>
+
+						<name>blackberry</name>
+
+						<type>food</type>
+
+					</item>
+
+					<item>
+
+						<id>120</id>
+
+						<name>blackberry_jam_jar</name>
+
+						<type>food</type>
+
+					</item>
+
+					<item>
+
+						<id>121</id>
+
+						<name>blueberry</name>
+
+						<type>food</type>
+
+					</item>
+
+					<item>
+
+						<id>122</id>
+
+						<name>blueberry_jam_jar</name>
+
+						<type>food</type>
+
+					</item>
+
+					<item>
+
+						<id>123</id>
+
+						<name>blue_fish</name>
+
+						<type>food</type>
+
+					</item>
+
+					<item>
+
+						<id>124</id>
+
+						<name>border_bread</name>
+
+						<type>food</type>
+
+					</item>
+
+					<item>
+
+						<id>125</id>
+
+						<name>bread</name>
+
+						<type>food</type>
+
+					</item>
+
+					<item>
+
+						<id>126</id>
+
+						<name>brocoli</name>
+
+						<type>food</type>
+
+					</item>
+
+					<item>
+
+						<id>127</id>
+
+						<name>brown_mushroom</name>
+
+						<type>food</type>
+
+					</item>
+
+					<item>
+
+						<id>128</id>
+
+						<name>carrot</name>
+
+						<type>food</type>
+
+					</item>
+
+					<item>
+
+						<id>129</id>
+
+						<name>chicken</name>
+
+						<type>food</type>
+
+					</item>
+
+					<item>
+
+						<id>130</id>
+
+						<name>chicken_thigh</name>
+
+						<type>food</type>
+
+					</item>
+
+					<item>
+
+						<id>131</id>
+
+						<name>cooked_beef_meat</name>
+
+						<type>food</type>
+
+					</item>
+
+					<item>
+
+						<id>132</id>
+
+						<name>cooked_chiken</name>
+
+						<type>food</type>
+
+					</item>
+
+					<item>
+
+						<id>133</id>
+
+						<name>cooked_turkey</name>
+
+						<type>food</type>
+
+					</item>
+
+					<item>
+
+						<id>134</id>
+
+						<name>cooked_turkey_copy</name>
+
+						<type>food</type>
+
+					</item>
+
+					<item>
+
+						<id>135</id>
+
+						<name>cow_meat</name>
+
+						<type>food</type>
+
+					</item>
+
+					<item>
+
+						<id>136</id>
+
+						<name>cow_milk</name>
+
+						<type>food</type>
+
+					</item>
+
+					<item>
+
+						<id>137</id>
+
+						<name>cutted_apple</name>
+
+						<type>food</type>
+
+					</item>
+
+					<item>
+
+						<id>138</id>
+
+						<name>cutted_banana</name>
+
+						<type>food</type>
+
+					</item>
+
+					<item>
+
+						<id>139</id>
+
+						<name>cutted_carrot</name>
+
+						<type>food</type>
+
+					</item>
+
+					<item>
+
+						<id>140</id>
+
+						<name>cutted_mushroom</name>
+
+						<type>food</type>
+
+					</item>
+
+					<item>
+
+						<id>141</id>
+
+						<name>cutted_onion</name>
+
+						<type>food</type>
+
+					</item>
+
+					<item>
+
+						<id>142</id>
+
+						<name>cutted_pear</name>
+
+						<type>food</type>
+
+					</item>
+
+					<item>
+
+						<id>143</id>
+
+						<name>cutted_pineapple</name>
+
+						<type>food</type>
+
+					</item>
+
+					<item>
+
+						<id>144</id>
+
+						<name>cutted_pumpkin</name>
+
+						<type>food</type>
+
+					</item>
+
+					<item>
+
+						<id>145</id>
+
+						<name>cutted_strawberry</name>
+
+						<type>food</type>
+
+					</item>
+
+					<item>
+
+						<id>146</id>
+
+						<name>cutted_turnip</name>
+
+						<type>food</type>
+
+					</item>
+
+					<item>
+
+						<id>147</id>
+
+						<name>cutted_watermelon</name>
+
+						<type>food</type>
+
+					</item>
+
+					<item>
+
+						<id>148</id>
+
+						<name>decomposed_shana</name>
+
+						<type>food</type>
+
+					</item>
+
+					<item>
+
+						<id>149</id>
+
+						<name>desert_octopus_tentacle</name>
+
+						<type>food</type>
+
+					</item>
+
+					<item>
+
+						<id>150</id>
+
+						<name>fish</name>
+
+						<type>food</type>
+
+					</item>
+
+					<item>
+
+						<id>151</id>
+
+						<name>fish_fillet</name>
+
+						<type>food</type>
+
+					</item>
+
+					<item>
+
+						<id>152</id>
+
+						<name>goldem_turkey</name>
+
+						<type>food</type>
+
+					</item>
+
+					<item>
+
+						<id>153</id>
+
+						<name>golden_cooked_turkey</name>
+
+						<type>food</type>
+
+					</item>
+
+					<item>
+
+						<id>154</id>
+
+						<name>green_fish</name>
+
+						<type>food</type>
+
+					</item>
+
+					<item>
+
+						<id>155</id>
+
+						<name>kakurna_pumpkin</name>
+
+						<type>food</type>
+
+					</item>
+
+					<item>
+
+						<id>156</id>
+
+						<name>light_octopus_tentacle</name>
+
+						<type>food</type>
+
+					</item>
+
+					<item>
+
+						<id>157</id>
+
+						<name>light_teshia</name>
+
+						<type>food</type>
+
+					</item>
+
+					<item>
+
+						<id>158</id>
+
+						<name>lima_slides</name>
+
+						<type>food</type>
+
+					</item>
+
+					<item>
+
+						<id>159</id>
+
+						<name>limon_jam_jar</name>
+
+						<type>food</type>
+
+					</item>
+
+					<item>
+
+						<id>160</id>
+
+						<name>limon_slides</name>
+
+						<type>food</type>
+
+					</item>
+
+					<item>
+
+						<id>161</id>
+
+						<name>maicy_mushroom</name>
+
+						<type>food</type>
+
+					</item>
+
+					<item>
+
+						<id>162</id>
+
+						<name>maicy_posioned_mushroom</name>
+
+						<type>food</type>
+
+					</item>
+
+					<item>
+
+						<id>163</id>
+
+						<name>mango</name>
+
+						<type>food</type>
+
+					</item>
+
+					<item>
+
+						<id>164</id>
+
+						<name>mango_slides</name>
+
+						<type>food</type>
+
+					</item>
+
+					<item>
+
+						<id>165</id>
+
+						<name>mysterious_blue_bread</name>
+
+						<type>food</type>
+
+					</item>
+
+					<item>
+
+						<id>166</id>
+
+						<name>mysterious_gold_bread</name>
+
+						<type>food</type>
+
+					</item>
+
+					<item>
+
+						<id>167</id>
+
+						<name>mysterious_pumpkin_type_1</name>
+
+						<type>food</type>
+
+					</item>
+
+					<item>
+
+						<id>168</id>
+
+						<name>mysterious_pumpkin_type_2</name>
+
+						<type>food</type>
+
+					</item>
+
+					<item>
+
+						<id>169</id>
+
+						<name>mysterious_pumpkin_type_3</name>
+
+						<type>food</type>
+
+					</item>
+
+					<item>
+
+						<id>170</id>
+
+						<name>mysterious_red_bread</name>
+
+						<type>food</type>
+
+					</item>
+
+					<item>
+
+						<id>171</id>
+
+						<name>octopus_tentacle</name>
+
+						<type>food</type>
+
+					</item>
+
+					<item>
+
+						<id>172</id>
+
+						<name>onion</name>
+
+						<type>food</type>
+
+					</item>
+
+					<item>
+
+						<id>173</id>
+
+						<name>orange</name>
+
+						<type>food</type>
+
+					</item>
+
+					<item>
+
+						<id>174</id>
+
+						<name>orange_fish</name>
+
+						<type>food</type>
+
+					</item>
+
+					<item>
+
+						<id>175</id>
+
+						<name>orange_slides</name>
+
+						<type>food</type>
+
+					</item>
+
+					<item>
+
+						<id>176</id>
+
+						<name>pear</name>
+
+						<type>food</type>
+
+					</item>
+
+					<item>
+
+						<id>177</id>
+
+						<name>pineapple</name>
+
+						<type>food</type>
+
+					</item>
+
+					<item>
+
+						<id>178</id>
+
+						<name>poisoned_teshia</name>
+
+						<type>food</type>
+
+					</item>
+
+					<item>
+
+						<id>179</id>
+
+						<name>poisoning_mushroom</name>
+
+						<type>food</type>
+
+					</item>
+
+					<item>
+
+						<id>180</id>
+
+						<name>poison_cow_meat</name>
+
+						<type>food</type>
+
+					</item>
+
+					<item>
+
+						<id>181</id>
+
+						<name>pre_hotdog</name>
+
+						<type>food</type>
+
+					</item>
+
+					<item>
+
+						<id>182</id>
+
+						<name>pumpkin</name>
+
+						<type>food</type>
+
+					</item>
+
+					<item>
+
+						<id>183</id>
+
+						<name>purple_fish</name>
+
+						<type>food</type>
+
+					</item>
+
+					<item>
+
+						<id>184</id>
+
+						<name>red_fish</name>
+
+						<type>food</type>
+
+					</item>
+
+					<item>
+
+						<id>185</id>
+
+						<name>red_musroom</name>
+
+						<type>food</type>
+
+					</item>
+
+					<item>
+
+						<id>186</id>
+
+						<name>shana</name>
+
+						<type>food</type>
+
+					</item>
+
+					<item>
+
+						<id>187</id>
+
+						<name>slide_of_bread</name>
+
+						<type>food</type>
+
+					</item>
+
+					<item>
+
+						<id>188</id>
+
+						<name>strawberry</name>
+
+						<type>food</type>
+
+					</item>
+
+					<item>
+
+						<id>189</id>
+
+						<name>strawberry_jam_jar</name>
+
+						<type>food</type>
+
+					</item>
+
+					<item>
+
+						<id>190</id>
+
+						<name>teshia</name>
+
+						<type>food</type>
+
+					</item>
+
+					<item>
+
+						<id>191</id>
+
+						<name>tupia</name>
+
+						<type>food</type>
+
+					</item>
+
+					<item>
+
+						<id>192</id>
+
+						<name>turnip</name>
+
+						<type>food</type>
+
+					</item>
+
+					<item>
+
+						<id>193</id>
+
+						<name>water_melon</name>
+
+						<type>food</type>
+
+					</item>
+
+					<item>
+
+						<id>194</id>
+
+						<name>wheat</name>
+
+						<type>food</type>
+
+					</item>
+
+					<item>
+
+						<id>195</id>
+
+						<name>yellow_fish</name>
+
+						<type>food</type>
+
+					</item>
+				</items>
+
+			</section>
+			<section>
+				<name>seeds</name>
+				<defaultOption/>
+				<items>
+
+					<item>
+
+						<id>217</id>
+
+						<name>blue_bany_eculcary</name>
+
+						<type>item</type>
+
+					</item>
+
+					<item>
+
+						<id>218</id>
+
+						<name>forest_eculcary</name>
+
+						<type>item</type>
+
+					</item>
+
+					<item>
+
+						<id>219</id>
+
+						<name>mysterious_eculcary</name>
+
+						<type>item</type>
+
+					</item>
+
+					<item>
+
+						<id>220</id>
+
+						<name>poison_eculcary</name>
+
+						<type>item</type>
+
+					</item>
+
+					<item>
+
+						<id>221</id>
+
+						<name>seeds</name>
+
+						<type>item</type>
+
+					</item>
+
+					<item>
+
+						<id>222</id>
+
+						<name>vocanic_eculcary</name>
+
+						<type>item</type>
+
+					</item>
+
+					<item>
+
+						<id>223</id>
+
+						<name>vulcora_eculcary</name>
+
+						<type>item</type>
+
+					</item>
+				</items>
+
+			</section>
+		</sections>
+	</tab>
+	<tab>
+		<name>tools</name>
+		<icon>erlashihuru_pickaxe</icon>
+		<sections>		
+			<section>
+				<name>pickaxe</name>
+				<defaultOption/>
+				<items>
+
+					<item>
+
+						<id>196</id>
+
+						<name>dovah_wing_pickaxe</name>
+
+						<type>pickaxe</type>
+
+					</item>
+
+					<item>
+
+						<id>197</id>
+
+						<name>erlashihuru_pickaxe</name>
+
+						<type>pickaxe</type>
+
+					</item>
+
+					<item>
+
+						<id>198</id>
+
+						<name>ghi_wing_pickaxe</name>
+
+						<type>pickaxe</type>
+
+					</item>
+
+					<item>
+
+						<id>199</id>
+
+						<name>kifavara_frozen_pickaxe</name>
+
+						<type>pickaxe</type>
+
+					</item>
+
+					<item>
+
+						<id>200</id>
+
+						<name>lejinka_wing_pickaxe</name>
+
+						<type>pickaxe</type>
+
+					</item>
+
+					<item>
+
+						<id>201</id>
+
+						<name>srindintaria_athemyst_upgrade_pickaxe</name>
+
+						<type>pickaxe</type>
+
+					</item>
+
+					<item>
+
+						<id>202</id>
+
+						<name>srindintaria_cyan_stone_upgrade_pickaxe</name>
+
+						<type>pickaxe</type>
+
+					</item>
+
+					<item>
+
+						<id>203</id>
+
+						<name>srindintaria_emerald_upgrade_pickaxe</name>
+
+						<type>pickaxe</type>
+
+					</item>
+
+					<item>
+
+						<id>204</id>
+
+						<name>srindintaria_ruby_upgrade_pickaxe</name>
+
+						<type>pickaxe</type>
+
+					</item>
+
+					<item>
+
+						<id>205</id>
+
+						<name>uonka_wing_pickaxe</name>
+
+						<type>pickaxe</type>
+
+					</item>
+
+					<item>
+
+						<id>206</id>
+
+						<name>yuhog_wing_pickaxe</name>
+
+						<type>pickaxe</type>
+
+					</item>
+				</items>
+
+			</section>
+			<section>
+				<name>staffs</name>
+				<defaultOption/>
+
+				<items>
+
+					<item>
+
+						<id>207</id>
+
+						<name>gengashesh_fire_staff</name>
+
+						<type>item</type>
+
+					</item>
+
+					<item>
+
+						<id>208</id>
+
+						<name>gengashesh_ice_staff</name>
+
+						<type>item</type>
+
+					</item>
+
+					<item>
+
+						<id>209</id>
+
+						<name>gengashesh_water_staff</name>
+
+						<type>item</type>
+
+					</item>
+
+					<item>
+
+						<id>210</id>
+
+						<name>kuh_earth_staff</name>
+
+						<type>item</type>
+
+					</item>
+				</items>
+
+			</section>
+			<section>
+				<name>swords</name>
+				<defaultOption/>
+				<items>
+
+					<item>
+
+						<id>211</id>
+
+						<name>moontra_staff_sword_blue</name>
+
+						<type>sword</type>
+
+					</item>
+
+					<item>
+
+						<id>212</id>
+
+						<name>moontra_staff_sword_green_moon</name>
+
+						<type>sword</type>
+
+					</item>
+
+					<item>
+
+						<id>213</id>
+
+						<name>moontra_staff_sword_orange</name>
+
+						<type>sword</type>
+
+					</item>
+
+					<item>
+
+						<id>214</id>
+
+						<name>moontra_staff_sword_purple_moon</name>
+
+						<type>sword</type>
+
+					</item>
+
+					<item>
+
+						<id>215</id>
+
+						<name>moontra_staff_sword_red</name>
+
+						<type>sword</type>
+
+					</item>
+
+					<item>
+
+						<id>216</id>
+
+						<name>rexhesis_msword</name>
+
+						<type>sword</type>
+
+					</item>
+				</items>
+
+			</section>
+		</sections>
+	</tab>
 </tel>

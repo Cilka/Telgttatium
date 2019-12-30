@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "tel:items/red_musroom"
+    "layer0": "tel:items/food/red_musroom"
   }
 }

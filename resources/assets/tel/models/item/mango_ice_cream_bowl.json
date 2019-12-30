@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "tel:items/mango_ice_cream_bowl"
+    "layer0": "tel:items/fast_food/mango_ice_cream_bowl"
   }
 }

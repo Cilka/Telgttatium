@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "tel:items/chiken_tenders"
+    "layer0": "tel:items/fast_food/chiken_tenders"
   }
 }

@@ -51,7 +51,7 @@ public void clear(){
         }
 
         else if(qName.equalsIgnoreCase("items")) {
-           // reader.setContentHandler(itemHandler);
+            reader.setContentHandler(itemHandler);
         }
         }
     @Override
@@ -61,6 +61,7 @@ public void clear(){
         if(qName.equalsIgnoreCase("section")) {
             sections.put(name, new Section(blockHandler.getBlocks(), itemHandler.getItems(),defaultOption));
             blockHandler.clear();
+            itemHandler.clear();
             reader.setContentHandler(parent);
             System.out.println(name + " " + this.getClass().getSimpleName() + " complete");
 

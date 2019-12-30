@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "tel:items/mango_slides"
+    "layer0": "tel:items/food/mango_slides"
   }
 }

@@ -44,8 +44,11 @@ public final class ClientEventSubscriber {
 
 	  		for(int i : Utils.blockOrder.keySet())
 			{
-				System.out.println(Utils.blockOrder.get(i) +" : <id>" + i +"</id>");
 				registerModel(Item.getItemFromBlock(Utils.blocks.get(Utils.blockOrder.get(i))));
+			}
+	  		for(int i : Utils.itemOrder.keySet())
+			{
+				registerModel(Utils.items.get(Utils.itemOrder.get(i)));
 			}
 
 	  }

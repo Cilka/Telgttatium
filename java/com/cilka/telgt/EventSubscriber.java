@@ -12,45 +12,22 @@ public final class EventSubscriber {
 	
 	@SubscribeEvent
 	public static void registerItems(Register<Item> event) {
-/*
-		for(Field f : ModBlocks.class.getFields()) 
-		{
-			try {
-				event.getRegistry().registerAll(ConvertToItemBlocks((Block[])f.get(ModBlocks.class)));
-				
-			} catch (IllegalArgumentException e) {
-				// TODO Auto-generated catch block
-				e.printStackTrace();
-			} catch (IllegalAccessException e) {
-				// TODO Auto-generated catch block
-				e.printStackTrace();
-			}
-		}
- */
+
 		for(int i : Utils.blockOrder.keySet())
 		{
 			event.getRegistry().register(ConvertToItemBlock(Utils.blocks.get(Utils.blockOrder.get(i))));
+
+		}
+		for(int i : Utils.itemOrder.keySet())
+		{
+			event.getRegistry().register(Utils.items.get(Utils.itemOrder.get(i)));
 
 		}
 	}
 	
 	@SubscribeEvent
 	public static void registerBlocks(Register<Block> event) {
-	
-/*
-		for(Field f : ModBlocks.class.getFields()) 
-		{
-			try {
-				event.getRegistry().registerAll((Block[])f.get(ModBlocks.class));
-			} catch (IllegalArgumentException e) {
-				// TODO Auto-generated catch block
-				e.printStackTrace();
-			} catch (IllegalAccessException e) {
-				// TODO Auto-generated catch block
-				e.printStackTrace();
-			}
-		}
-*/
+
 		for(int i : Utils.blockOrder.keySet() ){
 			event.getRegistry().register(Utils.blocks.get(Utils.blockOrder.get(i)));
 

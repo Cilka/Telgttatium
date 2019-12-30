@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "tel:items/jelly_full_pizza"
+    "layer0": "tel:items/fast_food/jelly_full_pizza"
   }
 }

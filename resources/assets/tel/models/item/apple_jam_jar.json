@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "tel:items/apple_jam_jar"
+    "layer0": "tel:items/food/apple_jam_jar"
   }
 }

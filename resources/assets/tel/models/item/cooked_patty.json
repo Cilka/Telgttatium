@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "tel:items/cooked_patty"
+    "layer0": "tel:items/fast_food/cooked_patty"
   }
 }

@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "tel:items/pineapple_drink_regular_size"
+    "layer0": "tel:items/fast_food/pineapple_drink_regular_size"
   }
 }

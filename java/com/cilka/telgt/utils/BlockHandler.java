@@ -75,9 +75,7 @@ public class BlockHandler extends DefaultHandler {
             blocks.put(name, fields);
         }
         if(qName.equalsIgnoreCase("blocks")) {
-
-            System.out.println(name + " " + this.getClass().getSimpleName() + " complete");
-            reader.setContentHandler(parent);
+             reader.setContentHandler(parent);
         }
 
     }
