@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "tel:items/swords/moontra_staff_sword_red"
+  }
+}

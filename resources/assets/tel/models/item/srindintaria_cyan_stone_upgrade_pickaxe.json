@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "tel:items/pickaxe/srindintaria_cyan_stone_upgrade_pickaxe"
+  }
+}

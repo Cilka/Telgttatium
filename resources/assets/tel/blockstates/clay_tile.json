@@ -1,0 +1,10 @@
+{
+"forge_marker": 1,
+    "defaults": {
+        "model": "tel:clay_tile"
+    },
+    "variants": {
+        "normal": [{}],
+        "inventory": [{}]
+    }  
+}

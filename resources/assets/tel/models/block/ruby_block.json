@@ -1,0 +1,6 @@
+{
+   "parent": "block/cube_all",
+   "textures": {
+       "all": "tel:blocks/ore_deco/ruby_block"
+   }
+}
