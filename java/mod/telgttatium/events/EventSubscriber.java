@@ -1,4 +1,5 @@
-package mod.telgttatium;
+package mod.telgttatium.events;
+import mod.telgttatium.Main;
 import mod.telgttatium.utils.Utils;
 import net.minecraft.block.Block;
 import net.minecraft.item.Item;

@@ -1,4 +1,4 @@
-package mod.telgttatium.client;
+package mod.telgttatium.events;
 
 import mod.telgttatium.Main;
 
