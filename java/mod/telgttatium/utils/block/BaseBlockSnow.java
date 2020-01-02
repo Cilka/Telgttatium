@@ -1,4 +1,4 @@
-package mod.telgttatium.block;
+package mod.telgttatium.utils.block;
 
 import net.minecraft.block.BlockSnowBlock;
 

@@ -1,4 +1,4 @@
-package mod.telgttatium.block;
+package mod.telgttatium.utils.block;
 
 import mod.telgttatium.Main;
 import mod.telgttatium.utils.ModOptions;

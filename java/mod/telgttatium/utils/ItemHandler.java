@@ -12,9 +12,17 @@ public class ItemHandler extends DefaultHandler {
     private String name;
     private String type;
     private int id;
+    private int maxUses;
+    private float efficiency;
+    private float attackDamage;
+    private float attackSpeed;
     private boolean isName;
     private boolean isType;
     private boolean isId;
+    private boolean isMaxUses;
+    private boolean isEfficiency;
+    private boolean isAttackDamage;
+    private boolean isAttackSpeed;
     private DefaultHandler parent;
     private XMLReader reader;
     private Map<String, Map<String,Object>> items;
@@ -41,6 +49,18 @@ public class ItemHandler extends DefaultHandler {
         else if(qName.equalsIgnoreCase("id")){
             isId =  true;
         }
+        else if(qName.equalsIgnoreCase("maxUses")){
+            isMaxUses = true;
+        }
+        else if(qName.equalsIgnoreCase("efficiency")){
+            isEfficiency = true;
+        }
+        else if(qName.equalsIgnoreCase("attackDamage")){
+            isAttackDamage =true;
+        }
+        else if(qName.equalsIgnoreCase("attackSpeed")){
+            isAttackSpeed =  true;
+        }
     }
     @Override
     public void characters(char ch[], int start, int length) throws SAXException {
@@ -48,7 +68,8 @@ public class ItemHandler extends DefaultHandler {
         {
             name = new String(ch, start, length);
             isName =false;
-        }    if(isType)
+        }
+        if(isType)
         {
             type = new String(ch, start, length);
             isType =false;
@@ -56,6 +77,26 @@ public class ItemHandler extends DefaultHandler {
         if(isId){
             id = Integer.parseInt(new String(ch, start, length));
             isId = false;
+        }
+        if(isMaxUses)
+        {
+            maxUses =  Integer.parseInt(new String(ch, start, length));
+            isMaxUses=false;
+        }
+        if(isAttackSpeed)
+        {
+            attackSpeed = Float.parseFloat(new String(ch, start, length));
+            isAttackSpeed = false;
+        }
+        if(isAttackDamage)
+        {
+            attackDamage = Float.parseFloat(new String(ch, start, length));
+            isAttackDamage = false;
+        }
+        if(isEfficiency)
+        {
+            efficiency = Float.parseFloat(new String(ch, start, length));
+            isEfficiency = false;
         }
 
 

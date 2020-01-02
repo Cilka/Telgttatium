@@ -1,8 +1,9 @@
 package mod.telgttatium.utils;
 
+import mod.telgttatium.block.WingPickaxe;
 import mod.telgttatium.item.BasePickaxe;
 import mod.telgttatium.Main;
-import mod.telgttatium.block.*;
+import mod.telgttatium.utils.block.*;
 import net.minecraft.block.*;
 import net.minecraft.block.material.Material;
 import net.minecraft.creativetab.CreativeTabs;
@@ -210,7 +211,7 @@ public class Utils {
                 }
                 case "pickaxe":{
                     //todo: make a way to use custom ToolMaterials.
-                    i = new BasePickaxe(Item.ToolMaterial.DIAMOND).setRegistryName(Main.MODID,key).setTranslationKey(key);
+                    i = new WingPickaxe(Item.ToolMaterial.DIAMOND).setRegistryName(Main.MODID,key).setTranslationKey(key);
                     break;
                 }
                 case "sword":{

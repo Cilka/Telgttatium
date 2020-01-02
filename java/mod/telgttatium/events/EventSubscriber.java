@@ -36,6 +36,7 @@ public final class EventSubscriber {
 	
 	}
 
+
 	private static Item ConvertToItemBlock(Block block)
 	{
 		return new ItemBlock(block).setRegistryName(block.getRegistryName());
@@ -50,7 +51,7 @@ public final class EventSubscriber {
 		 return items;
 				 
 	}
-	
-	
-	
+
+
+
 }
