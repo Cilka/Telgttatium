@@ -5,6 +5,7 @@
     },
     "variants": {
         "normal": [{}],
-        "inventory": [{}]
+        "inventory": [{}],
+		"final_step=true"[{}]
     }  
 }

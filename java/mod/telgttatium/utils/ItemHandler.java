@@ -16,6 +16,7 @@ public class ItemHandler extends DefaultHandler {
     private float efficiency;
     private float attackDamage;
     private float attackSpeed;
+    private int harvestLevel;
     private boolean isName;
     private boolean isType;
     private boolean isId;
@@ -23,6 +24,7 @@ public class ItemHandler extends DefaultHandler {
     private boolean isEfficiency;
     private boolean isAttackDamage;
     private boolean isAttackSpeed;
+    private boolean isHarvestLevel;
     private DefaultHandler parent;
     private XMLReader reader;
     private Map<String, Map<String,Object>> items;
@@ -61,6 +63,9 @@ public class ItemHandler extends DefaultHandler {
         else if(qName.equalsIgnoreCase("attackSpeed")){
             isAttackSpeed =  true;
         }
+        else if(qName.equalsIgnoreCase("harvestLevel")){
+            isHarvestLevel = true;
+        }
     }
     @Override
     public void characters(char ch[], int start, int length) throws SAXException {
@@ -98,7 +103,11 @@ public class ItemHandler extends DefaultHandler {
             efficiency = Float.parseFloat(new String(ch, start, length));
             isEfficiency = false;
         }
-
+        if(isHarvestLevel)
+        {
+            harvestLevel =  Integer.parseInt(new String(ch, start, length));
+            isHarvestLevel = false;
+        }
 
     }
     @Override
@@ -112,6 +121,11 @@ public class ItemHandler extends DefaultHandler {
             fields.put("id", id);
             fields.put("name", name);
             fields.put("type", type);
+            fields.put("attackDamage", attackDamage);
+            fields.put("attackSpeed", attackSpeed);
+            fields.put("efficiency", efficiency);
+            fields.put("maxUses", maxUses);
+            fields.put("harvestLevel", harvestLevel);
             items.put(name, fields);
         }
         if(qName.equalsIgnoreCase("items")) {

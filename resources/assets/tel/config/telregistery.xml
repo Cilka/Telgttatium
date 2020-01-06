@@ -1706,107 +1706,190 @@
 						<block>
 							<id>1231</id>
 							<name>athemyst_ore</name>
-							<type>block</type>
+							<type>tieredOre</type>
+							<drop>athemyst</drop>
+							<dropAmount>5</dropAmount>
+							<finalStep>false</finalStep>
+							<harvestLevel>4</harvestLevel>
 						</block>
 						<block>
 							<id>1232</id>
 							<name>athemyst_ore_final_step</name>
-							<type>block</type>
+							<type>tieredOre</type>
+							<drop>athemyst</drop>
+							<dropAmount>5</dropAmount>
+							<finalStep>true</finalStep>
+							<harvestLevel>4</harvestLevel>
 						</block>
 						<block>
 							<id>1233</id>
 							<name>copper_ore</name>
-							<type>block</type>
+							<type>tieredOre</type>
+							<drop>copper_ingot</drop>
+							<dropAmount>1</dropAmount>
+							<finalStep>false</finalStep>
+							<harvestLevel>3</harvestLevel>
 						</block>
 						<block>
 							<id>1234</id>
 							<name>copper_ore_final_step</name>
-							<type>block</type>
+							<type>tieredOre</type>
+							<drop>copper_ingot</drop>
+							<dropAmount>1</dropAmount>
+							<finalStep>true</finalStep>
+							<harvestLevel>3</harvestLevel>
 						</block>
 						<block>
 							<id>1235</id>
 							<name>darto_ore</name>
-							<type>block</type>
+							<type>tieredOre</type>
+							<drop>darto</drop>
+							<dropAmount>2</dropAmount>
+							<finalStep>false</finalStep>
+							<harvestLevel>4</harvestLevel>
 						</block>
 						<block>
 							<id>1236</id>
 							<name>darto_ore_final_step</name>
-							<type>block</type>
+							<type>tieredOre</type>
+							<drop>darto</drop>
+							<dropAmount>2</dropAmount>
+							<finalStep>true</finalStep>
+							<harvestLevel>4</harvestLevel>
 						</block>
 						<block>
 							<id>1237</id>
 							<name>diamon_ore</name>
-							<type>block</type>
+							<type>tieredOre</type>
+							<drop>diamond</drop>
+							<dropAmount>2</dropAmount>
+							<finalStep>false</finalStep>
+							<harvestLevel>4</harvestLevel>
 						</block>
 						<block>
 							<id>1238</id>
 							<name>diamon_ore_final_step</name>
-							<type>block</type>
+							<type>tieredOre</type>
+							<drop>diamond</drop>
+							<dropAmount>2</dropAmount>
+							<finalStep>true</finalStep>
+							<harvestLevel>4</harvestLevel>
 						</block>
 						<block>
 							<id>1239</id>
 							<name>emerald_ore</name>
-							<type>block</type>
+							<type>tieredOre</type>
+							<drop>emerald</drop>
+							<dropAmount>3</dropAmount>
+							<finalStep>false</finalStep>
+							<harvestLevel>3</harvestLevel>
 						</block>
 						<block>
 							<id>1240</id>
 							<name>emerald_ore_final_step</name>
-							<type>block</type>
+							<type>tieredOre</type>
+							<drop>emerald</drop>
+							<dropAmount>3</dropAmount>
+							<finalStep>true</finalStep>
+							<harvestLevel>3</harvestLevel>
 						</block>
 						<block>
 							<id>1241</id>
 							<name>gold_ore</name>
-							<type>block</type>
+							<type>tieredOre</type>
+							<drop>gold_ingot</drop>
+							<dropAmount>1</dropAmount>
+							<finalStep>false</finalStep>
+							<harvestLevel>4</harvestLevel>
 						</block>
 						<block>
 							<id>1242</id>
 							<name>gold_ore_final_step</name>
-							<type>block</type>
+							<type>tieredOre</type>
+							<drop>gold_ingot</drop>
+							<dropAmount>1</dropAmount>
+							<finalStep>true</finalStep>
+							<harvestLevel>4</harvestLevel>
 						</block>
 						<block>
 							<id>1243</id>
 							<name>iron_ore</name>
-							<type>block</type>
+							<type>tieredOre</type>
+							<drop>iron_ingot</drop>
+							<dropAmount>1</dropAmount>
+							<finalStep>false</finalStep>
+							<harvestLevel>4</harvestLevel>
 						</block>
 						<block>
 							<id>1244</id>
 							<name>iron_ore_final_step</name>
-							<type>block</type>
+							<type>tieredOre</type>
+							<drop>iron_ingot</drop>
+							<dropAmount>1</dropAmount>
+							<finalStep>true</finalStep>
+							<harvestLevel>4</harvestLevel>
 						</block>
 						<block>
 							<id>1245</id>
 							<name>pink_sparkle_ore</name>
-							<type>block</type>
+							<type>tieredOre</type>
+							<drop>pink_sparkles</drop>
+							<dropAmount>2</dropAmount>
+							<finalStep>false</finalStep>
+							<harvestLevel>4</harvestLevel>
 						</block>
 						<block>
 							<id>1246</id>
 							<name>pink_sparkle_ore_final_step</name>
-							<type>block</type>
+							<type>tieredOre</type>
+							<drop>pink_sparkles</drop>
+							<dropAmount>2</dropAmount>
+							<finalStep>true</finalStep>
+							<harvestLevel>4</harvestLevel>
 						</block>
 						<block>
 							<id>1247</id>
 							<name>ruby_ore</name>
-							<type>block</type>
+							<type>tieredOre</type>
+							<drop>ruby</drop>
+							<dropAmount>4</dropAmount>
+							<finalStep>false</finalStep>
+							<harvestLevel>4</harvestLevel>
 						</block>
 						<block>
 							<id>1248</id>
 							<name>ruby_ore_final_step</name>
-							<type>block</type>
+							<type>tieredOre</type>
+							<drop>ruby</drop>
+							<dropAmount>4</dropAmount>
+							<finalStep>true</finalStep>
+							<harvestLevel>4</harvestLevel>
 						</block>
 						<block>
 							<id>1249</id>
 							<name>saphirre_ore</name>
-							<type>block</type>
+							<type>tieredOre</type>
+							<drop>saphirre</drop>
+							<dropAmount>3</dropAmount>
+							<finalStep>false</finalStep>
+							<harvestLevel>4</harvestLevel>
 						</block>
 						<block>
 							<id>1250</id>
 							<name>saphirre_ore_final_step</name>
-							<type>block</type>
+							<type>tieredOre</type>
+							<drop>saphirre</drop>
+							<dropAmount>3</dropAmount>
+							<finalStep>true</finalStep>
+							<harvestLevel>4</harvestLevel>
 						</block>
 						<block>
 							<id>1251</id>
 							<name>clay_ore</name>
-							<type>block</type>
+							<type>ore</type>
+							<drop>clay</drop>
+							<dropAmount>3</dropAmount>
+						    <harvestLevel>0</harvestLevel>
 						</block>
 					</blocks>
 
@@ -9021,8 +9104,12 @@
 
 						<name>dovah_wing_pickaxe</name>
 
-						<type>pickaxe</type>
-
+						<type>wing_pickaxe</type>
+						<maxUses>800</maxUses>
+						<efficiency>10</efficiency>
+						<attackDamage>10</attackDamage>
+						<attackSpeed>2</attackSpeed>
+						<harvestLevel>4</harvestLevel>
 					</item>
 
 					<item>
@@ -9032,7 +9119,11 @@
 						<name>erlashihuru_pickaxe</name>
 
 						<type>pickaxe</type>
-
+						<maxUses>2000</maxUses>
+						<efficiency>15</efficiency>
+						<attackDamage>15</attackDamage>
+						<attackSpeed>5</attackSpeed>
+						<harvestLevel>5</harvestLevel>
 					</item>
 
 					<item>
@@ -9041,8 +9132,12 @@
 
 						<name>ghi_wing_pickaxe</name>
 
-						<type>pickaxe</type>
-
+						<type>wing_pickaxe</type>
+						<maxUses>800</maxUses>
+						<efficiency>11</efficiency>
+						<attackDamage>11</attackDamage>
+						<attackSpeed>2.1</attackSpeed>
+						<harvestLevel>4</harvestLevel>
 					</item>
 
 					<item>
@@ -9052,7 +9147,11 @@
 						<name>kifavara_frozen_pickaxe</name>
 
 						<type>pickaxe</type>
-
+						<maxUses>1600</maxUses>
+						<efficiency>9</efficiency>
+						<attackDamage>10</attackDamage>
+						<attackSpeed>3</attackSpeed>
+						<harvestLevel>4</harvestLevel>
 					</item>
 
 					<item>
@@ -9061,8 +9160,12 @@
 
 						<name>lejinka_wing_pickaxe</name>
 
-						<type>pickaxe</type>
-
+						<type>wing_pickaxe</type>
+						<maxUses>900</maxUses>
+						<efficiency>10</efficiency>
+						<attackDamage>10</attackDamage>
+						<attackSpeed>2</attackSpeed>
+						<harvestLevel>4</harvestLevel>
 					</item>
 
 					<item>
@@ -9072,7 +9175,11 @@
 						<name>srindintaria_athemyst_upgrade_pickaxe</name>
 
 						<type>pickaxe</type>
-
+						<maxUses>1800</maxUses>
+						<efficiency>12</efficiency>
+						<attackDamage>7</attackDamage>
+						<attackSpeed>2</attackSpeed>
+						<harvestLevel>5</harvestLevel>
 					</item>
 
 					<item>
@@ -9082,7 +9189,11 @@
 						<name>srindintaria_cyan_stone_upgrade_pickaxe</name>
 
 						<type>pickaxe</type>
-
+						<maxUses>1800</maxUses>
+						<efficiency>12</efficiency>
+						<attackDamage>7</attackDamage>
+						<attackSpeed>2</attackSpeed>
+						<harvestLevel>10</harvestLevel>
 					</item>
 
 					<item>
@@ -9092,7 +9203,11 @@
 						<name>srindintaria_emerald_upgrade_pickaxe</name>
 
 						<type>pickaxe</type>
-
+						<maxUses>1800</maxUses>
+						<efficiency>12</efficiency>
+						<attackDamage>7</attackDamage>
+						<attackSpeed>2</attackSpeed>
+						<harvestLevel>4</harvestLevel>
 					</item>
 
 					<item>
@@ -9102,7 +9217,11 @@
 						<name>srindintaria_ruby_upgrade_pickaxe</name>
 
 						<type>pickaxe</type>
-
+						<maxUses>1800</maxUses>
+						<efficiency>12</efficiency>
+						<attackDamage>7</attackDamage>
+						<attackSpeed>2</attackSpeed>
+						<harvestLevel>6</harvestLevel>
 					</item>
 
 					<item>
@@ -9111,8 +9230,12 @@
 
 						<name>uonka_wing_pickaxe</name>
 
-						<type>pickaxe</type>
-
+						<type>wing_pickaxe</type>
+						<maxUses>1000</maxUses>
+						<efficiency>9</efficiency>
+						<attackDamage>8</attackDamage>
+						<attackSpeed>2</attackSpeed>
+						<harvestLevel>4</harvestLevel>
 					</item>
 
 					<item>
@@ -9121,8 +9244,12 @@
 
 						<name>yuhog_wing_pickaxe</name>
 
-						<type>pickaxe</type>
-
+						<type>wing_pickaxe</type>
+						<maxUses>1200</maxUses>
+						<efficiency>11</efficiency>
+						<attackDamage>9</attackDamage>
+						<attackSpeed>2.5</attackSpeed>
+						<harvestLevel>4</harvestLevel>
 					</item>
 				</items>
 
@@ -9136,11 +9263,9 @@
 					<item>
 
 						<id>207</id>
-
 						<name>gengashesh_fire_staff</name>
-
 						<type>item</type>
-
+						
 					</item>
 
 					<item>

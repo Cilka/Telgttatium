@@ -1,11 +1,8 @@
-package mod.telgttatium.block;
+package mod.telgttatium.item;
 
-import mod.telgttatium.item.BasePickaxe;
 import net.minecraft.entity.Entity;
-import net.minecraft.entity.MoverType;
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.item.ItemStack;
-import net.minecraft.potion.PotionUtils;
 import net.minecraft.util.ActionResult;
 import net.minecraft.util.EnumActionResult;
 import net.minecraft.util.EnumHand;
@@ -16,8 +13,9 @@ public class WingPickaxe extends BasePickaxe {
         super(material);
     }
 
-
-
+    public WingPickaxe(int maxUses, int harvestLevel, float efficiency, float attackDamageIn, float attackSpeedIn){
+        super(maxUses, harvestLevel, efficiency, attackDamageIn, attackSpeedIn);
+    }
     @Override
     public ActionResult<ItemStack> onItemRightClick(World worldIn, EntityPlayer playerIn, EnumHand handIn)
     {

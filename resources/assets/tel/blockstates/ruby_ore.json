@@ -5,6 +5,8 @@
     },
     "variants": {
         "normal": [{}],
-        "inventory": [{}]
+        "inventory": [{}],
+		"final_step=false":[{}],
+		"final_step=true":{"model":"tel:ruby_ore_final_step"}
     }  
 }

@@ -1,11 +1,14 @@
 package mod.telgttatium.utils;
 
-import mod.telgttatium.block.WingPickaxe;
+import mod.telgttatium.block.TelOre;
+import mod.telgttatium.block.TieredOre;
+import mod.telgttatium.item.WingPickaxe;
 import mod.telgttatium.item.BasePickaxe;
 import mod.telgttatium.Main;
 import mod.telgttatium.utils.block.*;
 import net.minecraft.block.*;
 import net.minecraft.block.material.Material;
+import net.minecraft.block.state.IBlockState;
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.item.*;
 import net.minecraft.util.BlockRenderLayer;
@@ -144,6 +147,7 @@ public class Utils {
         {
 
             Block b = null;
+            Map<String, Object> prop =raw.get(key);
             switch(raw.get(key).get("type").toString()){
                 case "block" :{
                     b = new BaseBlock(key, defaults);
@@ -185,6 +189,22 @@ public class Utils {
                     b = new BaseBlock(key, new ModOptions(defaults.getMaterial(), defaults.getSound(), defaults.getLayer(), true));
                     break;
                 }
+                case "tieredOre":{
+                    b = new TieredOre(prop.get("drop").toString(),(boolean)prop.get("finalStep"), (int)prop.get("dropAmount"), (int)prop.get("harvestLevel"))
+                            .setRegistryName(Main.MODID,key)
+                            .setTranslationKey(key)
+                            .setHardness(4)
+                            .setResistance(6);
+                    break;
+                }
+                case "ore":{
+                    b = new TelOre(prop.get("drop").toString(),(int)prop.get("dropAmount"), (int)prop.get("harvestLevel"))
+                            .setRegistryName(Main.MODID,key)
+                            .setTranslationKey(key)
+                            .setHardness(3)
+                            .setResistance(5);
+                    break;
+                }
             }
             blockOrderFromFile.put((int)raw.get(key).get("id"),key);
             temp.put(key, b);
@@ -192,6 +212,8 @@ public class Utils {
         }
 		return temp;
     }
+
+
     private static Map<String,Item> translateItems(Map<String, Map<String,Object>> raw)
     {
         Map <String, Item> temp = new HashMap<>();
@@ -209,10 +231,20 @@ public class Utils {
                     i = new ItemFood(3,3,false).setRegistryName(Main.MODID,key).setTranslationKey(key);
                     break;
                 }
-                case "pickaxe":{
+                case "wing_pickaxe":{
                     //todo: make a way to use custom ToolMaterials.
-                    i = new WingPickaxe(Item.ToolMaterial.DIAMOND).setRegistryName(Main.MODID,key).setTranslationKey(key);
+                    Map<String,Object> props = raw.get(key);
+                    i = new WingPickaxe((int)props.get("maxUses"),(int)props.get("harvestLevel"), (float)props.get("efficiency"), (float)props.get("attackDamage"), (float)props.get("attackSpeed"))
+                            .setRegistryName(Main.MODID,key).setTranslationKey(key);
+
                     break;
+                }
+                case "pickaxe":{
+                    Map<String,Object> props = raw.get(key);
+                    i = new BasePickaxe((int)props.get("maxUses"), (int)props.get("harvestLevel"), (float)props.get("efficiency"), (float)props.get("attackDamage"), (float)props.get("attackSpeed"))
+                            .setRegistryName(Main.MODID,key).setTranslationKey(key);
+break;
+
                 }
                 case "sword":{
                     //todo: see pickaxe
