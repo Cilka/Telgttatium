@@ -1,12 +1,14 @@
 package mod.telgttatium.block;
 
 import mod.telgttatium.utils.Utils;
+import net.minecraft.block.Block;
 import net.minecraft.block.BlockOre;
 import net.minecraft.block.properties.IProperty;
 import net.minecraft.block.properties.PropertyBool;
 import net.minecraft.block.state.BlockStateContainer;
 import net.minecraft.block.state.IBlockState;
 import net.minecraft.item.Item;
+import net.minecraft.item.ItemStack;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.world.World;
 import java.util.Random;
@@ -32,8 +34,9 @@ public class TieredOre extends BlockOre {
         }
         return null;
     }
+
     @Override
-    public int quantityDropped(Random random)
+    public int quantityDroppedWithBonus(int fortune, Random random)
     {
         return dropAmount;
     }
@@ -51,8 +54,15 @@ public class TieredOre extends BlockOre {
 
         }
 
+
     }
 
+    private void spawnDrops(World worldIn, BlockPos pos, ItemStack stack, int iterations){
+        for(int i  =0; i < iterations; i++)
+        {
+            Block.spawnAsEntity(worldIn, pos, stack);
+        }
+    }
     @Override
     protected BlockStateContainer createBlockState()
     {

@@ -234,15 +234,13 @@ public class Utils {
                 case "wing_pickaxe":{
                     //todo: make a way to use custom ToolMaterials.
                     Map<String,Object> props = raw.get(key);
-                    i = new WingPickaxe((int)props.get("maxUses"),(int)props.get("harvestLevel"), (float)props.get("efficiency"), (float)props.get("attackDamage"), (float)props.get("attackSpeed"))
-                            .setRegistryName(Main.MODID,key).setTranslationKey(key);
+                    i = new WingPickaxe(key,(int)props.get("maxUses"),(int)props.get("harvestLevel"), (float)props.get("efficiency"), (float)props.get("attackDamage"), (float)props.get("attackSpeed"));
 
                     break;
                 }
                 case "pickaxe":{
                     Map<String,Object> props = raw.get(key);
-                    i = new BasePickaxe((int)props.get("maxUses"), (int)props.get("harvestLevel"), (float)props.get("efficiency"), (float)props.get("attackDamage"), (float)props.get("attackSpeed"))
-                            .setRegistryName(Main.MODID,key).setTranslationKey(key);
+                    i = new BasePickaxe(key,(int)props.get("maxUses"), (int)props.get("harvestLevel"), (float)props.get("efficiency"), (float)props.get("attackDamage"), (float)props.get("attackSpeed"));
 break;
 
                 }

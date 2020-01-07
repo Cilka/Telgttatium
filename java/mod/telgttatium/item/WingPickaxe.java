@@ -13,8 +13,8 @@ public class WingPickaxe extends BasePickaxe {
         super(material);
     }
 
-    public WingPickaxe(int maxUses, int harvestLevel, float efficiency, float attackDamageIn, float attackSpeedIn){
-        super(maxUses, harvestLevel, efficiency, attackDamageIn, attackSpeedIn);
+    public WingPickaxe(String name, int maxUses, int harvestLevel, float efficiency, float attackDamageIn, float attackSpeedIn){
+        super(name,maxUses, harvestLevel, efficiency, attackDamageIn, attackSpeedIn);
     }
     @Override
     public ActionResult<ItemStack> onItemRightClick(World worldIn, EntityPlayer playerIn, EnumHand handIn)
